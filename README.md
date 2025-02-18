@@ -16,7 +16,7 @@ FraudFusion is a Data Science Capstone project focused on improving fraud detect
   - **Engineered Range Loss:** Clipping engineered (e.g., time-derived) feature outputs within observed realistic ranges.
 
 - **Dataset:**  
-  The current implementation uses the Sparkov dataset. Data preprocessing includes log transformations for monetary and skewed features, datetime feature extraction, and standard scaling of numeric data.
+  The current implementation uses the Sparkov dataset. Data preprocessing includes log transformations for monetary and skewed features, datetime feature extraction, and standard scaling of numeric data. ([Sparkov Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection))
 
 
 ## File Structure
