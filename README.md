@@ -79,6 +79,63 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib torch tqdm
 
    After training the model (preferably using the Baseline Improved implementation), use the synthesis section to generate synthetic fraud samples. The notebook will generate outputs (both numeric and categorical parts) and provide inverse-transformed results for evaluation.
 
+
+
+## Mathematical Formulation
+
+The core of the synthetic fraud generation process is based on diffusion models. Key equations include:
+
+- **Forward Diffusion Process:**
+
+  \[
+  x_t = \sqrt{\hat{\alpha}_t} \, x_0 + \sqrt{1 - \hat{\alpha}_t} \, \epsilon,\quad \epsilon \sim \mathcal{N}(0, I)
+  \]
+
+  where:
+  - \(x_0\) is the original (clean) input.
+  - \(x_t\) is the noisy input at timestep \(t\).
+  - \(\hat{\alpha}_t\) is the cumulative product of \(\alpha\) up to timestep \(t\).
+
+- **Reverse Diffusion Process and Loss Function:**
+
+  The model is trained to predict the noise added, and the overall loss is defined as:
+
+  \[
+  L_{\text{total}} = L_{\text{norm}} + w_1 \, L_{\text{prior}} + w_2 \, L_{\text{triplet}} + \lambda_{\text{eng}} \, L_{\text{eng}}
+  \]
+
+  where:
+  - \(L_{\text{norm}}\) is the MSE loss between the predicted and true noise.
+  - \(L_{\text{prior}}\) is a probability-based loss ensuring adherence to the non-fraud distribution.
+  - \(L_{\text{triplet}}\) is a contrastive loss enforcing separation between fraudulent and non-fraudulent samples.
+  - \(L_{\text{eng}}\) penalizes values of engineered features falling outside the observed range.
+  - \(w_1\), \(w_2\), and \(\lambda_{\text{eng}}\) are weighting parameters.
+
+## Model Architecture Overview
+
+The network architecture for the noise predictor consists of the following components:
+
+- **Input Handling:**  
+  - **Numeric Features:** Directly used after standard scaling.
+  - **Categorical Features:** Passed through embedding layers.
+  - **Time Embedding:** A normalized timestep is concatenated to the feature vector.
+
+- **MLP Structure:**  
+  - The MLP comprises several fully connected layers with LeakyReLU activations, which predict the noise vector.
+
+A simple block diagram can be added here if you have a diagram image or can construct one inline.
+
+## Training Details
+
+- **Hyperparameters:**  
+  - Number of diffusion timesteps: 800  
+  - Learning rate: 0.001  
+  - Batch size: 40  
+  - Number of epochs: 200  
+
+- **Training Monitoring:**  
+  Loss values are reported every 10 epochs to track convergence.
+
 ## Evaluation
 
 The quality of synthetic fraud samples is evaluated by:
