@@ -123,7 +123,6 @@ The network architecture for the noise predictor consists of the following compo
 - **MLP Structure:**  
   - The MLP comprises several fully connected layers with LeakyReLU activations, which predict the noise vector.
 
-A simple block diagram can be added here if you have a diagram image or can construct one inline.
 
 ## Training Details
 
