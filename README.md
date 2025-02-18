@@ -23,11 +23,11 @@ FraudFusion is a Data Science Capstone project focused on improving fraud detect
 
 - **Data_Preprocessing.ipynb**  
   Performs data cleaning, merging, missing value handling, feature engineering (e.g., converting date-of-birth into age, datetime decompositions), log transformations, and scaling.  
-- **Model_Development_v4.ipynb**  
+- **Fraud_Diffusion_Model_Development_v4.ipynb**  
   A paper-faithful implementation that trains the diffusion model using fraud samples only and employs an adaptive non-fraud prior.
-- **Model_Development_Baseline.ipynb**  
+- **Fraud_Diffusion_Model_Development_Baseline.ipynb**  
   Builds a complete pipeline with additional loss components including probability-based, triplet, and engineered range losses.
-- **Model_Development_Baseline_improved.ipynb**  
+- **Fraud_Diffusion_Model_Development_Baseline_improved.ipynb**  
   An enhanced version with GPU support, detailed training logs, comprehensive statistical evaluations, and refined data generation.
 - **FraudDiffuse_Model.ipynb**  
   (Optional) Contains an alternative implementation incorporating time and label embeddings with a slightly different architectural approach.
