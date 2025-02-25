@@ -1,0 +1,1001 @@
+amt,lat,long,city_pop,merch_lat,merch_long,age,trans_hour,trans_day,trans_month,trans_dayofweek,merchant,category,gender,street,city,state,zip,job,is_fraud
+79.31254,31.178368,-88.9825,11391.219,31.968058,-88.10227,70.0,22.0,3.0,10.0,6.0,"fraud_Little, Gutmann and Lynch",personal_care,M,5053 Bell Crescent Apt. 255,Prairie Creek,MS,62856,Multimedia programmer,1
+81.81548,43.931774,-84.12184,2186.9453,43.80884,-84.75664,35.0,22.0,28.0,11.0,5.0,"fraud_Konopelski, Schneider and Hartmann",home,F,6911 Nicholas Keys Apt. 237,Barneveld,MI,47470,"Investment banker, operational",1
+79.112885,35.57436,-89.966805,7242.1997,35.624863,-91.181755,30.0,15.0,11.0,4.0,3.0,fraud_Jakubowski Inc,kids_pets,M,05597 Michael Spurs,Leo,AR,32780,"Engineer, broadcasting (operations)",1
+101.29775,37.75516,-75.325165,8277.055,37.528133,-74.930824,45.0,22.0,17.0,5.0,5.0,fraud_Nienow PLC,home,M,5569 Phillips Neck Apt. 003,Glen Rock,MD,98105,Financial trader,1
+108.14752,40.245144,-112.60386,260.5488,40.251377,-111.900955,42.0,6.0,28.0,9.0,0.0,"fraud_Huel, Hammes and Witting",home,F,1911 Fisher Brook,Premier,UT,80436,Maintenance engineer,1
+94.30799,34.984806,-87.227875,4831.559,33.82113,-85.624374,40.0,18.0,4.0,12.0,3.0,"fraud_Gottlieb, Considine and Schultz",health_fitness,F,50614 Kevin Point,De Queen,AL,15727,Biomedical scientist,1
+108.22197,35.602547,-79.35531,8667.396,36.092556,-78.67153,30.0,22.0,5.0,7.0,6.0,"fraud_Ledner, Hartmann and Feest",food_dining,M,865 Thomas Village,Kirtland,NC,49705,Osteopath,1
+97.5449,42.69593,-79.85871,19.77172,43.173668,-80.791374,55.0,23.0,7.0,8.0,5.0,fraud_Runolfsson and Sons,kids_pets,M,13956 Hughes Causeway Suite 124,Vinton,PA,21790,Radio producer,1
+95.37909,37.54425,-82.24756,3844.2534,37.840332,-81.313705,69.0,22.0,7.0,3.0,3.0,fraud_Skiles-Ankunding,health_fitness,F,2076 Thomas Roads Suite 970,Odessa,NC,74536,"Pilot, airline",1
+78.81121,38.822258,-80.59839,1948.9623,38.23447,-80.31513,72.0,23.0,11.0,11.0,0.0,fraud_Pacocha-O'Reilly,misc_net,F,671 Cynthia Key Suite 155,Ridge Spring,WV,82072,"Conservation officer, historic buildings",1
+97.229355,30.516434,-81.95623,4474.2637,30.951809,-81.66421,46.0,21.0,5.0,6.0,4.0,fraud_Mraz-Herzog,kids_pets,M,9734 Beard Fields Suite 885,Delhi,GA,28412,"Nurse, children's",1
+96.826935,44.597195,-112.18756,15036.127,44.30276,-111.46753,37.0,13.0,9.0,10.0,4.0,fraud_Bartoletti-Wunsch,grocery_net,F,897 Daugherty Mission,Ash Flat,ID,77327,Amenity horticulturist,1
+98.618454,39.923653,-96.32977,12588.802,39.482716,-95.78418,72.0,0.0,27.0,3.0,6.0,fraud_Pfeffer LLC,gas_transport,F,9345 Spencer Junctions Suite 183,Lebanon,NE,2180,Insurance claims handler,1
+85.28958,35.252594,-97.4719,203.95894,35.063385,-97.758446,48.0,23.0,6.0,4.0,6.0,fraud_Gerhold LLC,home,F,25961 Beverly Union Apt. 042,Desdemona,OK,13361,"Geologist, wellsite",1
+89.289635,40.050957,-84.14544,728.4086,39.752075,-83.851166,83.0,7.0,8.0,8.0,4.0,fraud_Corwin-Collins,misc_net,M,10376 Bullock Rapid,Oakdale,OH,99783,Water engineer,1
+98.77772,30.494968,-89.428246,10839.002,30.722698,-88.92874,85.0,21.0,11.0,7.0,5.0,fraud_Cruickshank-Mills,travel,F,3872 Matthew Skyway,Elizabeth,LA,20036,Theatre director,1
+83.05584,40.823612,-75.717766,5898.9277,40.95635,-75.89006,58.0,3.0,19.0,3.0,3.0,fraud_Dibbert and Sons,travel,F,8969 Fuentes Station Apt. 291,Pleasant Hill,NJ,73559,"Production assistant, radio",1
+102.69508,39.334248,-86.07395,5281.436,38.937286,-85.285225,37.0,0.0,26.0,1.0,6.0,fraud_McDermott-Weimann,grocery_pos,M,526 Stacy Walks,Henderson,IN,94558,Ambulance person,1
+98.68488,43.726074,-70.142365,1418.2178,43.62658,-68.54964,62.0,22.0,5.0,6.0,2.0,"fraud_Mueller, Gerhold and Mueller",travel,M,974 Cindy Stream,Zavalla,ME,80138,Production manager,1
+82.42216,42.590096,-73.15745,3108.6248,42.445076,-73.51213,48.0,3.0,28.0,2.0,6.0,fraud_Rutherford-Mertz,travel,F,502 Rice Plaza Apt. 979,Murfreesboro,MA,57439,"Engineer, technical sales",1
+81.75508,42.3865,-93.31412,814.1242,42.134098,-93.12387,52.0,2.0,6.0,6.0,6.0,"fraud_Mueller, Gerhold and Mueller",travel,F,702 Tabitha Drive,Bellmore,WI,46702,"Surveyor, hydrographic",1
+85.97606,44.76023,-109.637856,74.19061,44.595013,-108.995735,40.0,2.0,19.0,3.0,5.0,"fraud_Koss, Hansen and Lueilwitz",entertainment,F,147 Mckinney Run Apt. 743,Utica,WY,76566,Amenity horticulturist,1
+86.78224,29.970823,-97.34676,26698.191,29.476269,-97.275246,47.0,23.0,7.0,8.0,4.0,fraud_Goyette Inc,shopping_pos,M,927 Cummings Manor Suite 318,Bowersville,TX,62970,Community education officer,1
+81.00891,44.73337,-73.94566,6065.58,44.781216,-74.14305,55.0,23.0,22.0,7.0,2.0,"fraud_Harris, Gusikowski and Heaney",health_fitness,M,66035 Benjamin Villages,Aledo,VT,50598,Podiatrist,1
+98.62016,34.35287,-106.43165,11497.367,34.406883,-106.26657,52.0,1.0,14.0,10.0,1.0,fraud_Leannon-Nikolaus,gas_transport,M,622 Robin Run Suite 764,Queenstown,NM,31305,Exhibition designer,1
+97.52596,42.550076,-71.72755,6338.878,43.094334,-72.24,27.0,0.0,23.0,4.0,0.0,"fraud_Cronin, Kshlerin and Weber",health_fitness,F,8465 Reed Green Suite 559,University,MA,53120,Contractor,1
+98.308846,37.158802,-75.45265,12655.3125,36.797947,-75.425026,56.0,23.0,27.0,11.0,4.0,fraud_Grimes LLC,kids_pets,F,22502 Baker Mount Suite 241,Lexington,MD,58579,"Engineer, materials",1
+78.70134,44.872345,-74.29233,1766.1077,44.457188,-74.19922,30.0,22.0,14.0,4.0,1.0,fraud_Pouros-Conroy,misc_net,M,69459 Rachel Prairie Apt. 850,Mesa,VT,85173,Clinical cytogeneticist,1
+92.65122,35.054916,-110.112785,497.82626,35.560104,-109.06315,55.0,1.0,18.0,5.0,5.0,fraud_Turcotte-Halvorson,misc_net,M,162 Jessica Row Apt. 072,Lahoma,NV,12460,Energy manager,1
+90.75527,44.14494,-87.928055,1208.4775,43.897774,-87.59595,59.0,22.0,12.0,2.0,1.0,"fraud_Stanton, Jakubowski and Baumbach",grocery_pos,F,663 Ramirez Trace Apt. 951,Loami,WI,76445,Accounting technician,1
+98.71616,41.297165,-81.03823,332.67337,41.26965,-81.47377,50.0,13.0,20.0,9.0,4.0,fraud_Kub PLC,health_fitness,F,32301 Albert River Suite 364,Hubbell,RI,76445,"Editor, film/video",1
+106.70825,35.3815,-86.52791,16415.643,35.29772,-86.495865,19.0,0.0,17.0,8.0,5.0,fraud_Kulas Group,food_dining,M,956 Paul Fields Suite 108,East China,TN,34135,Stage manager,1
+82.193146,41.24149,-80.43199,4915.058,41.4224,-80.71264,57.0,3.0,11.0,5.0,0.0,fraud_Dietrich-Fadel,misc_net,F,174 Jennifer Meadow Apt. 467,Bruce,RI,96038,"Solicitor, Scotland",1
+105.50632,40.26075,-94.624855,308.91885,40.093567,-95.59834,72.0,23.0,28.0,4.0,1.0,fraud_McCullough LLC,grocery_pos,M,58665 Nicholas Ford Suite 348,Cross,IA,93627,"Social research officer, government",1
+77.31082,35.386242,-86.563156,23464.55,35.062443,-86.3019,72.0,22.0,7.0,2.0,3.0,fraud_Thompson-Gleason,misc_net,M,45654 Hess Rest,Syracuse,TN,37663,Estate manager/land agent,1
+106.9546,34.180546,-105.994415,4540.943,34.53087,-106.748,48.0,2.0,7.0,8.0,4.0,"fraud_Torp, Muller and Borer",home,M,6602 Ortiz Pine Apt. 179,Denham Springs,NV,75236,"Producer, radio",1
+98.33622,35.81383,-79.587875,338.09235,35.362534,-79.53657,56.0,3.0,23.0,11.0,6.0,fraud_Kozey-McDermott,health_fitness,M,5619 Mendoza Inlet,Palermo,NC,38740,Call centre manager,1
+91.914536,37.98799,-104.30139,1193.7883,37.866787,-104.62226,50.0,13.0,4.0,10.0,1.0,fraud_Corwin-Collins,shopping_pos,F,9795 Lori Island Suite 346,Laguna Hills,CO,61530,Training and development officer,1
+85.557236,43.25657,-117.13453,232972.45,42.779015,-118.543724,52.0,22.0,6.0,2.0,3.0,"fraud_Boehm, Block and Jakubowski",home,F,04975 Allison Shoal,Big Creek,OR,27358,Public librarian,1
+82.147026,36.070564,-109.54466,6044.6147,35.90609,-111.30973,37.0,1.0,3.0,11.0,2.0,fraud_Kautzer and Sons,grocery_net,F,3653 Ryan Crossroad,Heart Butte,NM,68638,Rural practice surveyor,1
+97.96192,40.23264,-82.55142,6169.536,40.289143,-82.76134,51.0,0.0,10.0,2.0,2.0,"fraud_Schaefer, Maggio and Daugherty",gas_transport,M,72030 Shelton Crossing Apt. 742,Woodville,OH,85201,"Journalist, newspaper",1
+78.97731,43.13155,-108.92869,4278.879,43.04051,-108.95666,50.0,22.0,18.0,5.0,5.0,fraud_Stamm-Rodriguez,entertainment,M,0356 Sarah Light,Dalton,WY,1844,Soil scientist,1
+81.33393,40.606487,-96.62788,4123.6074,40.808357,-96.70115,56.0,0.0,2.0,11.0,6.0,fraud_Mohr-Bayer,gas_transport,M,95351 Sullivan Viaduct Apt. 239,Fairview,NE,27807,Camera operator,1
+97.34296,37.638416,-101.53886,608.3734,36.829884,-98.528625,29.0,15.0,22.0,7.0,1.0,fraud_Hickle Group,gas_transport,F,101 Carla Loop,Shippingport,WA,7060,"Programmer, multimedia",1
+79.755806,32.06672,-105.458916,14003965.0,32.245914,-106.1052,55.0,22.0,25.0,4.0,5.0,fraud_Bins-Howell,personal_care,F,854 Walker Dale Suite 488,Des Moines,NV,97383,Research scientist (physical sciences),1
+92.70304,30.613167,-93.58978,11646.039,30.007147,-95.21616,79.0,3.0,27.0,6.0,3.0,fraud_Spinka-Welch,shopping_pos,F,3325 Gregory Square,Emmons,TX,8014,Heritage manager,1
+90.008675,41.845524,-82.581696,154.77057,41.766346,-82.63534,50.0,3.0,17.0,6.0,3.0,fraud_Medhurst PLC,entertainment,M,0912 Mark Fields Apt. 080,Cressona,RI,52535,"Social research officer, government",1
+95.121155,51.717392,-151.8683,214.75975,53.13741,-153.59343,65.0,22.0,28.0,5.0,1.0,fraud_Effertz LLC,kids_pets,M,400 Zuniga Pine,Burbank,KS,62266,Air traffic controller,1
+106.36162,44.473026,-74.15428,894.04803,44.537136,-73.13393,31.0,4.0,15.0,6.0,1.0,fraud_Bashirian Group,misc_net,M,13956 Hughes Causeway Suite 124,Diamond,NH,38778,Farm manager,1
+97.07542,43.695824,-85.46984,25455.484,43.097042,-85.459854,48.0,22.0,27.0,5.0,2.0,"fraud_Schaefer, Fay and Hilll",shopping_pos,F,914 Nancy Square,Webster City,MI,15686,Armed forces training and education officer,1
+81.1944,46.63286,-111.25086,11229.647,46.713356,-112.11187,48.0,23.0,20.0,7.0,6.0,"fraud_Turner, Ruecker and Parisian",travel,M,265 Christian Summit Suite 231,West Hartford,MT,62896,Investment analyst,1
+80.42672,42.34489,-71.06757,4367.66,41.97808,-70.41989,43.0,23.0,14.0,3.0,3.0,fraud_Kutch-Wilderman,personal_care,F,212 Mary Stream,Bristow,NH,80005,Museum/gallery exhibitions officer,1
+106.60184,39.6387,-76.65331,67099.7,39.419903,-76.92682,57.0,14.0,3.0,2.0,5.0,fraud_Block Group,entertainment,M,838 Dan Haven Suite 003,Montandon,PA,79063,Historic buildings inspector/conservation officer,1
+87.23867,35.96735,-91.86708,244.90558,36.03512,-91.66145,57.0,23.0,3.0,5.0,6.0,fraud_Gibson-Deckow,home,M,13299 Patrick Terrace,Monetta,AR,17041,"Engineer, broadcasting (operations)",1
+81.06466,31.744928,-89.63975,7908.2793,31.821058,-88.88575,41.0,0.0,4.0,10.0,0.0,fraud_Harris Inc,gas_transport,F,343 Hannah Parkway,Old Hickory,MS,35049,Mechanical engineer,1
+97.86537,37.29403,-95.633385,160.32327,37.66359,-95.78693,46.0,3.0,26.0,11.0,1.0,"fraud_Reichert, Shanahan and Hayes",personal_care,M,350 Stacy Glens,Westfir,AR,68859,"Conservation officer, historic buildings",1
+78.7446,33.210197,-104.88261,25330.98,33.654736,-105.40375,62.0,14.0,28.0,9.0,6.0,fraud_Eichmann-Kilback,personal_care,F,33010 Ford Harbor Apt. 887,Sterling City,NV,21865,Advertising copywriter,1
+102.36324,33.829132,-86.853485,2758.3528,33.973866,-86.579926,54.0,22.0,18.0,6.0,4.0,fraud_Roob LLC,grocery_pos,M,76752 David Lodge Apt. 064,Heidelberg,AL,40209,"Editor, magazine features",1
+81.578766,31.088238,-111.65786,10742.753,31.033918,-112.236176,35.0,2.0,13.0,2.0,0.0,"fraud_Stanton, Jakubowski and Baumbach",home,F,2924 Bobby Trafficway,Pecos,AZ,64874,Chief of Staff,1
+80.53259,29.854975,-89.4759,6611.504,29.691317,-89.832535,80.0,3.0,19.0,8.0,1.0,fraud_Connelly-Carter,personal_care,M,907 Courtney Via Apt. 896,Greenwich,LA,55001,Cartographer,1
+92.24226,43.077404,-87.746544,55151.28,43.83341,-87.46108,18.0,3.0,14.0,10.0,0.0,"fraud_Towne, Greenholt and Koepp",shopping_net,M,240 Tracy Forges,Parsonsfield,WI,37932,Electrical engineer,1
+81.761795,36.398415,-92.70231,1310.776,36.4787,-93.17871,63.0,22.0,20.0,10.0,6.0,"fraud_Lubowitz, Terry and Stracke",travel,F,0423 Kirby Field Suite 623,Spencer,AR,58531,"Social research officer, government",1
+80.20505,33.68833,-86.82014,7503.741,32.011066,-86.597755,61.0,22.0,26.0,11.0,0.0,fraud_Kozey-Kuhlman,travel,M,838 Dan Haven Suite 003,Redford,AL,73034,Museum/gallery conservator,1
+90.02812,44.161354,-73.52016,3285.7588,44.45496,-72.77436,31.0,3.0,20.0,9.0,0.0,fraud_Gottlieb-Hansen,shopping_net,F,892 Solis Neck,Aledo,NH,59448,"Psychologist, sport and exercise",1
+94.01363,62.0444,-158.96729,467784.06,64.066986,-159.02638,40.0,23.0,6.0,3.0,4.0,fraud_Dickinson-Rempel,travel,F,298 Kayla Lights,Indianapolis,AR,20895,Teaching laboratory technician,1
+88.8477,32.64041,-98.75789,3828.6814,33.272076,-99.312485,50.0,1.0,2.0,5.0,3.0,"fraud_Schroeder, Wolff and Hermiston",food_dining,F,13299 Patrick Terrace,Odessa,TX,15056,"Designer, ceramics/pottery",1
+99.33296,44.360126,-73.02882,349.224,43.562687,-71.706116,30.0,23.0,19.0,10.0,4.0,fraud_Doyle Ltd,kids_pets,F,062 Poole Hollow Apt. 815,Heiskell,NH,21913,Trade mark attorney,1
+86.075195,44.20083,-73.12973,3200.4365,43.788177,-72.152,54.0,3.0,21.0,11.0,6.0,"fraud_Swaniawski, Lowe and Robel",shopping_pos,F,597 Jenny Ford Apt. 543,Winslow,VT,63353,"Teacher, secondary school",1
+88.911,42.892372,-75.347786,836.15924,42.63977,-75.84834,64.0,23.0,30.0,1.0,1.0,fraud_Crona and Sons,food_dining,M,594 White Dale Suite 530,Greenview,NY,37302,Chiropodist,1
+82.79336,37.099987,-79.448875,2668.6987,36.662647,-80.68326,41.0,0.0,8.0,2.0,5.0,"fraud_Windler, Goodwin and Kovacek",grocery_net,F,15315 Vaughn Park Suite 356,New Goshen,WV,68723,Charity officer,1
+78.05056,38.790695,-103.12991,64318.56,38.638046,-102.64364,55.0,3.0,29.0,4.0,0.0,fraud_Hermann and Sons,gas_transport,M,1049 John Ports Suite 057,Meridian,WA,26041,Systems developer,1
+81.77083,45.84396,-93.455055,6188.1597,46.4345,-93.115974,72.0,3.0,26.0,7.0,5.0,fraud_Connelly PLC,gas_transport,M,3325 Gregory Square,Belgrade,MN,31561,"Investment banker, operational",1
+99.280495,40.070557,-83.10799,175.35184,40.1607,-83.57965,47.0,1.0,6.0,3.0,6.0,fraud_Sporer Inc,grocery_net,F,658 Diane Glen Apt. 677,Lagrange,OH,82227,Emergency planning/management officer,1
+90.24663,39.42321,-85.78386,1770.2616,38.966747,-85.63256,63.0,23.0,11.0,9.0,2.0,fraud_Cruickshank-Mills,home,M,502 Rice Plaza Apt. 979,Stephensport,IN,11763,Animal technologist,1
+96.45609,33.081127,-80.981476,24070.715,33.253544,-80.354866,29.0,23.0,30.0,5.0,3.0,fraud_Dooley-Thompson,misc_pos,M,01892 Patricia Vista Apt. 828,Westhampton Beach,SC,55065,Plant breeder/geneticist,1
+98.80027,42.602974,-72.05136,12342.373,42.195946,-71.94731,98.0,4.0,17.0,4.0,3.0,fraud_Leannon-Nikolaus,kids_pets,F,5572 Kelly Plains Apt. 952,Chester Heights,NH,69201,Air cabin crew,1
+100.09192,31.43107,-88.721054,967.6419,30.774302,-88.46459,53.0,22.0,8.0,12.0,1.0,fraud_Boyer PLC,misc_pos,M,892 Solis Neck,Burrton,MS,91711,Special effects artist,1
+95.13386,49.24127,-121.38621,5022.2695,49.05076,-121.651924,64.0,21.0,18.0,3.0,2.0,fraud_Thompson-Gleason,gas_transport,M,868 Brady Mill Apt. 837,Manor,AK,12992,Professor Emeritus,1
+97.22767,36.305393,-92.50501,1730.7632,36.800426,-92.969734,60.0,19.0,8.0,11.0,4.0,fraud_Powlowski-Weimann,misc_pos,M,292 Cassidy Oval,Mc Veytown,AR,44233,Chartered accountant,1
+83.59166,41.30382,-78.89492,11857.489,41.329967,-78.83255,56.0,1.0,6.0,4.0,1.0,fraud_Boyer-Haley,travel,M,08469 Trujillo Forge,Kenner,PA,28423,"Lecturer, further education",1
+80.606186,32.369843,-83.36986,16570.992,32.39422,-82.615616,73.0,12.0,27.0,11.0,3.0,fraud_Schoen-Quigley,kids_pets,F,1007 Colton Forks,Harwood,GA,94619,"Geologist, wellsite",1
+80.22786,33.80299,-115.55872,4770.5366,34.425583,-116.67921,52.0,22.0,5.0,10.0,6.0,"fraud_Nicolas, Hills and McGlynn",grocery_net,F,117 Natasha Vista Suite 936,Hudson,CA,14711,Aid worker,1
+88.76702,30.786026,-112.64678,15910.828,30.978436,-112.11187,39.0,22.0,28.0,11.0,5.0,fraud_Kerluke Inc,entertainment,F,864 Reynolds Plains,Cord,AZ,64114,"Teacher, primary school",1
+102.40382,47.521683,-95.983505,3955.7805,46.857647,-95.3186,53.0,3.0,15.0,4.0,3.0,fraud_Ankunding LLC,grocery_pos,M,9554 Flores Drive,Hooper,ND,1612,Museum/gallery conservator,1
+98.15639,46.0946,-64.25372,71.6645,42.631565,-72.11539,84.0,20.0,25.0,6.0,1.0,"fraud_Terry, Johns and Bins",misc_pos,F,27718 Mason Bypass,Cottekill,VT,45879,Health service manager,1
+81.10055,38.405037,-108.14261,532.9825,38.77859,-109.00882,61.0,5.0,4.0,7.0,4.0,fraud_Roberts-Beahan,gas_transport,M,9242 Vanessa Ramp Apt. 525,Shippingport,NM,59632,Clinical psychologist,1
+96.848816,39.447025,-91.55481,12853.174,39.44371,-92.54129,50.0,13.0,3.0,3.0,1.0,fraud_Dare-Marvin,gas_transport,M,6366 French Field,Moulton,IL,85020,Armed forces technical officer,1
+98.266045,42.0373,-72.3243,9245.875,42.190754,-71.62515,44.0,1.0,13.0,4.0,5.0,"fraud_Romaguera, Wehner and Tromp",grocery_net,M,231 Flores Pass Suite 720,Norman,MA,21657,Osteopath,1
+97.28379,41.425476,-99.83587,814.858,41.05843,-99.86732,56.0,16.0,9.0,11.0,0.0,fraud_Schoen-Quigley,kids_pets,F,5155 Mary Common Apt. 927,Atglen,SD,75092,Logistics and distribution manager,1
+79.41428,43.145405,-79.54638,414227.34,43.967926,-79.77878,28.0,22.0,20.0,2.0,3.0,fraud_Kuphal-Predovic,misc_pos,F,4720 Anna Ways,Lawrence,PA,54154,Charity officer,1
+83.290924,47.19628,-98.19355,30691.973,47.00666,-98.84589,61.0,23.0,28.0,7.0,5.0,fraud_Reilly LLC,entertainment,F,7178 Willis Drive,Clarion,ND,28530,Comptroller,1
+110.893166,42.57503,-71.948494,562.86426,42.21786,-72.46102,63.0,7.0,15.0,4.0,2.0,fraud_VonRueden Group,misc_net,M,92021 Miranda Meadows,Waynesfield,MA,74131,Hospital pharmacist,1
+95.157005,38.79085,-80.35524,6380.8623,38.73887,-80.47768,71.0,23.0,25.0,2.0,0.0,"fraud_Labadie, Treutel and Bode",personal_care,F,231 Flores Pass Suite 720,Kirtland,WV,63867,Telecommunications researcher,1
+98.47382,43.1399,-95.45691,2124.4045,43.142944,-95.13062,34.0,1.0,28.0,10.0,1.0,fraud_Smitham-Schiller,health_fitness,F,686 Linda Rest,Angwin,MN,21619,"Nurse, children's",1
+80.13151,33.16808,-87.47724,1707.7496,33.117355,-87.99651,24.0,5.0,28.0,2.0,3.0,fraud_Auer-West,kids_pets,M,118 Cabrera Springs Apt. 105,Harper,AL,42171,Armed forces logistics/support/administrative officer,1
+95.706535,39.398975,-113.900406,4600.038,39.673107,-114.48384,43.0,22.0,4.0,2.0,0.0,"fraud_Schultz, Simonis and Little",health_fitness,F,8973 Mark Drive,Norwalk,UT,28119,Web designer,1
+95.21879,47.41603,-93.63471,4498.4556,46.98341,-93.6213,54.0,22.0,6.0,2.0,3.0,fraud_Auer-West,personal_care,M,542 Howe Mission Apt. 092,Mount Morris,ND,2180,Maintenance engineer,1
+88.198166,32.50342,-110.76724,3667.7747,32.297985,-111.60977,79.0,23.0,22.0,9.0,6.0,fraud_Prosacco LLC,food_dining,F,7377 Walton Extensions Apt. 979,Mount Saint Joseph,AZ,82711,"Administrator, education",1
+96.587,32.032284,-81.31754,8937.394,31.864008,-80.8148,81.0,20.0,10.0,10.0,6.0,fraud_Kassulke Inc,kids_pets,M,20937 Reed Lakes Apt. 271,Deadwood,GA,7750,"Programme researcher, broadcasting/film/video",1
+89.33998,35.462753,-89.493324,4043.3828,34.98686,-88.967255,70.0,23.0,2.0,2.0,5.0,fraud_Gleason and Sons,shopping_net,M,0423 Kirby Field Suite 623,Ashland,AL,56546,Pensions consultant,1
+110.76871,40.700733,-78.23862,2301.3691,40.136322,-76.9106,81.0,22.0,5.0,10.0,4.0,fraud_Goyette-Herzog,misc_net,M,950 Dunn Squares,Palmyra,PA,68438,"Administrator, local government",1
+96.749535,39.40367,-74.92164,3673.202,39.486378,-75.36362,64.0,23.0,23.0,8.0,6.0,"fraud_Weimann, Kuhic and Beahan",kids_pets,F,09419 Lewis Rapids,West Harrison,NJ,64470,Health service manager,1
+98.05242,32.385223,-111.138336,419.63388,32.5497,-112.069145,65.0,3.0,22.0,6.0,1.0,"fraud_Wuckert, Wintheiser and Friesen",misc_pos,F,162 Jessica Row Apt. 072,Helm,AZ,62571,Special effects artist,1
+92.06534,32.85598,-82.0466,4469.3584,33.627247,-81.95538,76.0,23.0,23.0,2.0,0.0,"fraud_Medhurst, Cartwright and Ebert",shopping_pos,F,7177 Steven Forges,Port Costa,SC,32960,"Designer, interior/spatial",1
+98.70195,41.14951,-71.57633,3126.0635,41.323864,-71.27422,50.0,22.0,20.0,6.0,4.0,fraud_Kilback and Sons,kids_pets,M,250 Carrie Throughway,Noblesville,MA,4680,Chief Operating Officer,1
+82.08733,43.044235,-84.50781,42927.684,43.138153,-84.78064,74.0,23.0,29.0,3.0,5.0,"fraud_Schroeder, Hauck and Treutel",grocery_pos,F,2989 Murray Inlet,Lohrville,MI,43903,Animal technologist,1
+97.563934,34.70465,-97.029686,52647.91,34.669636,-97.962265,59.0,14.0,19.0,1.0,5.0,fraud_Funk Group,grocery_net,F,89871 Woodard Spring Suite 714,Gretna,OK,11955,Product/process development scientist,1
+92.44184,40.67442,-83.46561,23706.176,40.673824,-83.515656,58.0,22.0,25.0,6.0,2.0,"fraud_Heller, Gutmann and Zieme",shopping_pos,M,611 Michael Rue,Bessemer,OH,74720,Musician,1
+105.64648,38.90063,-101.1339,792.02985,39.01537,-101.24885,40.0,1.0,19.0,7.0,6.0,fraud_Simonis-Prohaska,grocery_pos,F,00821 Joanna Meadow,Clarinda,WA,46723,"Designer, ceramics/pottery",1
+83.51337,48.442196,-114.88449,485.7394,49.245544,-114.46813,69.0,23.0,24.0,3.0,0.0,fraud_Kautzer and Sons,shopping_pos,F,740 Moses Trail Suite 452,Basye,ID,29129,Ceramics designer,1
+81.39771,33.861565,-94.98833,198.4893,33.67982,-94.07686,51.0,23.0,13.0,5.0,3.0,fraud_Skiles LLC,travel,F,6139 Mark Rapid Apt. 651,Dell City,WA,90014,"Production assistant, radio",1
+96.34881,40.49336,-105.819786,1596.0762,41.593742,-104.56187,74.0,8.0,4.0,11.0,3.0,fraud_Fritsch and Sons,gas_transport,F,543 Mindy Oval,Monetta,WA,51453,Aid worker,1
+78.55053,36.072353,-94.30541,10907.499,36.19585,-94.26701,63.0,22.0,18.0,2.0,0.0,fraud_Bernhard-Lesch,health_fitness,F,551 Zachary Freeway,Saint Francis,AR,46346,Control and instrumentation engineer,1
+96.34041,45.22644,-87.63555,920.80176,44.872494,-87.69765,59.0,23.0,13.0,9.0,2.0,"fraud_Graham, Hegmann and Hammes",personal_care,F,28925 Powell Mountains Apt. 762,Wales,MI,77412,Advertising account planner,1
+80.74331,37.17237,-80.42936,9359.283,37.0992,-80.6259,52.0,23.0,23.0,8.0,6.0,fraud_Roberts-Beahan,travel,M,401 Escobar Port,Grandview,DC,50314,"Scientist, audiological",1
+101.25128,45.00339,-74.39239,87.50457,44.701714,-74.37958,61.0,1.0,14.0,2.0,5.0,fraud_Wuckert-Goldner,misc_pos,F,933 Martin Rapids,Paulding,ME,50595,Retail buyer,1
+98.44172,44.088905,-74.9734,227.66708,43.8199,-74.918526,65.0,1.0,22.0,2.0,5.0,fraud_Spinka-Welch,health_fitness,F,9443 Cynthia Court Apt. 038,Sebring,VT,31563,"Scientist, audiological",1
+107.731125,35.42124,-109.17565,4068.0073,34.9943,-108.8248,41.0,22.0,5.0,6.0,2.0,fraud_Dare-Marvin,food_dining,M,5097 Jodi Vista Suite 811,Smith River,AZ,7439,Child psychotherapist,1
+87.15527,39.161728,-96.662384,3087.0984,39.060886,-96.40765,74.0,1.0,27.0,7.0,5.0,fraud_McGlynn-Heathcote,home,M,24809 Cross Creek,Madisonville,KS,6444,Manufacturing engineer,1
+81.644196,44.678524,-95.45169,7677.5503,44.474022,-95.74527,39.0,5.0,26.0,2.0,1.0,fraud_Boyer PLC,home,F,941 Adam Stravenue,Riverton,MN,75980,Press photographer,1
+89.155106,34.903652,-109.94299,8129.758,35.04007,-109.74167,34.0,1.0,26.0,7.0,4.0,fraud_Hudson-Grady,shopping_net,M,4548 Werner Wells Apt. 441,Gibsonville,NV,6782,Volunteer coordinator,1
+98.01431,45.64686,-122.7487,1880.088,45.343384,-123.91277,71.0,7.0,6.0,5.0,3.0,fraud_Turner and Sons,kids_pets,M,0984 Amanda Corners Apt. 297,Rockwood,OR,76366,Counsellor,1
+97.28848,39.736427,-74.237076,32469.531,39.75124,-74.4304,39.0,2.0,20.0,4.0,5.0,fraud_Smitham-Schiller,health_fitness,F,7898 Wanda Springs,Riverton,NJ,90250,Clinical research associate,1
+79.833824,42.866535,-100.51851,859.26483,43.04992,-100.2314,56.0,22.0,28.0,2.0,1.0,fraud_Bogisich-Weimann,personal_care,M,42933 Ryan Underpass,Luray,SD,19017,Charity officer,1
+79.4689,32.444405,-89.18399,278577.62,32.379803,-89.235115,53.0,22.0,4.0,3.0,6.0,fraud_Kunde-Sanford,grocery_net,F,93121 Zavala Extensions,Indianapolis,MS,10162,"Presenter, broadcasting",1
+81.456825,39.349655,-76.8505,269389.34,39.310875,-76.954254,42.0,23.0,21.0,9.0,5.0,fraud_Kub PLC,misc_pos,F,588 Smith Lights Suite 786,Tyler,PA,36111,Careers adviser,1
+81.52964,28.017118,-83.62995,2561.6492,27.771372,-83.75598,67.0,2.0,11.0,7.0,5.0,fraud_Heller-Abshire,personal_care,M,321 Camacho Causeway,Moro,FL,49826,"Geneticist, molecular",1
+78.83039,37.70405,-92.21506,378256.84,37.764908,-92.679665,67.0,7.0,18.0,7.0,5.0,"fraud_Kuhic, Bins and Pfeffer",entertainment,M,7812 Shane Shoals Apt. 607,Brainard,MO,2908,Clothing/textile technologist,1
+77.86148,37.239796,-98.55784,11684.991,37.26146,-97.921265,43.0,23.0,15.0,4.0,2.0,"fraud_McDermott, Osinski and Morar",health_fitness,F,083 Karen Island Apt. 656,Putnam,WA,57374,Visual merchandiser,1
+98.921455,33.395016,-99.97165,2791.5342,33.256336,-100.4637,52.0,18.0,18.0,8.0,1.0,fraud_Spencer PLC,travel,M,874 Fred Knolls Apt. 609,South Hero,TX,47451,Market researcher,1
+89.99327,39.21816,-79.16314,8158.537,38.85688,-79.344025,58.0,9.0,12.0,5.0,6.0,"fraud_Stroman, Hudson and Erdman",entertainment,F,9455 Kathleen Brook Apt. 651,Albany,VA,46346,Hydrographic surveyor,1
+111.05944,41.226643,-95.56045,2328.1223,41.334885,-94.927284,18.0,2.0,21.0,6.0,6.0,fraud_Roob-Okuneva,misc_net,M,73869 Connie Prairie,Queen Anne,NE,22311,Press sub,1
+109.405106,40.213867,-128.12149,1066.6254,40.36199,-129.22308,75.0,23.0,27.0,10.0,1.0,fraud_Sporer Inc,food_dining,F,8425 Daniel Knolls Suite 288,Falmouth,HI,44804,"Copywriter, advertising",1
+77.28323,45.883247,-88.747856,176.35622,45.944748,-87.89066,50.0,23.0,4.0,5.0,5.0,"fraud_Watsica, Haag and Considine",shopping_pos,M,13128 Hall Station Suite 588,Spencer,MI,99033,Water engineer,1
+79.25332,38.73139,-78.45286,1870.9834,38.188683,-78.046364,30.0,23.0,25.0,4.0,4.0,fraud_Rutherford-Mertz,personal_care,M,852 Thomas Well Suite 339,Scarborough,DE,82227,Audiological scientist,1
+107.131714,35.631138,-80.175316,2581.2385,35.941196,-80.10309,72.0,18.0,7.0,4.0,0.0,fraud_Abbott-Rogahn,shopping_net,F,907 Courtney Via Apt. 896,Hinckley,NC,58651,"Designer, ceramics/pottery",1
+78.52402,39.652016,-76.55629,98000.66,39.004482,-77.57499,36.0,9.0,28.0,4.0,2.0,fraud_Block Group,kids_pets,M,24318 Dixon Mills,Dallas,MD,42634,Nutritional therapist,1
+90.143394,42.20916,-91.309845,12207.414,41.57383,-91.757645,58.0,1.0,19.0,3.0,2.0,fraud_Huels-Hahn,misc_net,F,43039 Riley Greens Suite 393,West Eaton,WI,84325,Civil Service fast streamer,1
+99.385025,43.80453,-107.653854,445.47363,43.93065,-107.62562,60.0,2.0,17.0,5.0,6.0,"fraud_Cormier, Stracke and Thiel",health_fitness,M,48635 Paul Hills,Irwinton,WY,35803,Armed forces logistics/support/administrative officer,1
+97.460075,44.361076,-87.087326,2580.2488,44.30555,-88.02512,100.0,14.0,3.0,10.0,3.0,"fraud_Reichel, Bradtke and Blanda",entertainment,M,5572 Kelly Plains Apt. 952,Pelham,MI,99113,"Pharmacist, hospital",1
+80.902534,40.409492,-99.788765,950.6744,40.712067,-99.23197,90.0,17.0,19.0,11.0,1.0,"fraud_Yost, Schamberger and Windler",health_fitness,F,49120 Regina Island Apt. 170,Princeton,NE,21524,Phytotherapist,1
+107.671875,41.24667,-93.40298,502.24323,40.683372,-93.423294,61.0,22.0,12.0,2.0,1.0,"fraud_Schoen, Nienow and Bauch",home,M,343 Hannah Parkway,Lexington,IA,56019,Quantity surveyor,1
+81.446526,33.10966,-85.77418,580082.0,32.740353,-86.288666,46.0,8.0,15.0,3.0,1.0,fraud_Crona and Sons,grocery_net,M,6386 Bailey Hill Apt. 421,Bauxite,AL,91702,Herpetologist,1
+78.36998,40.027363,-86.30711,12092.784,39.87429,-87.03942,45.0,14.0,12.0,7.0,6.0,fraud_Stiedemann Ltd,entertainment,M,3423 Michael Canyon Suite 276,Lonsdale,IN,15686,Aeronautical engineer,1
+102.44119,34.667145,-90.57813,4954.069,34.594223,-90.16952,64.0,19.0,28.0,4.0,5.0,fraud_O'Keefe-Hudson,home,M,118 Justin Extension,Fiddletown,AR,97492,Chiropodist,1
+92.42749,34.174194,-107.337654,406.11945,33.68228,-106.766624,27.0,23.0,8.0,4.0,0.0,fraud_Rempel PLC,entertainment,M,83690 Nicholas Ports Apt. 846,New Waverly,NM,38677,"Scientist, research (medical)",1
+100.08127,40.81711,-80.89517,24099.635,40.250767,-80.555275,34.0,0.0,26.0,10.0,5.0,fraud_Boyer-Haley,gas_transport,M,148 Baker Field,Riverview,RI,95688,Volunteer coordinator,1
+92.625595,37.493793,-110.5513,87510.89,37.694836,-110.11468,42.0,18.0,27.0,4.0,6.0,"fraud_Lehner, Mosciski and King",entertainment,M,7566 Thompson Creek Apt. 827,Honokaa,UT,91702,"Teacher, special educational needs",1
+79.749725,36.666794,-132.55759,3469.4731,37.187622,-133.55472,49.0,3.0,8.0,11.0,6.0,fraud_Lesch Ltd,grocery_net,M,495 Fisher Throughway,Vienna,HI,51006,Public relations account executive,1
+94.959404,42.059216,-107.06286,101413.64,41.881233,-106.92304,58.0,22.0,18.0,10.0,5.0,"fraud_Labadie, Treutel and Bode",kids_pets,M,825 Martinez Springs Apt. 625,Brooklyn,WY,25832,Chief Operating Officer,1
+86.6209,40.14302,-82.008514,755.56537,40.024982,-81.13702,57.0,22.0,13.0,10.0,6.0,"fraud_Heathcote, Yost and Kertzmann",misc_net,M,32941 Krystal Mill Apt. 552,Bryant,WV,54487,Television floor manager,1
+98.4173,32.60151,-87.64381,2825.7427,32.03408,-88.10767,42.0,1.0,7.0,11.0,6.0,fraud_Berge-Hills,entertainment,F,343 Hannah Parkway,Dadeville,AL,48438,Cartographer,1
+92.665115,31.77877,-90.383156,112945.69,31.63128,-91.07855,58.0,22.0,24.0,12.0,0.0,fraud_Miller-Harris,misc_net,M,200 Christie Mills Apt. 307,Alexandria,LA,14711,Race relations officer,1
+102.42896,41.919647,-86.66643,2706.8188,42.44963,-86.92834,58.0,1.0,12.0,8.0,6.0,fraud_Bode-Schuster,shopping_net,F,6027 Scott Meadows Suite 494,Grandview,MI,53924,Cabin crew,1
+86.228546,30.894928,-98.123764,45903.996,30.76139,-98.20955,52.0,22.0,19.0,3.0,3.0,fraud_Mante Group,entertainment,F,77127 Paul Station Apt. 495,Andrews,TX,67346,Health and safety adviser,1
+99.01846,37.418262,-81.93774,51.310318,37.730885,-80.741714,83.0,18.0,10.0,3.0,0.0,"fraud_Moore, Williamson and Emmerich",misc_pos,M,507 John Overpass Suite 424,Heislerville,WV,49826,Administrator,1
+89.293335,46.56043,-93.637665,10516.969,46.20792,-94.06304,55.0,22.0,13.0,6.0,0.0,fraud_Ratke and Sons,entertainment,M,7055 Fernandez Estates Apt. 676,Ogdensburg,MN,87533,"Therapist, music",1
+111.00276,41.358173,-99.86251,796.1384,40.793922,-98.41725,52.0,22.0,6.0,10.0,1.0,fraud_Dare-Marvin,shopping_net,F,01892 Patricia Vista Apt. 828,Ballwin,NE,42273,Air traffic controller,1
+87.472374,45.594044,-93.61899,1481.0984,45.49276,-94.16323,36.0,23.0,3.0,2.0,2.0,fraud_Berge-Hills,food_dining,M,61107 Edwards Dam Apt. 463,Garfield,MN,25442,Energy engineer,1
+102.8568,39.73807,-75.97679,309.63492,39.24972,-76.75347,58.0,2.0,10.0,6.0,1.0,fraud_Thompson-Gleason,entertainment,M,250 Carrie Throughway,Gaines,PA,56729,Legal secretary,1
+98.8433,40.5187,-85.222946,110.63076,40.960102,-86.05043,46.0,16.0,23.0,12.0,1.0,"fraud_Schroeder, Wolff and Hermiston",misc_pos,F,95835 Garcia Rue,Pewee Valley,RI,79085,Toxicologist,1
+83.35964,40.68966,-76.98627,225.67824,40.18534,-76.9027,69.0,17.0,27.0,9.0,6.0,"fraud_Stroman, Hudson and Erdman",entertainment,M,87227 Tapia Burgs,Slayden,PA,64076,"Engineer, control and instrumentation",1
+81.939095,37.7607,-86.378365,6007.9365,37.864704,-86.571785,43.0,22.0,15.0,9.0,1.0,fraud_Baumbach Ltd,travel,F,0182 Owens Burgs Suite 480,Nanuet,IN,78644,Transport planner,1
+89.30656,43.33919,-71.67344,10554.148,42.9567,-71.97556,35.0,23.0,9.0,12.0,2.0,"fraud_Nicolas, Hills and McGlynn",home,F,8011 Chapman Tunnel Apt. 568,Huntsville,VT,13469,"Administrator, education",1
+97.78296,35.467777,-96.06836,1170.8276,35.247913,-95.90572,83.0,2.0,14.0,2.0,5.0,fraud_Runte-Mohr,grocery_net,F,950 Dunn Squares,Roseland,OK,59014,Politician's assistant,1
+97.521545,40.436996,-78.02178,788.07227,40.143856,-77.707054,32.0,6.0,16.0,6.0,6.0,"fraud_Olson, Becker and Koch",grocery_pos,F,240 Tracy Forges,Sprague,DE,15480,Investment analyst,1
+80.97474,40.147873,-80.5165,201.95804,39.945236,-80.75408,55.0,2.0,19.0,3.0,3.0,fraud_Satterfield-Lowe,health_fitness,F,7118 Jessica Unions Apt. 789,Hatch,RI,99746,Nature conservation officer,1
+78.72148,34.989426,-110.99452,65859.305,35.559574,-111.42356,38.0,20.0,24.0,2.0,0.0,fraud_Cummerata-Hilpert,gas_transport,M,94975 David Mews Apt. 316,Jay,NV,21865,Environmental manager,1
+86.67595,36.318466,-129.10393,26963.262,36.63584,-129.46796,32.0,22.0,27.0,2.0,3.0,fraud_Hackett Group,shopping_pos,F,458 Phillips Island Apt. 768,Ridgeland,HI,42634,Seismic interpreter,1
+102.55456,34.54605,-79.60523,7773.177,34.188545,-79.42521,45.0,23.0,15.0,2.0,4.0,fraud_Maggio-Fahey,shopping_net,F,715 Courtney Pike Suite 932,Smock,NC,44233,Operational investment banker,1
+89.49614,45.591396,-74.13836,169.5252,45.129482,-73.035736,29.0,22.0,10.0,4.0,2.0,fraud_Fadel-Hilpert,shopping_net,M,741 Adams Knolls,Eldridge,VT,62935,Television/film/video producer,1
+79.267784,33.676544,-81.7257,9548.961,33.868282,-80.53083,66.0,21.0,8.0,11.0,6.0,fraud_Cummerata-Hilpert,gas_transport,M,098 Stewart Hill,Cardwell,SC,36532,Public affairs consultant,1
+89.25645,40.78372,-75.154076,2556.8062,40.567036,-75.14576,46.0,23.0,3.0,8.0,1.0,fraud_Douglas-White,misc_net,F,6296 John Keys Suite 858,Cuthbert,NJ,35903,"Surveyor, rural practice",1
+80.739685,39.872955,-88.03334,379.34824,40.16746,-87.34701,71.0,20.0,11.0,7.0,1.0,"fraud_Becker, Harris and Harvey",health_fitness,F,7812 Shane Shoals Apt. 607,Center Tuftonboro,IN,55080,Industrial buyer,1
+97.33494,41.92956,-94.7681,25658.715,41.554413,-94.48167,55.0,1.0,11.0,9.0,4.0,fraud_Hackett Group,health_fitness,M,492 West Crossing,Alexandria,IA,51003,"Geneticist, molecular",1
+77.86099,42.96427,-143.6742,21.516848,42.19491,-146.6014,52.0,23.0,15.0,3.0,3.0,"fraud_Rippin, Kub and Mann",kids_pets,M,24255 Bryan Square,Olmsted,UT,29061,Water engineer,1
+99.66473,40.759422,-73.93013,21456.045,40.90723,-73.38965,58.0,0.0,12.0,9.0,4.0,fraud_Terry Ltd,gas_transport,F,24607 Charles Mountains,Mesa,MA,79772,Chief Executive Officer,1
+108.88211,45.865147,-101.266464,7443.003,45.850883,-101.32486,67.0,12.0,2.0,7.0,1.0,fraud_Lemke and Sons,home,F,2497 John Motorway Suite 922,Glendale,ND,15010,"Surveyor, hydrographic",1
+99.06946,42.699615,-104.44863,1503.7979,43.095543,-104.25396,64.0,0.0,5.0,10.0,0.0,"fraud_Cronin, Kshlerin and Weber",grocery_net,M,74890 Rodriguez Springs Apt. 540,Achille,WY,49628,Operations geologist,1
+78.49452,33.267414,-108.48414,4793.38,33.893284,-109.019104,71.0,2.0,22.0,7.0,2.0,"fraud_Mosciski, Gislason and Mertz",grocery_pos,F,62931 Ralph Court,Monmouth Beach,AZ,96037,"Engineer, agricultural",1
+99.699005,34.921825,-93.24419,1575.8823,34.78529,-93.29458,59.0,1.0,16.0,5.0,3.0,fraud_Buckridge PLC,health_fitness,F,53696 Laura Radial,Drakes Branch,AR,7980,Solicitor,1
+95.55062,39.85545,-122.95179,833.4134,40.197895,-122.39835,71.0,17.0,7.0,11.0,6.0,fraud_Altenwerth-Kilback,gas_transport,M,477 Wheeler Burg,Pelham,CA,39897,Air traffic controller,1
+100.30371,45.74764,-120.53152,1362.6241,45.67083,-120.91335,47.0,0.0,9.0,10.0,2.0,fraud_Langworth LLC,gas_transport,M,2622 Reynolds Isle,Putnam,OR,35776,Toxicologist,1
+86.59897,38.679623,-96.97835,193.14702,37.894024,-95.884926,51.0,22.0,6.0,7.0,1.0,fraud_Ebert-Daugherty,shopping_net,F,852 Thomas Well Suite 339,Dubre,NE,53801,Furniture conservator/restorer,1
+89.15515,34.125687,-81.46912,3285.2166,34.703537,-81.24999,52.0,23.0,27.0,8.0,3.0,fraud_Tromp Group,entertainment,F,8465 Reed Green Suite 559,Bridger,SC,20017,Interior and spatial designer,1
+110.473305,36.57983,-86.23026,527.3091,36.29725,-85.79284,28.0,23.0,13.0,11.0,4.0,fraud_Eichmann-Russel,misc_net,F,37426 Olson Villages,Cowlesville,TN,79539,Politician's assistant,1
+81.31611,32.10141,-89.75239,2490.0269,32.192253,-90.18058,64.0,23.0,24.0,8.0,0.0,"fraud_Hettinger, McCullough and Fay",misc_pos,F,85430 Julie Trafficway Suite 792,Phenix City,MS,30756,"Solicitor, Scotland",1
+110.09284,37.329628,-80.27369,81353.85,38.343594,-78.328766,43.0,23.0,2.0,10.0,1.0,"fraud_Ruecker, Beer and Collier",entertainment,F,969 Huerta Path Apt. 270,Minnesota Lake,WV,11217,Primary school teacher,1
+80.28377,39.244415,-111.04328,136960.55,38.653362,-110.91284,34.0,3.0,3.0,5.0,2.0,fraud_Huels-Hahn,grocery_net,F,3283 James Station,Cranks,UT,12534,Mechanical engineer,1
+86.288124,36.280148,-85.049385,36455.906,36.426876,-86.11092,87.0,1.0,26.0,6.0,4.0,fraud_Little-Gleichner,misc_net,F,03090 Fisher Forges Apt. 200,Lebanon,TN,73719,"Teacher, primary school",1
+78.8845,46.09873,-99.17383,851.0091,46.78241,-100.002846,37.0,2.0,15.0,10.0,3.0,fraud_Haag-Blanda,misc_net,M,6033 Young Track Suite 804,Manley,ND,23937,Estate manager/land agent,1
+87.8402,36.17622,-80.2602,1279.8494,35.962322,-80.35324,38.0,22.0,14.0,5.0,0.0,fraud_Abshire PLC,home,M,3270 Scott Islands,Oxford,NC,73624,Chief Marketing Officer,1
+78.69446,32.098145,-109.879654,286.66443,32.407387,-108.87855,56.0,19.0,12.0,3.0,4.0,"fraud_Reichert, Huels and Hoppe",health_fitness,F,137 Adam Dale,Bolton,AZ,6444,"Civil engineer, contracting",1
+80.6193,39.90702,-128.2634,800.32635,39.679237,-127.6683,52.0,1.0,3.0,5.0,3.0,"fraud_Romaguera, Cruickshank and Greenholt",grocery_net,M,46809 Toni Flat Suite 216,Lepanto,CA,56668,Database administrator,1
+98.173836,46.562138,-107.59041,5030.511,46.05068,-106.70028,66.0,20.0,23.0,4.0,3.0,fraud_Ortiz Group,grocery_net,F,9431 Amanda Mills,Diamond,ID,40209,"Designer, multimedia",1
+80.78858,31.648335,-83.17357,4180.3457,31.266993,-82.673454,53.0,1.0,18.0,10.0,4.0,fraud_Dach-Borer,gas_transport,F,5930 Rebecca Bridge Apt. 444,Oaks,GA,95688,Garment/textile technologist,1
+89.93623,38.30707,-79.480125,787.2754,37.87803,-79.6548,57.0,2.0,13.0,9.0,4.0,"fraud_Turner, Ziemann and Lehner",shopping_pos,F,195 Murray Overpass Apt. 384,Carlotta,WV,17051,Quantity surveyor,1
+98.299805,34.865643,-86.30608,5841.848,34.73138,-85.76659,54.0,21.0,4.0,11.0,2.0,fraud_Kiehn-Emmerich,grocery_net,F,304 Ryan Port Suite 335,Phenix City,TN,71277,Veterinary surgeon,1
+80.8551,39.876003,-77.85157,93571.445,39.97062,-77.753685,46.0,21.0,13.0,10.0,1.0,"fraud_Bahringer, Bergnaum and Quitzon",travel,F,5916 Susan Bridge Apt. 939,Portland,DE,11964,Armed forces logistics/support/administrative officer,1
+96.22402,42.131874,-72.10305,10315.511,42.30327,-72.47556,59.0,23.0,9.0,8.0,4.0,fraud_Price Inc,kids_pets,M,240 Tracy Forges,Dallas,CT,14532,Press photographer,1
+83.12465,35.913742,-81.21981,566.26715,36.055405,-80.28761,52.0,2.0,10.0,8.0,0.0,fraud_Block-Hauck,misc_pos,F,82201 Bradley Radial Suite 703,Etlan,NC,96136,Lawyer,1
+96.52308,41.484894,-71.19931,141945.16,41.6886,-70.586464,66.0,11.0,11.0,9.0,3.0,fraud_Pacocha-O'Reilly,gas_transport,F,20937 Reed Lakes Apt. 271,Saint Louis,MA,35049,Visual merchandiser,1
+92.288246,31.289251,-92.95847,39796.047,30.777626,-93.29788,18.0,0.0,4.0,8.0,4.0,fraud_Abernathy and Sons,shopping_net,M,094 Owens Underpass,Ogdensburg,TX,24236,"Therapist, occupational",1
+81.515114,41.561405,-84.90244,462.34088,41.88274,-84.767235,53.0,22.0,6.0,9.0,5.0,fraud_Funk Group,travel,F,7428 Martinez Flats,Hatch,MI,91702,Data scientist,1
+87.31326,41.215023,-92.005516,104530.96,40.750153,-92.40027,19.0,22.0,26.0,11.0,0.0,fraud_Rolfson-Kunde,food_dining,F,1626 Susan Course,Lakeview,IA,51006,Health visitor,1
+95.59049,31.836874,-99.73179,1733.3994,31.705742,-99.5097,82.0,22.0,6.0,6.0,6.0,"fraud_Lakin, Ferry and Beatty",health_fitness,F,841 Cheryl Centers Suite 115,Westfir,TX,1535,"Designer, interior/spatial",1
+101.62755,31.693085,-90.83648,308.432,31.74605,-91.36016,48.0,23.0,14.0,2.0,4.0,"fraud_Koss, McLaughlin and Mayer",grocery_pos,M,5205 Annette Islands Apt. 043,Blairsden-Graeagle,LA,10962,Health and safety adviser,1
+78.833206,36.44085,-92.7944,193332.98,36.576363,-92.471054,64.0,23.0,7.0,6.0,0.0,fraud_Schmidt and Sons,personal_care,F,8425 Daniel Knolls Suite 288,Aurora,AR,46322,Ship broker,1
+80.27827,41.107037,-110.50018,49.627914,40.930363,-109.83995,57.0,23.0,27.0,2.0,3.0,fraud_Hamill-D'Amore,kids_pets,M,56261 Keith Plaza,Marion,UT,79237,Quarry manager,1
+94.850525,37.250027,-97.836555,7227.9287,36.900795,-97.324104,24.0,23.0,24.0,11.0,5.0,fraud_Beer-Jast,personal_care,M,566 Megan Well,Williamsburg,OK,32780,Town planner,1
+97.93904,30.177795,-91.064,43298.676,30.143353,-91.670525,61.0,21.0,20.0,2.0,6.0,fraud_Fahey Inc,personal_care,M,557 Lynn Garden Suite 907,Remer,LA,27249,Airline pilot,1
+102.021065,40.812157,-69.90585,76696.87,40.05454,-69.986885,54.0,2.0,2.0,5.0,3.0,"fraud_Schneider, Hayes and Nikolaus",grocery_pos,F,587 Bradley Inlet Suite 281,Newberg,MA,62939,"Therapist, horticultural",1
+102.068726,45.179443,-71.775406,1656.2798,45.064854,-72.6969,36.0,22.0,25.0,2.0,1.0,fraud_Rau-Grant,grocery_pos,F,980 Smith Gardens,Shippingport,ME,54154,Animal technologist,1
+82.308426,35.684666,-82.74307,1804.3158,35.418766,-83.55573,57.0,3.0,19.0,11.0,3.0,fraud_Turner and Sons,shopping_pos,M,7177 Steven Forges,Fields Landing,SC,24970,"Designer, television/film set",1
+98.976265,43.71517,-71.560524,76.20544,43.710785,-71.60626,63.0,23.0,19.0,7.0,6.0,fraud_Lesch Ltd,kids_pets,M,880 Andrea Greens Suite 241,Tryon,ME,45698,Artist,1
+98.90664,38.079243,-130.49632,99736.86,37.280777,-129.2796,46.0,21.0,25.0,4.0,4.0,fraud_Morissette LLC,personal_care,M,2851 Foster Shoals,Akron,OR,92128,Intelligence analyst,1
+86.91419,44.348507,-73.59348,913.7992,44.22147,-73.3695,73.0,22.0,19.0,5.0,6.0,fraud_Yost-Rogahn,home,F,91745 Davis Crossing,Sixes,VT,56029,Statistician,1
+80.198006,37.790043,-79.423164,2194.3945,38.03251,-78.340416,56.0,22.0,5.0,7.0,5.0,fraud_Ebert-Daugherty,grocery_net,F,91644 Crystal Drives,Santa Monica,WV,35901,Occupational psychologist,1
+90.14348,39.4226,-87.125244,387.99362,39.258656,-86.896645,31.0,0.0,14.0,1.0,1.0,fraud_Romaguera Ltd,shopping_pos,F,329 Michael Extension,Moriches,IN,87117,"Radiographer, diagnostic",1
+95.64159,42.154488,-97.79509,2643.2095,42.2435,-98.35211,93.0,22.0,3.0,12.0,4.0,fraud_Osinski Inc,health_fitness,F,9588 Cox Rapid Apt. 257,Rhame,NE,88256,"Conservation officer, historic buildings",1
+79.961815,38.58609,-84.52134,3967.6167,38.388165,-84.52431,43.0,22.0,7.0,2.0,5.0,"fraud_Roberts, Ryan and Smith",grocery_net,M,386 James Roads Apt. 233,Cressona,KY,66618,"Scientist, clinical (histocompatibility and immunogenetics)",1
+97.39704,35.69328,-92.65915,82.30946,35.638454,-92.42892,63.0,23.0,14.0,6.0,6.0,fraud_Haley Group,personal_care,F,08056 Alvarado Club Suite 699,Notrees,AR,45879,"Solicitor, Scotland",1
+102.7864,40.09197,-87.68248,7849.266,40.265728,-86.91983,51.0,22.0,16.0,5.0,6.0,fraud_Boyer-Reichert,misc_net,F,6807 Jacob Skyway Apt. 331,Titusville,IL,34120,"Production assistant, television",1
+83.09886,48.237476,-96.14167,2302.3806,48.051033,-95.440544,29.0,4.0,20.0,6.0,2.0,fraud_Balistreri-Nader,travel,F,6366 French Field,Bonfield,MN,22204,Neurosurgeon,1
+89.411385,35.152824,-79.27653,2478.3604,35.01641,-79.50697,42.0,3.0,21.0,11.0,4.0,"fraud_Yost, Block and Koepp",food_dining,M,46809 Toni Flat Suite 216,Bolton,NC,4555,"Embryologist, clinical",1
+106.908325,42.864517,-85.91741,308.1332,42.881783,-86.59959,48.0,2.0,4.0,3.0,1.0,"fraud_Denesik, Powlowski and Pouros",food_dining,M,85932 Marc Throughway Apt. 080,Ballwin,MI,8350,"Engineer, civil (consulting)",1
+78.88306,31.248625,-91.055405,3101.1338,31.422163,-89.61624,57.0,3.0,8.0,1.0,3.0,fraud_Kessler Inc,misc_net,M,28711 Kristine Junction Suite 309,Palermo,MS,22124,"Pharmacist, community",1
+99.32607,39.46584,-81.29013,2871.7966,39.6535,-81.32519,53.0,22.0,28.0,8.0,2.0,fraud_Mraz-Herzog,travel,M,709 George Underpass Apt. 080,New Goshen,OH,43767,Academic librarian,1
+110.37724,38.29512,-119.48109,4852.1943,38.779922,-118.67997,28.0,13.0,26.0,4.0,4.0,fraud_O'Keefe-Wisoky,misc_net,F,70761 Fitzpatrick Brooks Suite 631,Georgetown,NV,72476,Mental health nurse,1
+98.70523,43.653805,-86.25494,1026.752,43.68769,-86.510185,71.0,19.0,8.0,7.0,2.0,fraud_Terry Ltd,gas_transport,M,86542 Jessica Fords Apt. 706,Mount Morris,MI,72059,Health physicist,1
+81.2269,41.596573,-107.517914,16773.31,41.356216,-107.89812,70.0,17.0,5.0,3.0,1.0,fraud_Hudson-Grady,grocery_net,M,0984 Amanda Corners Apt. 297,Jordan Valley,WY,56549,"Lecturer, further education",1
+101.464325,37.462803,-112.19129,6541.999,37.065063,-112.7341,18.0,1.0,17.0,8.0,5.0,fraud_Morissette-Schaefer,gas_transport,M,4938 Hatfield Course,Chatham,UT,73624,Building control surveyor,1
+89.23777,41.234802,-84.19905,449.08783,41.90912,-84.67854,75.0,22.0,24.0,10.0,1.0,fraud_Murray-Smitham,food_dining,M,5654 Peterson Land,Monmouth Beach,OH,49826,"Pilot, airline",1
+81.18445,47.450108,-113.88165,2835.8564,47.756367,-113.65665,46.0,23.0,15.0,5.0,1.0,fraud_Zboncak LLC,kids_pets,F,44197 Jeffrey Port Suite 050,Lima,MT,68438,Petroleum engineer,1
+81.80332,34.79102,-110.950005,723.4809,35.634346,-111.02814,88.0,2.0,24.0,2.0,4.0,"fraud_Kerluke, Kertzmann and Wiza",misc_pos,F,622 Bradley Knoll Apt. 758,Baroda,NV,68641,Magazine features editor,1
+79.25332,38.473984,-77.14184,12060.706,38.55209,-76.9511,78.0,23.0,9.0,5.0,5.0,fraud_Monahan-Morar,kids_pets,F,0638 Fred Ramp Suite 086,Mineral,MD,78631,Product manager,1
+80.61443,29.629934,-112.13319,1470.6176,29.21686,-112.557625,54.0,23.0,7.0,4.0,0.0,"fraud_Gutmann, McLaughlin and Wiza",travel,M,148 Baker Field,Lithopolis,AZ,53924,Insurance underwriter,1
+81.8643,40.9287,-73.94666,735.6917,41.954205,-74.32827,57.0,15.0,19.0,8.0,6.0,"fraud_Kihn, Brakus and Goyette",misc_pos,M,27909 Peter Motorway,Bridger,CT,62935,Lawyer,1
+97.48129,47.586502,-100.383575,9153.49,47.401516,-102.13522,36.0,2.0,30.0,4.0,1.0,"fraud_Nienow, Ankunding and Collier",gas_transport,M,21326 Taylor Squares Suite 708,Vancouver,ND,40077,Trading standards officer,1
+83.13532,31.89161,-89.81314,16329.806,31.268211,-90.1232,59.0,3.0,8.0,1.0,2.0,fraud_Crooks and Sons,travel,F,343 Joshua Views,Cleveland,MS,63867,Veterinary surgeon,1
+89.4207,33.99409,-87.44137,6056.3823,33.82478,-87.05451,69.0,22.0,7.0,2.0,3.0,"fraud_Tillman, Dickinson and Labadie",misc_net,M,57887 Gutierrez Harbor,Powell,AL,93627,"Geneticist, molecular",1
+99.71547,45.6346,-94.52746,9735.516,45.835712,-94.32562,78.0,2.0,24.0,5.0,4.0,fraud_Kub-Heaney,travel,F,1007 Colton Forks,Rhame,MN,17060,General practice doctor,1
+106.21096,39.41161,-114.11347,4397.3247,39.176926,-114.95623,64.0,14.0,3.0,7.0,1.0,fraud_Ernser-Feest,food_dining,F,502 Rice Plaza Apt. 979,Florence,UT,21405,Health and safety adviser,1
+89.73296,30.959627,-98.8188,5981.371,31.320724,-99.30322,62.0,2.0,7.0,6.0,6.0,"fraud_Champlin, Rolfson and Connelly",misc_net,F,2622 Reynolds Isle,Eureka,TX,36009,Chartered loss adjuster,1
+96.31279,37.56541,-81.52241,1840.9164,37.493374,-81.9616,56.0,23.0,10.0,11.0,1.0,"fraud_Baumbach, Hodkiewicz and Walsh",personal_care,M,707 Anthony Causeway,Washington Court House,DC,39825,"Librarian, public",1
+88.40725,48.418392,-114.57371,7838.0293,48.17123,-115.12079,89.0,23.0,6.0,5.0,3.0,fraud_Schuppe-Schuppe,food_dining,F,49120 Regina Island Apt. 170,Kansas City,ID,93529,Intelligence analyst,1
+97.610756,33.953705,-86.39678,71206.96,33.913216,-86.73411,65.0,23.0,2.0,10.0,5.0,fraud_Fisher Inc,personal_care,F,298 Kayla Lights,Topeka,AL,59014,"Horticulturist, commercial",1
+105.76483,42.339092,-73.92885,482.37042,41.744534,-73.23168,44.0,10.0,3.0,9.0,1.0,fraud_Block Group,misc_net,M,230 Ryan Tunnel Apt. 025,Louisiana,CT,38915,Chiropodist,1
+98.51178,38.809177,-105.1525,478.02805,39.12643,-105.16334,48.0,2.0,5.0,2.0,1.0,fraud_Wilkinson Ltd,grocery_net,M,81708 Christopher Plaza,Grover,WA,15920,Lexicographer,1
+77.39149,28.002508,-81.72265,45010.36,28.059967,-81.94357,69.0,1.0,15.0,5.0,3.0,fraud_Cartwright PLC,grocery_pos,M,354 Gutierrez Gateway,Waupaca,FL,95688,"Producer, radio",1
+98.10255,39.262398,-108.41032,313477.8,39.005573,-109.1961,72.0,1.0,19.0,5.0,1.0,"fraud_Huel, Hammes and Witting",personal_care,F,2056 Michael Wells Apt. 348,Aurora,CO,40062,Broadcast engineer,1
+90.40314,35.04674,-80.24208,1620.4005,35.232285,-79.7608,43.0,23.0,3.0,8.0,4.0,"fraud_Kihn, Abernathy and Douglas",grocery_pos,M,1632 Cohen Drive Suite 639,Catawba,NC,62571,"Scientist, research (physical sciences)",1
+108.001686,44.598495,-121.01351,660.95447,43.995808,-121.20765,47.0,9.0,5.0,8.0,6.0,"fraud_Harris, Gusikowski and Heaney",food_dining,M,529 Joshua Knoll Apt. 511,Newhall,OR,36853,Ceramics designer,1
+82.18982,34.26068,-107.97587,605.07135,33.97397,-107.482925,44.0,1.0,12.0,3.0,2.0,fraud_Haley Group,gas_transport,F,5364 William Harbor,North Prairie,NV,79252,Trade mark attorney,1
+106.25176,34.482388,-81.80641,1230.7296,34.42049,-82.45776,31.0,1.0,7.0,11.0,6.0,fraud_McGlynn-Jaskolski,entertainment,F,6033 Young Track Suite 804,Basye,SC,7005,"Administrator, local government",1
+100.58795,41.034126,-82.31712,6962.0205,41.42692,-81.8088,62.0,1.0,9.0,5.0,6.0,fraud_Beer-Jast,travel,M,66035 Benjamin Villages,Ronceverte,RI,50312,Hydrologist,1
+104.869995,43.962605,-76.449,6168.618,42.2792,-83.05059,28.0,22.0,29.0,2.0,0.0,fraud_Fadel Inc,home,F,715 Joy Prairie,Kings Bay,VA,24340,Race relations officer,1
+98.474014,45.254993,-88.89355,1031.0968,44.877674,-89.05649,62.0,2.0,7.0,6.0,6.0,"fraud_Reinger, Weissnat and Strosin",personal_care,F,13128 Hall Station Suite 588,Pelham,MI,32442,Company secretary,1
+105.303215,41.360874,-72.651344,525.348,41.67327,-71.60147,29.0,16.0,5.0,9.0,4.0,fraud_Kiehn-Emmerich,home,M,61107 Edwards Dam Apt. 463,Kittery Point,MA,23106,Transport planner,1
+82.151665,35.908623,-93.24822,8606.035,36.893974,-92.520226,43.0,3.0,23.0,12.0,0.0,"fraud_Mueller, Gerhold and Mueller",entertainment,M,212 Mary Stream,Manderson,AR,62896,"Civil engineer, contracting",1
+96.44146,34.7997,-80.9302,19770.059,34.862064,-80.36775,60.0,14.0,10.0,9.0,1.0,fraud_Stark-Koss,grocery_net,M,920 Patrick Light,Bristol,SC,97383,"Engineer, land",1
+79.989075,38.769955,-85.353874,1383.1909,38.614815,-84.85173,36.0,19.0,29.0,4.0,2.0,"fraud_Durgan, Gislason and Spencer",grocery_net,F,00315 Ashley Valleys,Brinson,IN,32935,Acupuncturist,1
+89.02353,37.101475,-78.060974,3402.4097,36.893867,-77.79806,72.0,22.0,6.0,4.0,1.0,"fraud_Greenholt, O'Hara and Balistreri",food_dining,M,094 Owens Underpass,Pomona,VA,31003,Waste management officer,1
+97.26519,42.22225,-72.69386,1311.3309,42.366005,-72.37081,51.0,9.0,5.0,7.0,6.0,fraud_Kemmer-Reinger,shopping_net,M,246 Stewart Green Suite 149,Cecilton,MA,10162,Tax inspector,1
+79.16138,40.679684,-70.90617,4060.153,40.348213,-70.66642,61.0,22.0,13.0,11.0,4.0,fraud_Kozey-McDermott,misc_net,F,0638 Fred Ramp Suite 086,Pearlington,CT,70447,Equities trader,1
+102.06303,43.002537,-71.39507,865.8933,42.84221,-71.56789,42.0,0.0,3.0,7.0,4.0,fraud_Osinski Inc,grocery_pos,M,8011 Chapman Tunnel Apt. 568,Falls City,NH,7747,"Engineer, communications",1
+81.97648,39.758545,-127.98943,117.30475,40.047047,-127.296326,35.0,22.0,10.0,6.0,0.0,fraud_Skiles LLC,home,F,5560 Arnold Port Suite 880,Summerfield,HI,4555,"Sales professional, IT",1
+104.356125,33.9589,-112.16753,417.87015,33.950344,-113.082504,60.0,23.0,24.0,12.0,1.0,fraud_Weimann-Lockman,home,M,5783 Evan Roads Apt. 465,Fiddletown,AZ,25049,Immigration officer,1
+108.94416,33.99991,-80.66994,30963.309,33.64134,-81.04107,73.0,23.0,25.0,2.0,0.0,"fraud_Little, Gutmann and Lynch",food_dining,M,9572 Austin Forge Suite 612,Chester,SC,26292,"Therapist, occupational",1
+92.242615,36.74558,-88.26083,1871.0262,36.62082,-88.68915,57.0,23.0,17.0,3.0,1.0,"fraud_Terry, Johns and Bins",shopping_net,F,5278 Sarah Station Apt. 009,West Monroe,TN,57426,Fisheries officer,1
+81.3875,43.85173,-108.59339,3953.272,44.128906,-108.389046,68.0,6.0,13.0,4.0,2.0,fraud_Watsica LLC,misc_pos,F,65417 Walsh Radial Suite 691,Corriganville,AK,40202,Television/film/video producer,1
+98.85058,41.229683,-73.2052,517.166,41.457935,-72.73463,23.0,2.0,6.0,4.0,1.0,fraud_Dicki Ltd,personal_care,M,02110 Lucas Freeway Suite 517,Irvington,CT,87313,Special educational needs teacher,1
+98.10713,38.794785,-77.16356,36205.504,38.960464,-77.0537,69.0,23.0,19.0,6.0,4.0,fraud_Abbott-Steuber,kids_pets,M,23220 Eaton Harbors,Miamisburg,MD,29032,Copy,1
+98.838394,38.478874,-77.41757,577.7501,38.937843,-76.69295,38.0,22.0,8.0,5.0,4.0,"fraud_Bahringer, Schoen and Corkery",grocery_net,M,32343 Saunders Course,Mount Saint Joseph,VA,15923,Visual merchandiser,1
+103.72892,41.52295,-71.85203,7828.9663,41.363464,-72.38087,59.0,22.0,28.0,2.0,3.0,"fraud_Metz, Russel and Metz",shopping_net,F,86542 Jessica Fords Apt. 706,Saint Bonaventure,CT,15834,Dancer,1
+86.42463,44.976505,-73.31137,6701.239,44.675316,-72.733116,53.0,23.0,11.0,5.0,5.0,fraud_Tromp Group,shopping_net,M,35822 Clayton Street Apt. 679,Tupper Lake,VT,89109,Management consultant,1
+90.13018,36.30198,-106.23021,15802.307,35.637005,-105.70773,60.0,20.0,5.0,3.0,2.0,fraud_Pollich LLC,shopping_pos,F,194 Goodman Fall Apt. 569,Hinckley,NM,54980,Chief of Staff,1
+95.60021,44.481304,-108.88266,773.9745,44.191372,-109.11682,46.0,22.0,27.0,5.0,0.0,fraud_Koss and Sons,personal_care,F,3653 Ryan Crossroad,Dadeville,MT,44412,Estate manager/land agent,1
+80.15337,43.996838,-73.066605,7241.82,43.645844,-73.158455,63.0,23.0,20.0,2.0,6.0,"fraud_Kutch, Steuber and Gerhold",personal_care,F,47152 Clayton Burg,Howells,VT,46346,Petroleum engineer,1
+98.94333,33.645023,-109.89943,1331.7397,33.158253,-110.30611,54.0,18.0,17.0,12.0,3.0,"fraud_Stokes, Christiansen and Sipes",grocery_net,F,445 Jerry Lights Apt. 081,Karnack,AZ,52576,"Restaurant manager, fast food",1
+96.990204,41.351337,-73.47224,54462.332,41.185516,-72.8781,74.0,23.0,2.0,3.0,6.0,fraud_Brown Inc,misc_pos,F,194 Goodman Fall Apt. 569,Lane,NY,29180,"Therapist, horticultural",1
+86.19378,38.739304,-77.845726,3800.4119,39.111923,-77.792595,94.0,21.0,20.0,10.0,6.0,fraud_Corwin-Gorczany,shopping_pos,F,3437 Ross Flat Apt. 592,Big Indian,DE,36541,Higher education careers adviser,1
+92.57663,32.88873,-88.38444,22747.625,32.73613,-88.12066,72.0,22.0,20.0,11.0,2.0,"fraud_Reichel, Bradtke and Blanda",shopping_net,F,95488 Cabrera Well,Tower Hill,MS,12419,Learning disability nurse,1
+99.05286,44.63497,-94.62805,804.5463,44.195168,-95.472046,60.0,23.0,24.0,8.0,0.0,"fraud_Hahn, Douglas and Schowalter",misc_pos,F,428 Morgan River,Goreville,MN,76443,"Radiographer, therapeutic",1
+96.54406,39.813282,-74.41511,114196.016,39.406204,-76.33895,73.0,2.0,29.0,4.0,3.0,"fraud_Wintheiser, Dietrich and Schimmel",kids_pets,F,83555 Melinda Spurs,Mooresville,NJ,22124,"Engineer, communications",1
+82.535286,39.4225,-98.70985,14983.675,39.336765,-99.59059,63.0,15.0,7.0,5.0,1.0,fraud_Botsford and Sons,misc_net,F,44613 James Turnpike,Humboldt,KS,3816,General practice doctor,1
+96.09133,38.44968,-76.41622,2088.8567,38.29147,-75.74292,52.0,23.0,7.0,10.0,3.0,fraud_Bradtke PLC,personal_care,F,5449 Brandi Heights Apt. 111,Rocky Mount,DE,92882,General practice doctor,1
+81.46913,43.039165,-93.94033,3460.9082,43.233047,-93.13684,60.0,18.0,4.0,6.0,4.0,fraud_Klein Group,gas_transport,M,27823 Andrew Underpass Suite 948,Kirtland,IA,78208,TEFL teacher,1
+80.79623,40.21327,-108.6188,1967529.1,40.211414,-109.32377,79.0,1.0,14.0,2.0,4.0,fraud_Stoltenberg-Beatty,grocery_net,F,622 Robin Run Suite 764,Indianapolis,UT,45638,Research scientist (life sciences),1
+88.73351,41.93909,-93.667305,6218.525,41.993862,-91.98228,53.0,22.0,12.0,7.0,4.0,"fraud_Heller, Gutmann and Zieme",grocery_pos,M,70858 Jasmine Meadows Apt. 135,Leo,IA,76857,"Buyer, retail",1
+98.22691,42.43626,-93.788895,1457.6754,42.41101,-94.02862,34.0,1.0,5.0,9.0,6.0,fraud_Rau and Sons,personal_care,M,40178 Lisa Mission,Phenix City,WI,56548,Tour manager,1
+89.85982,41.161545,-72.93346,32741.59,41.129875,-72.58362,63.0,23.0,10.0,5.0,5.0,"fraud_Adams, Kovacek and Kuhlman",entertainment,F,330 Montoya Ramp,Johns Island,CT,40820,Community education officer,1
+77.2461,43.714016,-72.208824,582.5358,43.31642,-71.72709,28.0,23.0,9.0,11.0,2.0,fraud_Bernhard Inc,grocery_pos,M,56812 Francis Courts,Greendale,NH,28659,Race relations officer,1
+90.37041,40.560524,-80.581314,37025.465,40.246597,-79.64093,27.0,15.0,7.0,11.0,3.0,fraud_Lesch Ltd,shopping_net,F,725 Jo Trace Apt. 102,Las Vegas,RI,48034,"Pharmacist, community",1
+108.97966,27.68012,-81.58618,81760.875,27.40541,-81.69047,35.0,0.0,27.0,11.0,4.0,fraud_McKenzie-Huels,grocery_pos,F,542 Howe Mission Apt. 092,Stittville,FL,7764,Electrical engineer,1
+102.63142,38.415886,-92.85234,665.3251,37.862354,-93.536064,52.0,15.0,20.0,3.0,2.0,fraud_Kutch and Sons,entertainment,F,8929 Phillips Corners Suite 259,Port Costa,MO,97910,Soil scientist,1
+99.024185,47.155914,-121.03481,153.68803,46.449326,-120.48101,76.0,22.0,5.0,5.0,2.0,"fraud_Nienow, Ankunding and Collier",travel,F,62931 Ralph Court,Huslia,OR,94971,Data scientist,1
+79.68283,44.236443,-90.599785,1274.3333,44.066254,-90.61879,37.0,22.0,29.0,1.0,3.0,fraud_Parisian and Sons,health_fitness,F,8973 Mark Drive,Arcadia,WI,95688,Analytical chemist,1
+99.1925,35.922592,-86.614586,379.37018,35.702675,-85.940956,57.0,0.0,27.0,10.0,5.0,fraud_Lind-Buckridge,grocery_net,F,542 Steve Curve Suite 011,Central,KY,16037,Community development worker,1
+88.04879,39.27151,-78.28194,4172.1035,38.79483,-78.2157,58.0,2.0,24.0,8.0,5.0,"fraud_Bernier, Volkman and Hoeger",food_dining,F,292 Cassidy Oval,Bolivar,DE,88256,Biomedical engineer,1
+107.68286,38.896862,-90.64531,265.865,38.55887,-90.61334,61.0,23.0,11.0,9.0,2.0,"fraud_Johnson, Runolfsdottir and Mayer",food_dining,F,495 Fisher Throughway,Tryon,IL,73669,Charity fundraiser,1
+81.06825,42.91539,-88.76406,8904.202,42.981716,-89.34892,64.0,23.0,16.0,10.0,3.0,fraud_Upton PLC,misc_pos,F,7377 Walton Extensions Apt. 979,Grifton,WI,30426,Careers adviser,1
+97.676796,41.714794,-74.51779,6456.767,41.362827,-74.49531,58.0,22.0,20.0,5.0,0.0,fraud_Heller-Abshire,grocery_pos,M,12444 Jacob Pines,Greenport,NY,31605,Petroleum engineer,1
+78.577614,45.498898,-118.9259,26006.508,45.632,-119.18874,59.0,23.0,3.0,9.0,6.0,fraud_Heaney-Marquardt,misc_net,M,7683 Natasha Way Apt. 945,Gretna,OR,98105,Dance movement psychotherapist,1
+97.33376,42.01934,-81.288185,11607.892,41.852028,-81.82512,43.0,2.0,6.0,2.0,4.0,fraud_Stark-Koss,health_fitness,M,0371 Aimee Neck Suite 856,Manistique,RI,42049,Media planner,1
+96.16743,31.247326,-107.962585,31552.682,31.423828,-108.77947,58.0,23.0,3.0,8.0,5.0,fraud_Kutch-Hegmann,health_fitness,F,31701 Tucker Square Suite 893,Avoca,AZ,29809,"Designer, exhibition/display",1
+95.98727,46.608276,-112.88861,14605.821,46.3068,-114.04906,76.0,22.0,2.0,5.0,3.0,fraud_Kozey-Kuhlman,personal_care,F,88325 Brandon Greens Apt. 477,Baton Rouge,MT,18917,Biomedical engineer,1
+97.023056,35.827766,-96.49282,91766.84,35.801643,-95.63315,67.0,22.0,29.0,12.0,0.0,fraud_Jewess LLC,misc_net,F,28311 Dennis Trace,Winslow,OK,97492,Soil scientist,1
+89.06002,49.378395,-115.21448,3619.8591,49.64837,-115.713844,65.0,15.0,30.0,11.0,5.0,fraud_Thiel-Thiel,food_dining,F,561 Little Plain Apt. 738,Ashford,ID,31632,Broadcast journalist,1
+96.42603,46.364437,-102.03148,22156.174,46.04978,-102.348755,79.0,18.0,6.0,7.0,1.0,"fraud_O'Connell, Botsford and Hand",kids_pets,F,70858 Jasmine Meadows Apt. 135,Aurora,ND,12037,Chief Operating Officer,1
+107.19985,43.365185,-107.35463,1855.7478,42.74149,-108.253204,42.0,21.0,7.0,4.0,0.0,fraud_Sporer-Keebler,shopping_pos,F,537 Rice Square Suite 040,Burlington,WY,53924,Sub,1
+98.18788,35.440815,-81.174904,26448.812,35.511116,-80.65774,58.0,21.0,25.0,2.0,0.0,fraud_Gleason and Sons,personal_care,M,49120 Regina Island Apt. 170,Ridgeland,SC,62661,Administrator,1
+78.19113,38.657364,-76.74467,1689.3132,38.382988,-77.31686,42.0,1.0,5.0,2.0,2.0,fraud_Ruecker-Mayert,grocery_pos,M,01479 Murray Circle,Nelson,DE,31630,Herpetologist,1
+108.039474,36.933098,-99.188095,2364.1238,36.65476,-98.2596,30.0,22.0,9.0,8.0,5.0,fraud_Graham and Sons,food_dining,F,702 Tabitha Drive,Harrington Park,WA,82501,"Therapist, drama",1
+82.66624,34.773907,-80.16475,19529.23,34.518314,-78.96957,64.0,23.0,6.0,3.0,3.0,fraud_Thiel Ltd,personal_care,F,209 Austin Stream Apt. 231,Greendale,NC,96103,"Therapist, art",1
+85.05385,38.264954,-94.72455,251874.53,38.16885,-95.60974,61.0,23.0,29.0,10.0,2.0,"fraud_Schaefer, McGlynn and Bosco",home,M,23656 Harris Gardens Suite 698,Omaha,KS,33040,Fisheries officer,1
+106.83276,38.65032,-89.450874,4708.066,38.932808,-89.20172,76.0,9.0,23.0,10.0,4.0,fraud_Frami Group,food_dining,F,121 Solis Summit Apt. 934,Rochester,IL,29127,Media buyer,1
+96.75951,40.163048,-97.27885,14095.723,40.046715,-96.97405,82.0,22.0,8.0,4.0,0.0,fraud_Labadie LLC,grocery_pos,F,83719 Wilson Shore,Princeton,NE,4286,Energy manager,1
+78.840096,38.689533,-97.74502,1520.1725,38.32941,-97.87442,62.0,22.0,7.0,4.0,0.0,"fraud_Larkin, Stracke and Greenfelder",personal_care,M,7854 Stephanie Island Suite 788,Jaffrey,KS,48054,Art gallery manager,1
+80.7133,38.06429,-132.00461,33990.008,38.344868,-132.34506,43.0,22.0,19.0,12.0,2.0,fraud_Kris-Weimann,health_fitness,F,126 Underwood Drive,Ozawkie,HI,24970,Herbalist,1
+92.45039,31.971054,-82.66559,2188.0808,31.899525,-82.00703,34.0,7.0,29.0,3.0,6.0,fraud_Schmitt Ltd,shopping_pos,F,526 Stacy Walks,Williamsburg,GA,20017,Financial adviser,1
+81.1502,46.001884,-110.949135,184.35101,46.406086,-110.111,40.0,22.0,3.0,5.0,3.0,fraud_Fadel Inc,misc_pos,M,4739 Martin Common,Dadeville,MT,16878,"Lecturer, higher education",1
+78.40633,26.616322,-83.135735,405743.84,26.864523,-83.092354,45.0,6.0,2.0,5.0,5.0,"fraud_Ferry, Lynch and Kautzer",entertainment,F,8829 Steele Station,Preston,FL,32784,Geophysicist/field seismologist,1
+88.343445,45.127136,-98.46794,38119.87,44.655903,-98.61054,45.0,14.0,26.0,7.0,6.0,"fraud_Christiansen, Goyette and Schamberger",food_dining,M,1976 Tyler Underpass,Las Vegas,ND,46366,Educational psychologist,1
+86.12225,40.567387,-86.240875,3000.351,40.242844,-86.4975,47.0,8.0,29.0,8.0,4.0,fraud_Langworth LLC,grocery_pos,M,731 Watson Spring,Kirtland Afb,IN,68859,Water engineer,1
+82.96282,40.766857,-72.80433,3418.586,40.949123,-71.62643,66.0,3.0,10.0,3.0,4.0,fraud_Predovic Inc,grocery_pos,F,789 Herring Manors,Moulton,CT,76008,Marketing executive,1
+89.93138,39.446377,-103.649216,609.3566,39.5547,-103.17803,48.0,22.0,17.0,6.0,3.0,fraud_Schmitt Ltd,shopping_net,M,9670 Monroe Junctions,Mount Saint Joseph,CO,8323,Public relations account executive,1
+100.72368,41.61521,-104.30869,52579.57,41.40578,-104.65045,18.0,1.0,21.0,9.0,4.0,"fraud_Rodriguez, Yost and Jenkins",gas_transport,M,5155 Mary Common Apt. 927,De Lancey,WY,24236,Seismic interpreter,1
+88.71606,40.104465,-88.27458,1628.0952,40.10192,-88.514244,58.0,23.0,24.0,5.0,2.0,"fraud_Hermiston, Pacocha and Smith",food_dining,M,86882 Desiree Camp Suite 047,Sturgis,IL,72042,"Geologist, engineering",1
+81.250114,50.3848,-121.63895,102.61457,50.139767,-122.97672,32.0,3.0,17.0,4.0,6.0,fraud_Baumbach Ltd,kids_pets,M,230 Ryan Tunnel Apt. 025,Mc Nabb,AK,28119,Barrister,1
+89.8447,37.92644,-78.2571,3210.6807,38.11892,-78.41204,34.0,7.0,4.0,6.0,3.0,"fraud_Casper, Hand and Zulauf",shopping_pos,F,08056 Alvarado Club Suite 699,Newberg,VA,98238,Insurance underwriter,1
+100.2628,38.287518,-78.895065,23143.643,38.335888,-79.54126,67.0,1.0,23.0,5.0,6.0,"fraud_Romaguera, Cruickshank and Greenholt",misc_pos,F,03030 White Lakes,El Paso,VA,47838,Structural engineer,1
+80.16227,35.734364,-81.18719,2180.4438,35.619392,-81.46499,55.0,22.0,27.0,7.0,5.0,"fraud_Willms, Kris and Bergnaum",kids_pets,M,2918 David Spurs,Lolita,DC,75490,"Engineer, civil (contracting)",1
+106.558846,36.61915,-81.854,95706.445,36.600533,-81.546684,75.0,23.0,13.0,9.0,4.0,fraud_Donnelly PLC,food_dining,F,7065 Whitney Mountains,Houston,WV,99746,Hotel manager,1
+106.560234,41.309322,-81.84301,333947.9,41.178066,-82.22986,40.0,23.0,19.0,7.0,6.0,"fraud_Medhurst, Cartwright and Ebert",food_dining,M,384 Newman Forks Apt. 370,Sacramento,OH,48850,"Designer, multimedia",1
+105.87857,43.181076,-72.05439,5719.5225,42.657875,-72.148544,100.0,2.0,5.0,11.0,4.0,fraud_Sporer Inc,grocery_pos,F,2989 Murray Inlet,Morven,NH,42731,Clothing/textile technologist,1
+81.68046,40.261616,-79.961845,2356.0718,40.412304,-80.124245,62.0,16.0,12.0,2.0,1.0,"fraud_Denesik, Powlowski and Pouros",travel,M,411 Laurie Fords,Chatham,WV,13647,Claims inspector/assessor,1
+81.70396,43.354065,-71.49054,2984.08,42.995266,-71.75829,46.0,1.0,25.0,1.0,5.0,fraud_Wisozk and Sons,health_fitness,F,32343 Saunders Course,Lanark Village,NH,58259,Arboriculturist,1
+98.83525,42.271576,-75.00993,3092.5603,41.844822,-75.74954,49.0,19.0,29.0,1.0,6.0,fraud_Weimann-Lockman,gas_transport,M,561 Perry Cove,Bonita Springs,NY,13755,Hydrogeologist,1
+96.6307,37.11934,-81.68306,8282.653,37.202965,-81.97618,61.0,23.0,22.0,2.0,6.0,fraud_Volkman Ltd,health_fitness,F,3539 Mckenzie Stream,Cokeburg,DC,14479,Biomedical scientist,1
+96.92957,39.322304,-110.96516,3949.5063,39.585793,-110.851974,66.0,3.0,23.0,9.0,2.0,fraud_Stiedemann Inc,shopping_net,F,782 Lee Crossing Apt. 209,Bowdoin,UT,48088,Insurance claims handler,1
+92.3302,38.105877,-92.475136,3614.2383,38.15693,-91.619934,64.0,2.0,29.0,9.0,1.0,"fraud_Douglas, Schneider and Turner",shopping_pos,M,44613 James Turnpike,Amsterdam,MO,35581,"Buyer, industrial",1
+97.23844,42.551502,-92.79259,2654.5703,42.726807,-92.07968,71.0,22.0,10.0,10.0,3.0,fraud_Brekke and Sons,grocery_net,M,1025 Robin Square,Meadville,IA,82227,Careers information officer,1
+81.25851,40.190617,-76.25492,2132.651,39.943756,-75.40018,68.0,22.0,20.0,5.0,0.0,fraud_Kuhic LLC,grocery_net,M,25713 Hamilton Grove Apt. 903,Wartburg,MD,83869,Corporate investment banker,1
+101.30346,39.12216,-77.5268,57151.47,39.12164,-76.90187,47.0,0.0,8.0,11.0,5.0,fraud_Barton LLC,home,F,83555 Melinda Spurs,Jay,VA,11964,"Nurse, children's",1
+83.79649,39.4533,-76.73977,48970.887,39.424976,-76.388405,41.0,0.0,16.0,5.0,6.0,fraud_Dicki Ltd,misc_net,F,144 Evans Islands Apt. 683,Riverton,MD,76248,Chief Executive Officer,1
+94.743126,35.530357,-77.92104,14266.61,35.49273,-78.20212,53.0,22.0,30.0,4.0,1.0,"fraud_Kovacek, Dibbert and Ondricka",personal_care,M,4720 Anna Ways,Rule,NC,53045,Secretary/administrator,1
+81.48196,33.77173,-102.95305,53445.348,34.447403,-105.70258,45.0,3.0,7.0,9.0,1.0,fraud_Graham and Sons,misc_pos,F,1025 Robin Square,Schaumburg,TX,46723,Theatre director,1
+87.93201,44.48637,-72.835594,369.26303,44.02863,-73.13816,56.0,1.0,25.0,4.0,5.0,fraud_Kris-Weimann,food_dining,M,13108 Jennifer Passage,Ringwood,NH,87533,Sub,1
+88.586395,40.156532,-78.595184,35429.742,39.515003,-76.86765,50.0,11.0,15.0,5.0,2.0,fraud_Barton LLC,grocery_pos,M,32745 Silva Springs Suite 040,Heiskell,DE,29455,Nutritional therapist,1
+86.01003,34.92777,-81.31022,7959.6997,34.98663,-81.02847,89.0,22.0,28.0,9.0,6.0,fraud_Berge-Ullrich,grocery_pos,F,3305 Angel Grove Apt. 465,Madisonville,SC,39769,Stage manager,1
+92.45084,46.270535,-99.333595,16806.266,45.975292,-99.38949,52.0,23.0,25.0,4.0,5.0,"fraud_Becker, Harris and Harvey",shopping_net,F,7854 Stephanie Island Suite 788,Guthrie,ND,15834,IT trainer,1
+96.20455,32.833447,-110.33674,29247.334,32.899982,-110.7165,53.0,3.0,23.0,5.0,3.0,"fraud_Feil, Hilpert and Koss",personal_care,F,63991 Destiny Rue Apt. 651,Cowlesville,AZ,75210,Research scientist (physical sciences),1
+103.158585,35.857513,-86.77298,95891.73,35.638092,-87.33261,40.0,1.0,20.0,3.0,2.0,fraud_Predovic Inc,shopping_net,M,5812 Ramos Oval Suite 598,Chester,TN,57374,Dancer,1
+80.27354,46.300323,-108.49451,1974.2212,46.21113,-107.754944,60.0,22.0,21.0,3.0,3.0,"fraud_Roob, Conn and Tremblay",kids_pets,M,956 Sanchez Highway,Coulee Dam,WY,49895,Orthoptist,1
+80.76008,35.76324,-79.78936,322.3054,36.03156,-78.691185,59.0,4.0,6.0,7.0,5.0,"fraud_Roberts, Ryan and Smith",health_fitness,M,624 Hale Springs Apt. 572,Jones,NC,45879,Hospital doctor,1
+89.91941,28.064863,-81.93279,2351085.8,27.443298,-82.053505,60.0,2.0,26.0,4.0,5.0,fraud_Kirlin and Sons,shopping_pos,M,28925 Powell Mountains Apt. 762,Aurora,FL,88355,"Designer, exhibition/display",1
+78.87566,38.67936,-90.36279,4030.4746,38.332134,-90.52679,29.0,23.0,3.0,8.0,5.0,fraud_Waelchi-Wolf,entertainment,M,686 Linda Rest,Lonsdale,IL,15056,Visual merchandiser,1
+98.598076,38.433388,-76.719025,68603.94,38.579678,-77.0282,43.0,14.0,21.0,2.0,3.0,fraud_Vandervort-Funk,travel,F,9554 Flores Drive,Belgrade,MD,48214,Energy manager,1
+97.029785,40.80953,-82.29701,14903.592,40.466152,-82.745926,37.0,1.0,22.0,11.0,5.0,fraud_Vandervort-Funk,misc_net,M,010 Salazar Walk,Crouse,OH,78248,Science writer,1
+107.11202,42.35197,-73.6711,85.54122,42.107048,-73.79012,57.0,2.0,21.0,6.0,6.0,fraud_Friesen-Stamm,food_dining,F,2123 Jonathan Falls Suite 753,Port Costa,CT,35049,Pensions consultant,1
+98.81221,39.3302,-89.05745,6130.17,39.590385,-89.73711,54.0,22.0,24.0,5.0,6.0,fraud_Hickle Group,shopping_net,F,68276 Matthew Springs,Kings Bay,IL,28530,Optometrist,1
+107.233444,36.322178,-85.38519,595.13727,36.53344,-84.880875,80.0,22.0,26.0,9.0,3.0,"fraud_Hagenes, Kohler and Hoppe",shopping_net,M,210 Dean Causeway Suite 130,Harrodsburg,TN,22824,"Nurse, mental health",1
+78.37399,46.014076,-114.04571,1147.4126,46.002472,-113.07814,52.0,20.0,16.0,12.0,3.0,"fraud_Feil, Hilpert and Koss",entertainment,F,433 Blake Roads Suite 967,Whigham,MT,14733,"Engineer, site",1
+78.99737,43.687027,-92.7028,1285.8954,43.683643,-92.80622,31.0,8.0,30.0,7.0,1.0,fraud_Kihn-Schuster,shopping_pos,M,26544 Andrea Glen,Hedley,WI,99116,Artist,1
+91.61834,38.221516,-96.61362,16171.102,38.001312,-95.982086,55.0,22.0,17.0,10.0,6.0,fraud_Turner and Sons,entertainment,F,8149 Harris Divide,Rossville,KS,44307,"Engineer, electronics",1
+96.65664,43.94261,-89.49258,2013.9637,43.794243,-89.243645,76.0,3.0,28.0,5.0,2.0,fraud_Miller-Hauck,personal_care,F,2851 Foster Shoals,Walnut Ridge,WI,34120,Freight forwarder,1
+97.93026,38.400414,-91.475555,773.3078,37.662766,-91.36097,83.0,23.0,9.0,7.0,1.0,fraud_O'Connell-Ullrich,health_fitness,M,8611 Tricia Fork,Clune,MO,95528,Textile designer,1
+97.184395,27.988178,-90.56619,100383.56,27.767157,-90.84502,62.0,2.0,25.0,8.0,4.0,"fraud_Osinski, Ledner and Leuschke",shopping_pos,F,62130 Miller Square Suite 785,Claremont,LA,81642,"Journalist, newspaper",1
+80.66278,39.470406,-92.38077,213.82504,39.55027,-90.31817,47.0,17.0,8.0,11.0,6.0,"fraud_Greenholt, Jacobi and Gleason",grocery_net,M,23220 Eaton Harbors,Moscow,MO,49775,Chief Technology Officer,1
+82.06349,43.13067,-87.458206,3150.8389,43.653255,-88.26324,56.0,1.0,3.0,11.0,0.0,fraud_Boyer-Reichert,entertainment,F,7618 Gonzales Mission,Methuen,MI,63131,Furniture designer,1
+89.26992,45.736874,-111.692,1453.3666,46.38785,-110.905556,69.0,3.0,16.0,11.0,0.0,fraud_Heidenreich PLC,shopping_net,M,92213 Lee Well,Palmyra,ID,87540,Fine artist,1
+96.85535,35.127674,-92.54209,447.71484,35.290924,-91.52263,72.0,22.0,18.0,2.0,6.0,fraud_Cassin-Harvey,personal_care,M,046 Michelle Fort Suite 314,Lahoma,AR,87417,Product designer,1
+81.668274,38.01438,-106.987404,26603.156,37.745373,-107.24537,51.0,22.0,27.0,5.0,0.0,fraud_Boyer-Haley,kids_pets,M,97405 Vazquez Plains,East Rochester,CO,43767,"Psychologist, sport and exercise",1
+88.17856,38.521736,-90.65706,36466.13,38.723076,-90.36363,64.0,8.0,19.0,5.0,6.0,fraud_Macejkovic-Lesch,food_dining,M,386 James Roads Apt. 233,Manley,IL,5486,Town planner,1
+83.67003,42.894787,-99.62155,16005.7705,43.223892,-100.688614,50.0,3.0,19.0,2.0,3.0,"fraud_Olson, Becker and Koch",shopping_pos,M,5323 Walker Island,Nokomis,SD,34668,Corporate investment banker,1
+83.28968,39.76558,-95.20236,163.13557,39.578533,-93.85145,61.0,1.0,14.0,10.0,0.0,fraud_Kovacek Ltd,shopping_pos,M,969 Huerta Path Apt. 270,Summerfield,AL,80824,"Psychologist, forensic",1
+81.94337,41.176487,-74.26274,1675.0183,40.83344,-74.76955,43.0,2.0,19.0,2.0,0.0,"fraud_Heathcote, Yost and Kertzmann",grocery_net,F,5939 Garcia Forges Suite 297,Dell City,NY,7747,Water quality scientist,1
+95.31808,36.600735,-108.10648,1227.1316,36.4914,-108.1633,47.0,21.0,13.0,2.0,2.0,fraud_Prohaska-Murray,health_fitness,F,589 Matthew Brooks,Claypool,NM,97377,Commissioning editor,1
+92.38781,38.966995,-120.89379,2601.536,38.680527,-121.067245,56.0,3.0,26.0,6.0,2.0,"fraud_Moore, Williamson and Emmerich",shopping_net,F,9579 Porter Tunnel,Edinburg,CA,8324,Data scientist,1
+80.77992,36.601704,-85.560265,857.6145,36.761906,-85.15581,81.0,23.0,18.0,8.0,5.0,fraud_Pacocha-Bauch,health_fitness,M,046 Michelle Fort Suite 314,Clutier,TN,57426,Advertising account planner,1
+108.34078,38.10581,-78.54112,359.14957,37.721283,-78.63356,20.0,22.0,13.0,11.0,5.0,"fraud_Lehner, Reichert and Mills",home,M,901 Todd Gardens Apt. 466,Red Cliff,MD,65072,Landscape architect,1
+80.54068,41.30167,-75.750275,560.2845,41.414787,-75.20462,27.0,22.0,3.0,4.0,4.0,fraud_Berge-Ullrich,health_fitness,F,7369 Gabriel Tunnel,Clarinda,NY,74047,Network engineer,1
+91.71215,48.74701,-117.85512,41.60473,48.38688,-117.417725,46.0,16.0,14.0,4.0,1.0,fraud_Mante Group,home,M,3270 Scott Islands,Sheffield,AK,68869,Building services engineer,1
+80.42474,38.277676,-80.02999,701.45654,37.882996,-80.67951,58.0,8.0,28.0,3.0,6.0,fraud_Wisozk and Sons,kids_pets,M,371 Anthony Trail Suite 354,June Lake,WV,39653,Primary school teacher,1
+96.47906,41.836273,-112.99374,153.13472,41.25987,-112.279526,64.0,4.0,13.0,10.0,1.0,"fraud_Reilly, Heaney and Cole",kids_pets,F,7340 Mcgrath Islands,Mc Cracken,WA,54499,Further education lecturer,1
+95.21044,35.258377,-83.486,41018.48,35.640514,-84.232704,60.0,0.0,26.0,4.0,1.0,fraud_Kiehn-Emmerich,health_fitness,M,08932 Bonnie Stravenue,Methuen,SC,26292,Air traffic controller,1
+105.815445,47.565247,-101.18171,262.5183,47.7213,-100.27828,69.0,1.0,17.0,7.0,4.0,fraud_Fritsch and Sons,grocery_pos,F,4739 Martin Common,Afton,ND,62856,Camera operator,1
+78.33188,40.125305,-110.942245,87125.83,40.332947,-112.99516,44.0,9.0,30.0,12.0,1.0,fraud_Daugherty LLC,misc_net,F,490 Baldwin Alley Apt. 468,Arlington,WY,68117,"Geneticist, molecular",1
+77.3503,44.999622,-112.034294,843.30273,45.778946,-110.3937,59.0,22.0,21.0,10.0,3.0,fraud_Kutch LLC,entertainment,M,193 Catherine Ways,Mount Morris,AK,42731,Theme park manager,1
+80.87864,42.926155,-74.48138,14181.741,43.035305,-74.12422,54.0,5.0,5.0,11.0,4.0,fraud_Hackett-Lueilwitz,personal_care,M,862 Anderson Highway,North Las Vegas,NY,71854,Regulatory affairs officer,1
+96.41725,27.859863,-94.525604,30362.898,27.453098,-96.80325,82.0,13.0,26.0,6.0,2.0,"fraud_Douglas, Schneider and Turner",grocery_pos,F,7402 West Ranch,Daniels,TX,23523,Chief Operating Officer,1
+90.23958,39.949997,-74.581985,10906.053,39.80213,-73.9391,42.0,22.0,25.0,7.0,3.0,fraud_McGlynn-Jaskolski,shopping_net,F,1976 Tyler Underpass,Stayton,NJ,12534,Energy manager,1
+79.19112,44.12382,-92.21213,160.51054,44.73703,-91.97096,49.0,23.0,6.0,2.0,3.0,fraud_Lynch-Mohr,personal_care,M,3645 Atkins Island Apt. 238,Hedley,WI,73564,Scientific laboratory technician,1
+77.29809,36.28214,-83.3678,1212.1465,35.962723,-81.63672,20.0,23.0,18.0,10.0,4.0,"fraud_Hahn, Douglas and Schowalter",shopping_pos,M,13956 Hughes Causeway Suite 124,Hannawa Falls,SC,72529,Chartered public finance accountant,1
+96.083694,32.8421,-84.08845,2818.339,33.051987,-84.183716,71.0,23.0,19.0,5.0,1.0,fraud_Pouros-Conroy,personal_care,F,95017 Kevin Expressway,Maria Stein,GA,74875,"Scientist, biomedical",1
+105.06125,32.643585,-93.975075,4408.122,32.7517,-94.39545,74.0,3.0,5.0,5.0,0.0,fraud_Waelchi Inc,home,M,875 Amy Point,Providence,LA,48043,"Scientist, clinical (histocompatibility and immunogenetics)",1
+77.39743,46.01366,-123.45957,551.0711,46.99852,-123.12189,54.0,4.0,26.0,6.0,6.0,fraud_Schiller Ltd,entertainment,F,376 John Fork Suite 848,Sheffield,OR,84087,Land/geomatics surveyor,1
+108.44981,40.905243,-87.46391,168.10638,40.736286,-86.83662,55.0,22.0,4.0,6.0,4.0,fraud_Kub PLC,home,F,6744 Jimmy Extensions,Bowdoin,IN,76008,"Surveyor, mining",1
+100.45052,38.40773,-73.93106,399.7377,37.707855,-73.91061,53.0,7.0,4.0,9.0,6.0,fraud_Friesen Ltd,misc_pos,M,0005 Morrison Land,Collettsville,MD,67038,Building surveyor,1
+77.24383,39.18262,-82.403656,62757.336,39.011177,-83.15181,85.0,4.0,17.0,4.0,4.0,fraud_Heller-Langosh,entertainment,F,9588 Cox Rapid Apt. 257,Center Point,OH,53910,"Administrator, local government",1
+91.212265,41.18815,-72.82578,566.037,40.6427,-73.1345,69.0,22.0,19.0,2.0,1.0,fraud_Terry-Huel,home,M,2851 Foster Shoals,Comfort,CT,33510,Economist,1
+98.48099,38.90918,-129.79463,4045.4507,39.01848,-130.06041,48.0,2.0,2.0,3.0,4.0,fraud_Yost-Rogahn,personal_care,F,748 Bryan Fields Suite 935,Senatobia,HI,96727,Education administrator,1
+80.97474,37.848454,-101.62104,169.30296,37.91472,-100.53326,33.0,23.0,19.0,9.0,5.0,"fraud_Mueller, Gerhold and Mueller",travel,F,79472 Stevens Trace Apt. 120,Barnstable,WA,35764,Systems developer,1
+100.40622,30.65623,-99.23683,3868.2117,30.565289,-99.0921,59.0,3.0,6.0,11.0,1.0,fraud_Thiel PLC,travel,F,1323 Derek Mission,Malad City,TX,15923,Architect,1
+87.21238,45.03309,-92.30915,835.13916,44.8333,-91.60879,24.0,22.0,6.0,4.0,6.0,fraud_McGlynn-Heathcote,entertainment,M,408 Bradley Rest,Tamaroa,MN,51006,Multimedia programmer,1
+98.317276,44.836796,-102.7534,410.4224,45.345272,-102.438484,55.0,12.0,4.0,8.0,2.0,fraud_McDermott-Rice,health_fitness,F,056 Anthony Creek Suite 406,High Rolls Mountain Park,ND,27837,Dispensing optician,1
+104.725914,35.03525,-106.67718,296.2555,35.636726,-107.444855,62.0,23.0,28.0,3.0,5.0,fraud_Barton Inc,grocery_pos,F,2064 Tyler Fork,Bynum,NV,29661,"Scientist, research (physical sciences)",1
+89.31004,37.441563,-84.388176,1693.5348,37.392143,-85.360085,45.0,13.0,29.0,2.0,4.0,"fraud_Streich, Rolfson and Wilderman",shopping_pos,M,7644 Joseph Fields,Lohrville,KY,85173,Oceanographer,1
+97.416046,36.80962,-93.037186,23907.156,37.040184,-92.86091,30.0,19.0,4.0,6.0,4.0,fraud_Goyette Inc,kids_pets,F,9486 Joel Common Suite 554,Providence,AR,46322,Warehouse manager,1
+88.81506,43.370995,-112.098656,18091.197,43.819717,-110.99977,71.0,3.0,18.0,1.0,6.0,"fraud_Greenfelder, Bartoletti and Davis",grocery_pos,M,50872 Alex Plain Suite 088,Hawthorne,AK,15449,Equities trader,1
+105.86079,43.289387,-90.8794,24259.35,43.247253,-90.78668,48.0,0.0,24.0,12.0,0.0,"fraud_Hermiston, Russel and Price",food_dining,F,1976 Tyler Underpass,Winter,WI,89109,Press sub,1
+89.36876,38.084988,-127.499344,8832.349,38.04451,-128.11984,33.0,3.0,15.0,4.0,0.0,fraud_Treutel-King,shopping_pos,F,2161 Blankenship Freeway,Cokeburg,HI,60072,Applications developer,1
+101.88802,37.348537,-96.63618,16035.901,36.989132,-97.163,48.0,22.0,18.0,4.0,6.0,fraud_Huel-Langworth,grocery_pos,M,7314 Johnson Square Apt. 296,Nanuet,KS,11964,"Conservator, furniture",1
+78.89703,46.14515,-117.48996,7778.91,45.61756,-116.80658,69.0,7.0,11.0,2.0,5.0,fraud_Mosciski Group,misc_net,M,7281 Joshua Mills Apt. 077,Noonan,OR,1330,Retail banker,1
+82.831726,36.239056,-86.18603,931.4702,36.091473,-86.07768,83.0,22.0,6.0,10.0,1.0,fraud_Kihn-Fritsch,entertainment,M,55505 Christy Via,Corsica,TN,63336,Drilling engineer,1
+81.62756,33.673466,-111.98182,42446.125,33.530323,-113.0786,56.0,3.0,18.0,3.0,2.0,"fraud_Koss, McLaughlin and Mayer",misc_pos,F,7309 Sophia Causeway Suite 702,Saxon,AZ,60072,Clinical research associate,1
+84.91145,35.761066,-85.67375,49933.96,35.389088,-85.30265,73.0,21.0,27.0,10.0,5.0,"fraud_Schoen, Kuphal and Nitzsche",food_dining,F,4602 Lopez Glens Suite 900,Heart Butte,TN,45307,Medical physicist,1
+96.6674,38.201523,-78.343056,5969.135,38.40849,-78.78949,54.0,18.0,4.0,2.0,1.0,fraud_Bins-Rice,personal_care,F,4923 Campbell Pines Suite 717,Smackover,PA,84087,Catering manager,1
+82.55608,36.143456,-122.35838,1971.518,36.662518,-122.6535,69.0,22.0,19.0,4.0,6.0,fraud_Miller-Harris,entertainment,F,31701 Tucker Square Suite 893,Bethel Springs,CA,49895,Art therapist,1
+77.68573,33.934113,-79.73453,2027.2424,33.535824,-79.456085,28.0,8.0,14.0,8.0,0.0,fraud_Heidenreich PLC,grocery_pos,F,3304 Hernandez Run,Du Pont,SC,84532,Transport planner,1
+83.732796,41.458378,-73.30951,17453.605,42.09593,-72.59768,54.0,2.0,13.0,11.0,3.0,"fraud_Hintz, Bauch and Smith",travel,M,477 Alejandro Knolls Suite 828,Alexandria,MA,75703,Horticultural therapist,1
+106.17871,46.347298,-114.73344,220.83835,46.391953,-115.56286,76.0,10.0,7.0,12.0,6.0,fraud_Halvorson Group,shopping_pos,M,9824 Mitchell Run,Grand Junction,ID,43985,Osteopath,1
+90.26704,41.736862,-71.80109,1869.6432,41.90827,-71.37933,80.0,22.0,19.0,3.0,5.0,"fraud_Adams, Kovacek and Kuhlman",shopping_pos,F,4602 Lopez Glens Suite 900,Palmdale,ME,84002,Careers information officer,1
+95.83043,38.477177,-76.64812,3879.0828,38.691734,-76.17144,48.0,21.0,25.0,2.0,0.0,fraud_McGlynn-Heathcote,kids_pets,F,31472 Cody Place Suite 740,Hannawa Falls,MD,89109,Optometrist,1
+90.744995,39.98515,-81.73465,3355.059,40.01585,-81.724655,65.0,18.0,3.0,1.0,3.0,"fraud_Terry, Johns and Bins",home,F,35822 Clayton Street Apt. 679,Central,RI,41101,Public house manager,1
+107.21167,44.046543,-76.5917,296.08008,43.759487,-77.2085,40.0,22.0,28.0,9.0,6.0,fraud_Abernathy and Sons,food_dining,M,69459 Rachel Prairie Apt. 850,Powell,NY,32565,Primary school teacher,1
+109.39563,42.7834,-120.335846,426.06686,42.21416,-120.62405,64.0,23.0,12.0,2.0,2.0,fraud_Kuhn Group,home,M,542 Steve Curve Suite 011,Grand Junction,OR,61335,"Loss adjuster, chartered",1
+80.01766,38.78151,-73.72462,50383.33,38.419033,-72.80521,48.0,23.0,18.0,10.0,4.0,fraud_Lemke-Gutmann,personal_care,F,3638 Marsh Union,Glendale,NJ,19007,Trade mark attorney,1
+98.912926,34.557484,-108.164795,4000.414,34.355587,-108.38974,65.0,2.0,22.0,9.0,2.0,fraud_Volkman Ltd,misc_pos,M,1497 West Gateway,Nokomis,NV,14445,Social researcher,1
+89.47578,39.703697,-80.03405,154.01714,39.5913,-80.11784,44.0,18.0,23.0,5.0,5.0,fraud_Bins-Tillman,food_dining,F,3786 Hale Corners,Brashear,VA,79237,Advertising copywriter,1
+81.83784,40.18717,-92.07571,8714.994,40.157604,-92.87583,70.0,22.0,10.0,8.0,5.0,fraud_Greenholt Ltd,kids_pets,F,24809 Cross Creek,Gadsden,IA,7750,Paramedic,1
+106.06873,47.289936,-94.75757,106.4658,47.480225,-94.49815,65.0,22.0,5.0,7.0,3.0,fraud_Turner LLC,grocery_pos,M,72966 Shannon Pass Apt. 391,Fullerton,MN,89319,Television floor manager,1
+83.17296,46.51235,-112.81382,2611.9138,46.25962,-113.02068,76.0,3.0,19.0,3.0,3.0,fraud_Beier and Sons,entertainment,F,3307 Ferguson Way,Dieterich,ID,18357,Insurance claims handler,1
+81.07432,35.241886,-82.3619,15770.568,35.120724,-82.2188,42.0,5.0,18.0,12.0,1.0,"fraud_Monahan, Bogisich and Ledner",travel,F,138 Stephen Ridges Apt. 978,Hedrick,SC,20017,Travel agency manager,1
+106.654594,43.95034,-84.59101,9545.683,43.921566,-85.00246,50.0,2.0,2.0,2.0,6.0,"fraud_Koss, McLaughlin and Mayer",food_dining,M,26544 Andrea Glen,Methuen,MI,45896,Learning mentor,1
+81.69536,43.166466,-91.18266,31.285221,42.98394,-91.17416,67.0,3.0,21.0,9.0,6.0,fraud_Heller-Langosh,kids_pets,F,7618 Gonzales Mission,Greenbush,WI,15920,"Engineer, automotive",1
+79.33441,45.914753,-119.3734,3015.5051,46.024048,-119.1738,25.0,4.0,30.0,6.0,1.0,fraud_Roob-Okuneva,health_fitness,F,508 Erin Mount,Washington,OR,43408,Probation officer,1
+96.04426,35.949184,-93.95361,424517.0,35.69467,-93.99389,21.0,19.0,9.0,4.0,3.0,fraud_Schmidt-Larkin,grocery_net,M,9612 Robert Light Apt. 340,Warren,AR,35211,Press sub,1
+95.45127,35.66753,-97.33061,10615.377,36.012,-97.18084,54.0,23.0,13.0,10.0,6.0,fraud_Jast Ltd,health_fitness,M,98897 Bennett Lodge,Mc Intosh,OK,55403,Writer,1
+89.92175,41.271248,-72.98959,761.22766,40.54187,-71.426605,74.0,4.0,6.0,7.0,5.0,fraud_Turner and Sons,shopping_pos,F,0110 Ashley Forest,White Sulphur Springs,CT,97375,"Engineer, technical sales",1
+100.11969,39.406956,-87.25145,423.7565,39.19782,-87.850525,49.0,3.0,15.0,10.0,2.0,fraud_McDermott-Rice,gas_transport,M,180 Graves Shore,Burbank,IL,16362,Heritage manager,1
+97.72866,37.32485,-127.67692,31512.805,37.54587,-126.978874,70.0,6.0,22.0,11.0,4.0,"fraud_Schaefer, Maggio and Daugherty",grocery_net,F,086 Pierce Cove,Parker,HI,97753,Jewellery designer,1
+90.454796,40.357204,-73.829666,67519.77,40.26219,-73.501434,52.0,5.0,19.0,2.0,3.0,fraud_Beier and Sons,shopping_net,F,0356 Sarah Light,Hawley,NJ,1257,Theatre director,1
+79.10242,37.16284,-78.714035,2402.2583,37.096375,-78.887665,38.0,22.0,20.0,5.0,1.0,fraud_Champlin and Sons,health_fitness,M,27823 Andrew Underpass Suite 948,Halma,NC,73034,"Editor, magazine features",1
+96.253044,45.834923,-112.678276,39198.746,45.95677,-112.04712,70.0,17.0,14.0,9.0,5.0,fraud_Torp-Labadie,gas_transport,M,7507 Larry Passage Suite 859,Chattanooga,ID,30257,"Engineer, manufacturing",1
+82.39996,39.172638,-78.25405,561431.0,38.841984,-79.093155,65.0,3.0,28.0,5.0,4.0,fraud_Thiel-Thiel,misc_net,M,5045 Emily Wall,San Antonio,DE,97441,"Scientist, research (physical sciences)",1
+86.68941,37.223522,-77.19308,7464.0957,37.67247,-77.0932,52.0,23.0,26.0,5.0,4.0,fraud_Jast Ltd,shopping_pos,F,44197 Jeffrey Port Suite 050,Azusa,MD,1330,Lexicographer,1
+80.62502,32.65339,-97.94237,1175.7866,32.357296,-97.8736,72.0,9.0,9.0,8.0,5.0,fraud_Bartoletti and Sons,personal_care,F,737 Thomas Wall Apt. 502,Coleman,TX,64686,Forest/woodland manager,1
+92.641754,43.311516,-83.121994,53591.63,43.10621,-83.99008,58.0,23.0,10.0,3.0,1.0,"fraud_Willms, Kris and Bergnaum",shopping_net,M,0947 Kelly Courts,Romulus,MI,44307,"Editor, commissioning",1
+99.23202,46.462772,-114.82586,1233.2031,46.923523,-114.856606,25.0,23.0,15.0,2.0,1.0,fraud_Hirthe-Beier,travel,F,40624 Rebecca Spurs,Holliday,ID,28654,"Exhibitions officer, museum/gallery",1
+97.85934,34.970203,-86.84206,40551.84,35.311947,-87.53272,48.0,3.0,18.0,5.0,5.0,fraud_Cummerata-Hilpert,travel,M,31472 Cody Place Suite 740,Ridgeland,TN,77566,TEFL teacher,1
+82.231636,45.134373,-73.056786,89.199356,45.404945,-71.73984,49.0,22.0,2.0,10.0,5.0,"fraud_Ruecker, Beer and Collier",misc_pos,M,3512 Knight Center,Karnack,ME,56549,Hydrogeologist,1
+79.481064,37.24236,-81.40541,874.3246,37.407955,-81.04198,42.0,23.0,20.0,11.0,6.0,fraud_Kutch and Sons,health_fitness,M,880 Andrea Greens Suite 241,Murrayville,DC,63021,Horticultural therapist,1
+79.540764,42.745193,-72.10679,79.816444,43.115936,-72.43696,43.0,22.0,7.0,3.0,3.0,fraud_Heaney-Marquardt,kids_pets,M,2918 David Spurs,Brooklin,MA,58015,Professor Emeritus,1
+96.888954,30.93519,-82.098145,4716.809,30.79659,-81.89039,69.0,22.0,12.0,3.0,3.0,"fraud_Jones, Sawayn and Romaguera",gas_transport,F,43576 Kristina Islands,Cross Plains,GA,38915,Geoscientist,1
+98.66687,25.945711,-81.62635,30885.242,25.645828,-80.87008,33.0,0.0,29.0,5.0,3.0,fraud_Bartoletti and Sons,grocery_net,M,065 Jones Stravenue,Smock,FL,45801,Acupuncturist,1
+102.55095,29.832535,-89.66935,1451.9774,29.744278,-90.57863,74.0,4.0,17.0,9.0,3.0,fraud_Rau-Robel,shopping_net,M,572 Davis Mountains,Ash Flat,LA,15449,Tourist information centre manager,1
+100.608055,43.71753,-75.59968,842.5124,43.259083,-75.36271,37.0,1.0,13.0,2.0,4.0,fraud_Gleason and Sons,travel,F,40178 Lisa Mission,Allenhurst,VT,84532,Manufacturing engineer,1
+87.22521,40.534252,-77.56099,2220.572,40.247257,-78.07133,54.0,15.0,28.0,11.0,3.0,fraud_Erdman-Schaden,home,M,86882 Desiree Camp Suite 047,Haines City,DE,2630,Insurance underwriter,1
+98.15582,31.484182,-111.7148,53045.664,31.402056,-112.08055,61.0,3.0,16.0,9.0,3.0,"fraud_Welch, Rath and Koepp",health_fitness,M,23220 Eaton Harbors,Richland,AZ,16314,"Administrator, education",1
+98.355545,35.491936,-96.94488,5306.826,35.03865,-96.61355,36.0,15.0,16.0,7.0,2.0,fraud_Jakubowski Group,health_fitness,M,70761 Fitzpatrick Brooks Suite 631,Sturgis,OK,48438,Tourism officer,1
+109.950966,36.21744,-112.81091,22127.096,36.933083,-113.850784,70.0,2.0,10.0,9.0,2.0,fraud_Reichert-Weissnat,shopping_net,F,507 John Overpass Suite 424,West Columbia,NV,47032,Secondary school teacher,1
+89.37005,34.435078,-79.457275,2072.5547,34.36589,-79.66672,46.0,22.0,15.0,5.0,2.0,fraud_Friesen-Ortiz,entertainment,M,3645 Atkins Island Apt. 238,Wever,NC,46366,Immigration officer,1
+82.14758,47.48886,-100.062004,332.0539,46.914047,-100.567856,49.0,22.0,11.0,9.0,2.0,fraud_Lesch Ltd,home,F,949 Smith Parkway,Manor,ND,51521,Probation officer,1
+94.42477,39.7154,-76.363304,139681.72,39.538395,-76.07239,43.0,22.0,10.0,3.0,0.0,fraud_Roob-Okuneva,personal_care,M,083 Karen Island Apt. 656,Beacon,PA,35022,Environmental health practitioner,1
+79.137146,41.11882,-74.115845,852650.3,41.244076,-73.60015,31.0,22.0,10.0,9.0,2.0,"fraud_Mante, Luettgen and Hackett",personal_care,M,010 Weaver Land,Kansas City,NJ,3818,IT trainer,1
+91.796844,36.69154,-80.24102,86454.81,35.64906,-81.29603,43.0,23.0,11.0,11.0,1.0,fraud_Morissette-Schaefer,entertainment,F,445 Jerry Lights Apt. 081,Denham Springs,DC,86329,Licensed conveyancer,1
+96.07568,26.324417,-83.03379,39549.355,26.30613,-81.80671,52.0,23.0,30.0,1.0,3.0,fraud_Kris-Kertzmann,kids_pets,F,854 Walker Dale Suite 488,Mifflin,FL,62075,"Engineer, maintenance",1
+86.552704,41.042606,-99.61945,95.07222,41.270565,-100.19345,67.0,2.0,23.0,5.0,5.0,fraud_Deckow-Dare,shopping_net,M,3603 Mitchell Court,Mulberry Grove,NE,31042,"Geologist, engineering",1
+88.12206,39.758648,-70.41854,9265.686,39.769825,-70.86028,62.0,23.0,7.0,1.0,1.0,fraud_Dooley-Thompson,food_dining,M,04975 Allison Shoal,Seligman,MA,96038,Administrator,1
+86.281006,30.528576,-90.8896,1588.3485,30.083986,-91.589584,82.0,22.0,24.0,10.0,5.0,fraud_Fisher Inc,grocery_pos,M,766 Potter Well,West Green,LA,99783,"Designer, multimedia",1
+82.08135,39.969402,-78.713875,1710.8798,39.362343,-78.74869,61.0,23.0,12.0,3.0,1.0,"fraud_Monahan, Hermann and Johns",misc_net,F,03030 White Lakes,North Judson,PA,15458,Immigration officer,1
+107.378204,38.20402,-77.740425,115385.984,38.39083,-78.126335,37.0,0.0,3.0,6.0,1.0,"fraud_Medhurst, Cartwright and Ebert",food_dining,F,821 Solis Points,Goodrich,VA,67232,Warden/ranger,1
+97.41721,34.939026,-85.854935,25391.934,34.769836,-86.80371,51.0,1.0,26.0,1.0,6.0,fraud_Jacobi Inc,personal_care,F,4940 Donald Throughway Apt. 219,Stanchfield,TN,21405,Technical brewer,1
+80.90574,42.061394,-73.57186,370.30652,42.067596,-72.52708,39.0,7.0,28.0,7.0,5.0,"fraud_Roberts, Ryan and Smith",gas_transport,F,982 Melissa Lock,Lomax,MA,16034,Theatre manager,1
+96.466644,43.448307,-111.658875,360.78906,43.012436,-111.41753,72.0,18.0,10.0,11.0,5.0,fraud_Collier LLC,personal_care,F,95488 Cabrera Well,Damascus,ID,6782,"Therapist, music",1
+81.07503,39.42074,-74.23458,8738.875,39.19918,-73.57492,92.0,23.0,13.0,2.0,2.0,"fraud_Roberts, Daniel and Macejkovic",kids_pets,M,5745 Blair Locks,Atglen,MA,96776,"Engineer, aeronautical",1
+79.38208,39.903084,-74.04736,7174.2725,39.788628,-74.14178,66.0,22.0,5.0,2.0,2.0,fraud_Kemmer-Reinger,health_fitness,M,0495 Baker Manors,Battle Creek,NJ,59014,Naval architect,1
+105.46519,40.121815,-85.55449,1415029.4,39.942356,-86.40394,44.0,22.0,19.0,11.0,1.0,"fraud_Schumm, McLaughlin and Carter",food_dining,M,6114 Moran Way,Newark Valley,IN,72042,"Therapist, sports",1
+78.06571,31.73072,-84.23745,7984.1523,31.690645,-83.07054,77.0,22.0,16.0,2.0,1.0,"fraud_Roberts, Ryan and Smith",entertainment,M,6638 Lucero Mill Suite 952,Altonah,GA,78208,Commercial/residential surveyor,1
+79.91554,34.77124,-106.027374,657.47076,35.63107,-106.389946,63.0,5.0,1.0,8.0,6.0,"fraud_Heathcote, Yost and Kertzmann",health_fitness,F,6458 Roberson Alley,Campbell,NV,19456,Bookseller,1
+80.88809,36.524994,-86.49763,1623.5293,36.158516,-86.945625,33.0,11.0,27.0,4.0,0.0,"fraud_Weber, Thiel and Hammes",gas_transport,M,477 Wheeler Burg,Nokomis,TN,97377,Volunteer coordinator,1
+92.36599,41.600925,-99.38588,65447.312,41.45167,-100.17547,55.0,23.0,25.0,2.0,2.0,"fraud_Mante, Luettgen and Hackett",grocery_pos,M,44951 Williams Brooks,Hewitt,KS,14707,Environmental consultant,1
+96.62405,36.99184,-85.05193,4227.7544,37.700886,-85.05307,59.0,22.0,24.0,9.0,2.0,fraud_Frami Group,health_fitness,M,1497 West Gateway,Hudson,KY,48438,Dancer,1
+98.56228,40.4827,-82.65934,407.51685,39.956966,-82.470825,54.0,2.0,12.0,4.0,0.0,fraud_Huel Ltd,gas_transport,F,1025 Robin Square,Kirby,OH,46346,Podiatrist,1
+89.52713,37.002823,-86.333374,118452.39,36.958363,-86.884636,40.0,2.0,8.0,9.0,6.0,fraud_Runte-Mohr,entertainment,F,1233 Sutton Road Suite 701,Washoe Valley,TN,46322,Broadcast engineer,1
+82.22862,36.30303,-82.10713,15577.046,35.894157,-82.18487,39.0,0.0,12.0,9.0,5.0,fraud_Dietrich-Fadel,grocery_net,M,3595 Susan Island Suite 063,Port Costa,DC,10463,Dancer,1
+88.70592,42.94118,-100.56852,922.65985,42.783264,-100.83357,40.0,23.0,13.0,7.0,5.0,"fraud_Greenfelder, Bartoletti and Davis",food_dining,F,36659 Smith Club Apt. 080,Nicholson,SD,67020,Education administrator,1
+82.04551,35.527798,-96.24848,33183.36,35.263508,-96.358955,89.0,2.0,26.0,11.0,1.0,fraud_Corwin-Romaguera,misc_pos,M,13776 Hicks Plains,Iselin,OK,63131,Contracting civil engineer,1
+92.383934,37.659004,-84.40756,1751.867,37.52275,-84.12379,46.0,23.0,11.0,2.0,0.0,fraud_Rippin-VonRueden,shopping_pos,M,651 Miller Common,Uledi,KY,70531,Geochemist,1
+97.39399,39.693638,-120.00438,408.39966,39.723022,-119.71087,54.0,15.0,25.0,2.0,0.0,"fraud_Hahn, Douglas and Schowalter",gas_transport,M,06730 Joshua Isle Suite 555,Liberty Mills,CA,33873,Civil Service fast streamer,1
+90.02248,42.20081,-70.52292,175198.22,41.833485,-70.87374,48.0,23.0,18.0,9.0,2.0,fraud_Kautzer and Sons,shopping_net,M,053 Kim Valley Suite 928,Houston,ME,34120,Chief Strategy Officer,1
+89.75954,30.934835,-84.46647,3404.845,30.657612,-84.18864,69.0,3.0,14.0,12.0,5.0,fraud_Gerhold LLC,shopping_net,M,6366 French Field,Dell City,GA,41836,"Scientist, research (physical sciences)",1
+89.83764,36.818848,-88.66013,27185.84,36.871204,-89.57506,54.0,22.0,5.0,6.0,4.0,fraud_Volkman PLC,food_dining,F,8425 Daniel Knolls Suite 288,Orange Park,GA,13367,Lawyer,1
+86.533875,32.433384,-98.986115,238.11269,32.30842,-98.58209,40.0,23.0,12.0,9.0,4.0,fraud_Harris Inc,misc_net,F,383 Long Islands,Sturgis,TX,57439,English as a second language teacher,1
+92.61912,33.30566,-82.16845,1030.1985,33.18923,-81.79187,70.0,22.0,7.0,8.0,4.0,fraud_Romaguera Ltd,shopping_net,M,0925 Lang Extensions,Rhame,SC,43723,Naval architect,1
+80.53586,38.661587,-84.83918,4673.5947,38.69862,-84.11837,47.0,22.0,27.0,2.0,0.0,fraud_Erdman-Kertzmann,kids_pets,M,04611 Sandra Spring Suite 059,Walnut Ridge,KY,54229,Race relations officer,1
+95.887566,45.381683,-112.76135,5136.932,45.437134,-112.97312,48.0,22.0,26.0,9.0,3.0,"fraud_Raynor, Reinger and Hagenes",personal_care,F,321 Camacho Causeway,Matthews,ID,91702,Product manager,1
+90.358864,37.89011,-109.29185,2174.9585,37.692078,-109.55663,61.0,17.0,7.0,3.0,0.0,fraud_Champlin-Casper,shopping_pos,F,682 Mills Way Apt. 814,Vancouver,NM,16114,Chief Financial Officer,1
+81.157646,40.42745,-78.56089,2322.238,41.514297,-76.99601,97.0,22.0,21.0,7.0,0.0,"fraud_Medhurst, Cartwright and Ebert",travel,F,50932 Neal Valley,Sturgis,PA,59871,Phytotherapist,1
+86.84011,32.17879,-81.21136,45947.793,31.741154,-80.74439,55.0,23.0,27.0,11.0,4.0,fraud_Abbott-Rogahn,shopping_pos,M,83555 Melinda Spurs,Saint Petersburg,GA,52535,Furniture conservator/restorer,1
+98.77809,34.061604,-86.56294,10681.92,34.076294,-86.4783,45.0,23.0,19.0,2.0,1.0,"fraud_Streich, Dietrich and Barton",shopping_net,M,81261 Garcia Underpass Suite 741,New Boston,AL,45106,Chiropodist,1
+96.70098,35.191532,-110.47514,48470.7,35.421005,-110.7513,68.0,22.0,12.0,8.0,2.0,fraud_Beer-Jast,personal_care,M,616 Jimenez Meadow Apt. 701,Providence,NV,12508,IT consultant,1
+79.92025,39.64078,-90.50546,249913.47,39.67182,-89.60972,61.0,21.0,19.0,4.0,3.0,fraud_Hyatt-Blick,travel,F,2788 Brittney Island,Des Moines,IL,12460,"Social research officer, government",1
+77.94524,33.2074,-87.03386,19889.602,32.11628,-85.79034,40.0,0.0,4.0,3.0,1.0,"fraud_Runolfsdottir, Mueller and Hand",grocery_pos,M,7421 Serrano Lane Apt. 580,Malad City,AL,31630,IT consultant,1
+101.00915,36.42018,-95.556145,216.02913,36.14403,-96.4419,100.0,22.0,20.0,2.0,4.0,fraud_Bernier and Sons,grocery_pos,F,369 Cochran Radial,Meredith,OK,29324,Patent attorney,1
+83.07204,40.87409,-99.79524,157.99571,41.22217,-100.27979,33.0,3.0,26.0,8.0,0.0,fraud_Harber Inc,travel,F,40624 Rebecca Spurs,Leonard,NE,8350,Community development worker,1
+95.433426,37.90449,-115.18656,15876.253,38.38139,-115.946785,44.0,23.0,8.0,10.0,2.0,"fraud_Lind, Huel and McClure",kids_pets,M,5537 Jessica Plaza,Grover,CA,46290,Marketing executive,1
+80.75399,43.50861,-90.27458,2659.762,43.583458,-90.093155,53.0,19.0,19.0,5.0,6.0,"fraud_Schuppe, Nolan and Hoeger",gas_transport,M,08056 Alvarado Club Suite 699,Farmington,WI,33813,Land/geomatics surveyor,1
+81.94135,41.840504,-99.65384,53.200485,41.39967,-99.49731,72.0,22.0,18.0,7.0,5.0,fraud_Botsford PLC,home,F,787 Allen Mount,Keisterville,NE,73669,Video editor,1
+92.117805,34.739758,-121.00053,36561.652,34.78046,-121.46792,35.0,21.0,8.0,7.0,2.0,fraud_Cummerata-Jones,entertainment,M,08966 Beltran Route Suite 905,Ronceverte,CA,80014,"Therapist, occupational",1
+80.53333,42.895004,-75.99347,551.66003,43.14784,-75.066345,67.0,22.0,12.0,1.0,6.0,"fraud_Rodriguez, Yost and Jenkins",health_fitness,F,5273 Joseph Isle Suite 518,Apison,NY,95528,Volunteer coordinator,1
+85.876045,47.518402,-112.937584,2864.502,47.309868,-112.155655,28.0,23.0,10.0,6.0,0.0,fraud_Kirlin and Sons,shopping_net,M,393 Carroll Route Suite 197,San Jose,ID,39439,"Exhibitions officer, museum/gallery",1
+98.445984,38.907475,-110.494835,650.4666,38.78701,-110.15056,43.0,1.0,21.0,11.0,3.0,fraud_Schimmel-Olson,personal_care,M,6033 Young Track Suite 804,Bradley,UT,58531,"Education officer, community",1
+107.264725,37.41914,-137.91806,3742.3225,37.35328,-137.37965,50.0,23.0,17.0,4.0,2.0,"fraud_Nienow, Barrows and Romaguera",food_dining,M,6983 Carrillo Isle,Bethel Springs,HI,16839,Operations geologist,1
+89.51884,36.854115,-105.97828,10618.81,36.593426,-106.759834,69.0,23.0,11.0,7.0,3.0,fraud_Howe Ltd,shopping_pos,F,793 Hooper Tunnel Suite 154,Shippingport,NM,8830,Mudlogger,1
+81.40758,37.36432,-91.10573,3402.0754,37.18704,-91.513695,72.0,3.0,18.0,10.0,5.0,fraud_Lind-Buckridge,gas_transport,F,663 Ramirez Trace Apt. 951,Downey,MO,40914,Communications engineer,1
+89.54224,35.50686,-86.007225,5927.2695,35.305862,-85.80879,67.0,2.0,13.0,10.0,2.0,"fraud_Tillman, Fritsch and Schmitt",food_dining,M,86542 Jessica Fords Apt. 706,Pewee Valley,TN,97753,Leisure centre manager,1
+89.45537,39.983326,-111.194244,840.7248,39.662277,-112.465324,71.0,14.0,22.0,10.0,0.0,fraud_Gleason-Macejkovic,shopping_net,M,53142 Katrina Roads Suite 889,Tickfaw,UT,6441,Public relations account executive,1
+81.37548,40.394524,-73.707634,34954.266,40.47364,-75.35618,83.0,12.0,19.0,11.0,5.0,fraud_Cassin-Harvey,kids_pets,F,6905 Hutchinson Inlet,Phenix City,MA,68950,"Editor, commissioning",1
+98.93279,32.893173,-110.33305,6550.466,33.40236,-111.43884,52.0,2.0,7.0,3.0,1.0,fraud_Lockman Ltd,grocery_net,F,822 Austin Spur,Ridgeland,AZ,32725,"Buyer, industrial",1
+79.86259,35.952904,-88.81905,13000.727,35.779003,-88.76941,62.0,22.0,7.0,8.0,5.0,"fraud_Haley, Batz and Auer",grocery_net,M,6881 King Isle Suite 228,Jay,AL,45896,Call centre manager,1
+81.97201,41.59174,-96.945404,25486.555,41.711876,-97.72447,33.0,1.0,10.0,2.0,0.0,fraud_Reichert-Weissnat,misc_pos,F,77663 Colleen Freeway,Bailey,IA,48706,Market researcher,1
+95.21833,33.88368,-89.55079,228941.6,34.312973,-88.97187,70.0,15.0,4.0,3.0,1.0,fraud_Roob-Okuneva,gas_transport,F,330 Montoya Ramp,Mound City,MS,67584,"Production assistant, television",1
+79.2545,40.779835,-99.59934,2847.097,40.827602,-99.636856,49.0,23.0,21.0,11.0,3.0,fraud_Turcotte-Halvorson,health_fitness,F,06808 Ryan Valleys,Cadiz,NE,37138,Charity fundraiser,1
+97.77669,33.33503,-87.56025,2085.3926,33.038113,-88.36266,60.0,22.0,26.0,3.0,5.0,"fraud_Becker, Harris and Harvey",travel,M,212 Mary Stream,Sea Island,AL,48154,"Engineer, technical sales",1
+82.66879,35.166645,-97.01002,4961.7583,34.993565,-98.18017,43.0,2.0,27.0,6.0,1.0,fraud_Bins-Tillman,travel,M,980 Smith Gardens,Stirling,OK,13755,Operations geologist,1
+97.30939,44.78045,-116.5134,595.9807,44.354317,-113.99362,40.0,22.0,1.0,3.0,1.0,fraud_Stiedemann Inc,travel,M,1499 Michael Rue,Powell Butte,MT,54559,Dance movement psychotherapist,1
+81.07808,36.906914,-80.374245,508.28894,36.756477,-80.16338,55.0,3.0,6.0,11.0,5.0,fraud_Kutch-Hegmann,health_fitness,F,8829 Steele Station,Tomales,NC,46723,Claims inspector/assessor,1
+78.35409,34.718372,-86.282364,2873.6301,34.877728,-86.04117,65.0,22.0,6.0,4.0,6.0,fraud_Reichel Inc,personal_care,M,519 Jerry Views,Mulberry Grove,TN,41101,"Engineer, land",1
+86.74487,32.837463,-110.41152,8448.741,33.130375,-111.11631,48.0,1.0,13.0,2.0,0.0,"fraud_Lang, Towne and Schuppe",shopping_pos,F,248 James Squares Apt. 838,De Queen,AZ,74536,Acupuncturist,1
+86.80556,49.11009,-116.7011,9188.531,49.531853,-116.945114,47.0,18.0,3.0,6.0,2.0,"fraud_Zieme, Bode and Dooley",shopping_pos,M,9345 Spencer Junctions Suite 183,Wetmore,OR,46366,Insurance claims handler,1
+83.545006,39.262474,-77.244705,1209.4116,37.838802,-78.26537,66.0,23.0,21.0,4.0,2.0,"fraud_Schoen, Kuphal and Nitzsche",shopping_net,F,36366 Smith Road,Varnell,MD,42701,"Conservator, furniture",1
+79.2927,42.389175,-105.559074,227.60245,42.44798,-105.98392,60.0,23.0,9.0,8.0,6.0,"fraud_Kilback, Nitzsche and Leffler",health_fitness,F,426 Mark Ports,Corsica,WY,84540,Radio producer,1
+88.63139,38.791794,-86.703255,1274.8691,38.9815,-86.60502,51.0,23.0,20.0,7.0,0.0,"fraud_Klocko, Runolfsdottir and Breitenberg",food_dining,M,1652 James Mews,Ozawkie,KY,56138,Sports development officer,1
+89.437645,40.86583,-78.392136,3094.8801,40.819664,-78.38031,57.0,3.0,11.0,7.0,5.0,fraud_Gutmann-Upton,grocery_pos,M,431 Tracy Expressway,Mound City,MD,97377,Biomedical scientist,1
+110.63039,35.116844,-86.92689,31875.463,35.49045,-85.77927,72.0,6.0,11.0,7.0,5.0,"fraud_Cole, Hills and Jewess",shopping_net,M,2076 Thomas Roads Suite 970,Ridge Spring,TN,23666,Broadcast presenter,1
+96.87924,47.15408,-72.39755,2821.7625,47.270397,-72.63629,32.0,0.0,5.0,11.0,3.0,fraud_Schaefer Ltd,grocery_pos,M,033 Tara Brook Suite 523,Wetmore,ME,28901,"Engineer, communications",1
+80.03103,38.909866,-99.273415,1007.86395,38.803364,-98.857254,52.0,22.0,17.0,5.0,2.0,fraud_Deckow-O'Conner,gas_transport,F,5517 Stacy Land,Ironton,KS,76631,Biomedical scientist,1
+88.79922,46.830914,-94.33531,574.1854,46.508553,-94.904274,63.0,23.0,22.0,6.0,5.0,fraud_Skiles-Ankunding,food_dining,F,709 George Underpass Apt. 080,Juliette,MN,64630,Public relations officer,1
+98.249054,39.673424,-83.06571,677.89716,39.652733,-82.39617,77.0,22.0,16.0,9.0,0.0,"fraud_Johnson, Runolfsdottir and Mayer",health_fitness,M,06730 Joshua Isle Suite 555,Thida,OH,4074,"Geneticist, molecular",1
+87.412575,33.049274,-110.75098,272.98447,33.11969,-110.59129,58.0,4.0,20.0,7.0,6.0,fraud_Cummings Group,food_dining,M,16744 Campbell Wall Apt. 372,Grenola,AZ,45860,IT consultant,1
+97.24701,37.510464,-78.2802,99.08067,37.51269,-78.090904,50.0,2.0,11.0,2.0,1.0,fraud_Kerluke-Abshire,grocery_pos,F,2677 Byrd Village Suite 035,Achille,DE,51453,"Development worker, international aid",1
+80.69445,44.35854,-113.77156,14922.736,45.022842,-112.6746,30.0,14.0,17.0,4.0,3.0,"fraud_Zemlak, Tillman and Cremin",gas_transport,F,133 Alyssa Plains,Brooklyn,AK,56152,Television/film/video producer,1
+87.37055,44.97083,-99.5872,617551.9,45.204685,-99.34861,56.0,3.0,19.0,9.0,6.0,fraud_Price Inc,home,M,6274 David Oval Suite 725,Wittenberg,SD,41812,"Engineer, aeronautical",1
+97.71609,37.60391,-77.67349,185363.47,37.262917,-76.77614,68.0,21.0,28.0,11.0,4.0,fraud_Haley Group,gas_transport,M,754 Elliott Creek,Johns Island,VA,60913,Company secretary,1
+78.39648,27.586178,-83.33588,9695.697,27.707281,-83.48376,59.0,22.0,4.0,3.0,4.0,"fraud_Kutch, Steuber and Gerhold",kids_pets,M,0582 Williams Isle Apt. 039,Coyle,FL,59448,Osteopath,1
+97.58264,40.035065,-81.17434,113129.06,40.08287,-81.87407,57.0,22.0,20.0,11.0,2.0,fraud_Connelly PLC,kids_pets,M,330 Montoya Ramp,Meridian,OH,48154,"Engineer, petroleum",1
+97.91489,33.924908,-80.94419,3396.8577,33.9898,-80.776375,65.0,23.0,12.0,9.0,3.0,fraud_Fritsch and Sons,misc_pos,M,72030 Shelton Crossing Apt. 742,Mobile,SC,40209,Energy engineer,1
+81.27514,41.010918,-108.894875,42901.285,40.966377,-109.01947,55.0,2.0,26.0,8.0,3.0,fraud_Schimmel-Olson,kids_pets,F,728 Randolph Causeway Suite 894,Paradise Valley,UT,44902,Chief Financial Officer,1
+80.664345,33.083656,-87.216995,3544.0496,33.344456,-87.783195,63.0,2.0,12.0,1.0,0.0,"fraud_Gottlieb, Considine and Schultz",gas_transport,M,3270 Scott Islands,Athena,AL,35896,"Surveyor, land/geomatics",1
+99.38853,37.029858,-98.01408,4266.574,36.98428,-98.021,23.0,22.0,22.0,6.0,5.0,fraud_Lynch-Wisozk,misc_pos,M,72966 Shannon Pass Apt. 391,Clifton,OK,91702,"Surveyor, rural practice",1
+96.23608,38.346413,-75.67879,1645.5616,38.60885,-75.59992,47.0,23.0,4.0,10.0,5.0,fraud_Goyette-Gerhold,kids_pets,F,20938 Barbara Viaduct,Kissee Mills,MD,92561,Interior and spatial designer,1
+90.24532,33.118465,-79.90394,16673.053,33.479084,-78.59492,50.0,3.0,14.0,2.0,1.0,fraud_Corwin-Romaguera,shopping_pos,M,0005 Morrison Land,Seligman,NC,53129,Osteopath,1
+80.024536,39.28797,-81.246864,22565.793,39.029182,-81.363014,65.0,21.0,25.0,3.0,0.0,"fraud_Kihn, Brakus and Goyette",gas_transport,M,13776 Hicks Plains,Dubre,RI,68031,Fine artist,1
+88.804184,41.166546,-82.00914,838.9018,41.44454,-81.93619,59.0,22.0,28.0,7.0,0.0,"fraud_Runolfsdottir, Mueller and Hand",food_dining,F,674 Maureen Summit Apt. 276,Rule,RI,1330,Data scientist,1
+80.73918,40.293423,-72.10742,1699.6398,40.25599,-71.68975,56.0,6.0,10.0,5.0,5.0,fraud_Terry-Huel,grocery_net,F,25887 Martin Inlet,South Richmond Hill,CT,80138,Careers adviser,1
+80.13364,32.65226,-88.46392,886.4181,33.08468,-87.471054,100.0,23.0,14.0,10.0,0.0,fraud_Carroll PLC,health_fitness,M,89871 Woodard Spring Suite 714,North Washington,MS,74108,"Therapist, art",1
+98.120224,46.416878,-115.28455,17496.754,46.625446,-116.2294,41.0,16.0,11.0,12.0,2.0,fraud_Jakubowski Inc,travel,F,9572 Austin Forge Suite 612,Bronx,ID,94619,Chartered loss adjuster,1
+80.36621,45.46211,-118.16031,4178.5117,45.220264,-118.47904,68.0,22.0,3.0,11.0,4.0,fraud_Stark-Koss,kids_pets,M,8425 Daniel Knolls Suite 288,Haines City,OR,35651,Chiropodist,1
+90.108894,30.866297,-91.11379,32876.574,30.076853,-91.72314,58.0,23.0,3.0,3.0,4.0,fraud_Kilback LLC,shopping_pos,F,5270 Megan Burg Suite 756,May,LA,82072,Dancer,1
+88.05583,39.34708,-114.810555,5696.242,39.502068,-116.048065,55.0,13.0,17.0,12.0,0.0,"fraud_Kerluke, Considine and Macejkovic",grocery_pos,M,06808 Ryan Valleys,North Las Vegas,UT,49629,Aid worker,1
+107.4437,35.603848,-98.30101,57986.086,35.39054,-98.86975,58.0,22.0,23.0,2.0,6.0,fraud_O'Keefe-Hudson,food_dining,M,7838 Jason Squares,Mineral,OK,65680,"Geneticist, molecular",1
+94.46045,39.092663,-130.05157,1423.2155,39.00363,-130.15529,46.0,22.0,9.0,5.0,5.0,fraud_Emmerich-Rau,kids_pets,F,4177 Rosales Summit Apt. 973,Thida,HI,15686,"Investment banker, operational",1
+81.300995,30.819344,-83.72675,3573.009,30.356691,-83.49837,73.0,22.0,20.0,11.0,2.0,"fraud_Baumbach, Hodkiewicz and Walsh",health_fitness,F,4215 Miranda Field Suite 326,Ozawkie,GA,76048,"Surveyor, hydrographic",1
+101.51505,39.67583,-88.71881,75358.14,39.543663,-88.91241,81.0,23.0,12.0,8.0,2.0,fraud_Kiehn-Emmerich,home,F,034 Kimberly Mountains,Topeka,IL,13342,Chief of Staff,1
+96.829926,34.87393,-105.5194,6778.5806,35.202076,-106.6326,39.0,4.0,29.0,10.0,5.0,fraud_Frami Group,kids_pets,F,3872 Matthew Skyway,Westport,NM,87417,"Engineer, manufacturing",1
+82.46616,41.54097,-72.842186,378.1166,41.15243,-73.100006,49.0,0.0,4.0,12.0,2.0,fraud_Ruecker-Mayert,misc_net,F,1499 Michael Rue,Harrodsburg,MA,46702,Prison officer,1
+82.05949,34.242496,-88.056404,5202.774,34.120186,-87.5502,34.0,3.0,27.0,9.0,6.0,fraud_Ruecker-Mayert,home,F,731 Watson Spring,Sheffield,AL,33872,Sales executive,1
+82.92676,32.134068,-91.504715,2110.1282,32.479267,-93.271904,38.0,3.0,15.0,2.0,1.0,"fraud_Parisian, Schiller and Altenwerth",misc_pos,M,25748 John Wells,Mountain Park,MS,35811,Freight forwarder,1
+79.720505,26.941278,-81.72006,4397667.5,26.998863,-81.40558,73.0,23.0,6.0,5.0,4.0,fraud_Kiehn Inc,health_fitness,F,7911 Campbell Crossing Apt. 725,Eugene,FL,17850,Media planner,1
+92.65265,39.61737,-86.93511,528.706,39.486595,-87.473404,79.0,22.0,18.0,6.0,3.0,fraud_Doyle Ltd,shopping_net,F,257 Victor Stravenue,Summerfield,KY,76240,Television production assistant,1
+83.47304,39.174194,-89.83304,62729.152,39.646557,-89.500946,48.0,22.0,8.0,11.0,6.0,fraud_Kuhic Inc,entertainment,F,0356 Sarah Light,Hinesburg,IL,20017,Electronics engineer,1
+85.55967,45.868484,-112.995094,472.95068,45.93208,-112.38162,39.0,3.0,3.0,8.0,0.0,fraud_Smith-Stokes,entertainment,F,941 Adam Stravenue,Kittery Point,ID,32442,Chiropodist,1
+98.76896,37.47144,-78.43579,111115.53,37.531845,-77.7849,71.0,3.0,16.0,10.0,3.0,fraud_Kilback and Sons,personal_care,F,5053 Bell Crescent Apt. 255,Johns Island,VA,33760,Information systems manager,1
+89.19321,38.500263,-80.683136,21680.916,38.10186,-80.669716,66.0,22.0,6.0,5.0,1.0,fraud_Herman Inc,food_dining,F,3423 Michael Canyon Suite 276,Meridian,WV,87109,Charity fundraiser,1
+86.56414,34.92054,-91.67414,67083.9,35.4672,-91.595505,59.0,17.0,27.0,7.0,6.0,fraud_Schimmel-Olson,shopping_pos,M,83555 Melinda Spurs,Kensington,AR,53228,Community pharmacist,1
+97.93715,30.31927,-83.308,15175.861,30.789185,-82.96833,74.0,21.0,21.0,6.0,6.0,"fraud_Baumbach, Strosin and Nicolas",gas_transport,M,9886 Anita Drive,Claremont,GA,11944,Systems developer,1
+97.29387,37.885403,-110.73178,1105.0771,37.44638,-111.53733,57.0,10.0,7.0,4.0,0.0,fraud_Erdman-Ebert,kids_pets,F,1831 Faith View Suite 653,Hartford,UT,36758,Records manager,1
+98.201744,35.882378,-125.08182,5059.1816,35.54111,-126.27227,97.0,23.0,28.0,7.0,5.0,"fraud_Larson, Quitzon and Spencer",personal_care,F,17355 Mendoza Bypass Suite 059,Matthews,HI,25049,"Editor, commissioning",1
+108.50388,39.878345,-86.42567,375.85587,39.756786,-86.44301,47.0,2.0,7.0,3.0,4.0,"fraud_Rodriguez, Yost and Jenkins",food_dining,M,6807 Jacob Skyway Apt. 331,Amorita,IN,29081,"Lecturer, further education",1
+82.213776,44.701164,-91.18927,43174.23,44.742527,-91.91515,36.0,1.0,4.0,3.0,1.0,"fraud_Becker, Harris and Harvey",entertainment,M,9579 Porter Tunnel,Metairie,MN,76248,Hydrographic surveyor,1
+80.73431,35.59989,-93.40846,2836.1013,35.591827,-93.63072,61.0,23.0,27.0,8.0,0.0,fraud_Wuckert-Goldner,kids_pets,M,194 Goodman Fall Apt. 569,Leetsdale,AR,52576,Hydrologist,1
+97.9039,39.677597,-80.589226,5794.814,39.668835,-79.93614,62.0,22.0,17.0,9.0,0.0,"fraud_Swaniawski, Lowe and Robel",health_fitness,M,290 Kathryn Fall,Canton,WV,72341,Warehouse manager,1
+108.30273,38.91945,-77.63581,7106.8403,38.00098,-76.30134,69.0,17.0,2.0,10.0,2.0,fraud_Bernier and Sons,grocery_pos,F,670 Le Meadows Suite 250,Falconer,MD,47842,"Scientist, physiological",1
+87.398285,40.106617,-98.1795,237.97522,39.7155,-97.44267,46.0,2.0,11.0,6.0,3.0,fraud_Terry Ltd,shopping_pos,F,7644 Joseph Fields,Morrisdale,NE,53045,"Engineer, agricultural",1
+89.21149,38.546513,-92.53531,241036.05,38.51274,-92.715515,57.0,1.0,17.0,6.0,3.0,"fraud_Kilback, Nitzsche and Leffler",food_dining,F,20788 Johnson Crest,Meadville,IL,11768,Broadcast engineer,1
+96.49979,38.105648,-78.23067,19070.1,38.131157,-78.165054,36.0,7.0,26.0,4.0,3.0,fraud_Haag-Blanda,kids_pets,M,933 Martin Rapids,Guthrie,VA,62262,"Scientist, marine",1
+79.86644,39.997032,-77.39587,4937.4204,40.14158,-76.87261,51.0,22.0,19.0,5.0,5.0,fraud_Lemke-Gutmann,personal_care,M,7178 Willis Drive,Apison,DE,58769,Broadcast engineer,1
+102.31278,29.802235,-92.10823,60980.44,29.828772,-92.211914,64.0,20.0,25.0,10.0,6.0,"fraud_Labadie, Treutel and Bode",shopping_net,F,321 Camacho Causeway,Stirling,LA,20776,Osteopath,1
+109.740654,34.85749,-87.87671,4863.3105,34.547184,-88.2951,59.0,22.0,23.0,3.0,1.0,"fraud_Reilly, Heaney and Cole",food_dining,M,611 Michael Rue,East Canaan,AL,99160,Arts development officer,1
+78.943756,35.736797,-87.11552,31399.436,35.69517,-86.964,59.0,23.0,10.0,2.0,6.0,fraud_Wiza LLC,entertainment,F,056 Anthony Creek Suite 406,Tyler,TN,40170,Plant breeder/geneticist,1
+82.18823,33.15215,-87.24636,11270.485,33.25339,-87.69739,56.0,2.0,26.0,2.0,0.0,fraud_Schuppe LLC,misc_pos,M,728 Randolph Causeway Suite 894,Schaefferstown,AL,59632,English as a foreign language teacher,1
+97.974335,39.49902,-84.28953,724.42084,39.0363,-84.147514,75.0,15.0,11.0,8.0,6.0,fraud_Pacocha-Bauch,health_fitness,F,874 Fred Knolls Apt. 609,Gibsonville,IN,97014,Public librarian,1
+78.9979,34.18656,-88.96345,5036.2437,34.10294,-89.07509,60.0,23.0,9.0,3.0,1.0,fraud_Huel-Langworth,health_fitness,F,6385 Donald Square Suite 429,Hubbell,AL,62668,Barrister's clerk,1
+94.76413,39.06245,-73.454544,11638.478,39.20127,-73.99124,43.0,23.0,28.0,2.0,3.0,fraud_Koss and Sons,health_fitness,F,433 John Heights Apt. 849,Romulus,NJ,36758,Maintenance engineer,1
+97.13188,42.183834,-71.387146,308.9097,41.852016,-71.43251,34.0,22.0,16.0,3.0,0.0,"fraud_Becker, Harris and Harvey",misc_net,F,00315 Ashley Valleys,Ashfield,MA,54559,Product/process development scientist,1
+79.02801,44.194237,-119.80019,32190.43,44.112587,-120.28266,81.0,23.0,14.0,8.0,4.0,fraud_Fadel Inc,personal_care,F,1833 Jeanette Stravenue,Saint Paul,OR,20776,Claims inspector/assessor,1
+81.352264,39.698853,-97.285576,478.77258,39.76023,-96.92708,57.0,13.0,20.0,10.0,6.0,"fraud_Towne, Walker and Borer",travel,M,05597 Michael Spurs,Marienville,KS,57036,Acupuncturist,1
+85.24232,44.049263,-71.56043,17180.111,43.838665,-71.816605,62.0,22.0,21.0,2.0,4.0,fraud_Mraz-Herzog,home,M,956 Sanchez Highway,Las Vegas,NH,28901,Building services engineer,1
+82.4014,39.80621,-87.255455,82.9625,39.34575,-87.20597,45.0,12.0,26.0,9.0,5.0,"fraud_Lind, Huel and McClure",kids_pets,M,408 Bradley Rest,Lonsdale,IN,72059,Land/geomatics surveyor,1
+91.69296,36.0683,-98.3531,2679.9836,36.21986,-97.0477,38.0,22.0,3.0,5.0,4.0,fraud_Marvin-Lind,grocery_pos,F,02110 Lucas Freeway Suite 517,Greenville,WA,12508,English as a foreign language teacher,1
+85.15062,39.25958,-109.808914,39836.223,38.816902,-110.421875,58.0,3.0,24.0,4.0,4.0,"fraud_Armstrong, Walter and Gottlieb",home,M,433 Blake Roads Suite 967,Ruckersville,UT,13425,Rural practice surveyor,1
+80.76998,48.068466,-112.18607,55.076145,47.90775,-112.02035,71.0,22.0,3.0,5.0,3.0,fraud_Eichmann-Kilback,travel,F,787 Allen Mount,Stayton,MT,18246,Radio producer,1
+79.358894,40.392567,-97.34067,942.5843,40.037346,-97.746025,37.0,23.0,18.0,2.0,4.0,fraud_McCullough LLC,personal_care,M,2622 Reynolds Isle,Darien,KS,54441,Product/process development scientist,1
+98.292656,44.08394,-74.17931,305.9594,43.814407,-73.890594,61.0,3.0,13.0,2.0,3.0,"fraud_Kihn, Brakus and Goyette",gas_transport,F,75952 Wilson Course,Kingsville,NH,76566,Insurance underwriter,1
+79.850365,39.05058,-103.43732,416.67545,39.069443,-102.43749,35.0,23.0,29.0,4.0,2.0,"fraud_Prosacco, Kreiger and Kovacek",health_fitness,F,2123 Jonathan Falls Suite 753,Pearlington,CO,54559,"Buyer, retail",1
+92.37209,42.09423,-87.441605,851.5106,41.594715,-87.73173,65.0,22.0,5.0,10.0,1.0,fraud_Abshire PLC,shopping_pos,F,478 Donovan Corners Apt. 803,Montandon,IN,54499,Sports development officer,1
+92.53773,40.753548,-83.177925,1717.6381,40.339508,-82.96705,58.0,22.0,9.0,6.0,1.0,"fraud_Hyatt, Russel and Gleichner",shopping_pos,M,426 Mark Ports,Marienville,OH,74536,Museum education officer,1
+96.05398,45.32172,-95.480354,7273.2886,45.00552,-95.83846,31.0,22.0,3.0,8.0,5.0,fraud_Kuphal-Bartoletti,kids_pets,M,9331 Robert Passage Suite 327,Norwalk,MN,17051,"Physicist, medical",1
+99.08296,41.66542,-106.35962,3747.6667,41.238834,-105.186226,70.0,7.0,16.0,12.0,2.0,fraud_Schmitt Ltd,personal_care,M,08056 Alvarado Club Suite 699,Paulding,CO,11769,Chief Marketing Officer,1
+82.21255,43.864647,-109.510895,2365.9844,43.369762,-109.24891,41.0,9.0,21.0,7.0,6.0,fraud_Dibbert and Sons,gas_transport,F,03368 Michelle Trail,West Columbia,ID,12092,Aeronautical engineer,1
+96.93863,38.72694,-77.38543,139904.89,38.65878,-77.226555,29.0,23.0,20.0,3.0,4.0,"fraud_Schaefer, McGlynn and Bosco",shopping_net,M,7535 Amanda Manors Suite 293,Paradise Valley,VA,55403,"Sales professional, IT",1
+81.11335,41.258385,-101.48111,1831.6798,40.92561,-101.229034,58.0,23.0,28.0,12.0,5.0,fraud_Miller-Harris,misc_pos,M,1299 Joshua Plains,Clune,SD,82936,Stage manager,1
+108.335884,30.318878,-89.42591,2424914.8,30.189964,-91.1307,46.0,15.0,25.0,3.0,0.0,fraud_Bruen-Yost,food_dining,F,44089 Carrie Crossing Suite 954,Oklahoma City,LA,31632,"Scientist, marine",1
+77.30295,39.660786,-91.042564,413.19965,39.636635,-90.530525,80.0,5.0,29.0,6.0,0.0,fraud_Gulgowski LLC,grocery_pos,F,63502 Brown Road Apt. 318,Grenola,IL,56549,"Engineer, civil (consulting)",1
+79.21047,36.216473,-79.27349,208358.4,36.454433,-79.00793,62.0,16.0,26.0,9.0,4.0,"fraud_Kling, Howe and Schneider",health_fitness,F,5045 Emily Wall,Wittenberg,NC,33811,Communications engineer,1
+82.17938,41.30574,-95.57344,9676.537,41.42474,-97.41843,62.0,3.0,21.0,11.0,6.0,"fraud_Nienow, Barrows and Romaguera",misc_pos,F,0495 Baker Manors,Manley,IA,51003,Licensed conveyancer,1
+89.89843,38.92466,-77.912315,2023.1421,38.53381,-77.72828,71.0,21.0,5.0,7.0,4.0,"fraud_Lubowitz, Terry and Stracke",shopping_net,M,25713 Hamilton Grove Apt. 903,Dell City,VA,72751,Environmental health practitioner,1
+109.37426,36.00904,-136.68134,3030.4927,36.292545,-137.83186,38.0,14.0,2.0,3.0,2.0,fraud_Kilback LLC,home,F,28812 Charles Mill Apt. 628,Moab,HI,36749,"Editor, film/video",1
+86.54189,32.887966,-90.250496,1304.9512,33.00067,-89.987625,28.0,22.0,12.0,7.0,6.0,"fraud_Hauck, Dietrich and Funk",misc_net,F,3638 Marsh Union,Rockwood,MS,45150,Civil Service fast streamer,1
+88.87512,38.490936,-122.44668,42609.25,38.67523,-123.408394,73.0,22.0,16.0,7.0,1.0,fraud_Kub PLC,shopping_net,M,153 Mccullough Springs Apt. 857,Sachse,CA,20036,"Designer, exhibition/display",1
+86.33842,43.415764,-71.5659,447450.72,43.303646,-71.89665,69.0,22.0,11.0,7.0,5.0,fraud_Schroeder Group,shopping_pos,M,03090 Fisher Forges Apt. 200,Phelps,NH,54154,Curator,1
+88.44541,40.82353,-82.07432,11679.298,40.66904,-82.31479,34.0,22.0,25.0,9.0,3.0,fraud_Kutch-Wilderman,food_dining,M,558 Michael Estates,Eldridge,OH,4210,Structural engineer,1
+90.79321,33.081326,-108.55391,22.586248,34.34944,-107.8951,54.0,23.0,17.0,2.0,5.0,fraud_Schumm PLC,entertainment,F,8088 Sherman Radial Suite 689,Olmsted,NV,15458,"Engineer, materials",1
+89.63329,40.698128,-76.785095,872.09814,39.55946,-75.63416,64.0,23.0,10.0,8.0,6.0,"fraud_Wintheiser, Dietrich and Schimmel",shopping_pos,F,2788 Brittney Island,Early,PA,74536,Video editor,1
+109.356895,40.955982,-79.1502,1470.0703,40.624874,-79.0244,37.0,23.0,21.0,9.0,6.0,"fraud_Bahringer, Schoen and Corkery",food_dining,F,97405 Vazquez Plains,Crouse,PA,39840,Marketing executive,1
+110.52472,41.987236,-75.83848,496.8964,41.53533,-76.21615,76.0,5.0,23.0,5.0,3.0,fraud_Maggio-Fahey,home,F,7314 Johnson Square Apt. 296,Dell City,NY,95537,"Pharmacist, community",1
+100.485214,36.194168,-81.321434,467.1639,36.06905,-80.87006,75.0,1.0,7.0,3.0,4.0,fraud_Gerhold LLC,misc_pos,M,54822 Hill Forks,Streator,NC,71960,Private music teacher,1
+90.051956,39.61808,-105.618866,20263.793,39.78192,-106.428406,50.0,3.0,3.0,5.0,6.0,"fraud_Ritchie, Oberbrunner and Cremin",shopping_pos,M,83555 Melinda Spurs,Howes Cave,CO,42634,Retail manager,1
+81.452736,36.567013,-80.73772,2071.4397,36.761913,-80.54476,89.0,10.0,20.0,11.0,6.0,fraud_Bradtke PLC,gas_transport,M,169 Edward Inlet,Sturgis,NC,72341,Landscape architect,1
+80.66489,38.107742,-76.28073,6092.694,37.792946,-76.93735,48.0,13.0,11.0,7.0,5.0,fraud_Jakubowski Inc,gas_transport,M,417 Parks Route,Prairie Creek,MD,16428,Land,1
+97.02301,34.38063,-80.391815,1107.7639,33.85219,-80.57634,43.0,2.0,26.0,4.0,4.0,"fraud_Ritchie, Oberbrunner and Cremin",shopping_net,M,320 Nicholson Orchard,Tallmansville,NC,97033,Legal secretary,1
+97.58231,34.110203,-81.33223,29088.469,34.479496,-81.228455,38.0,20.0,29.0,8.0,3.0,fraud_Gerhold LLC,grocery_net,M,4005 Dana Glens,Breesport,NC,61272,Secretary/administrator,1
+98.21702,43.5593,-93.21129,11404.514,43.249157,-93.1694,87.0,2.0,16.0,3.0,0.0,"fraud_Cole, Hills and Jewess",gas_transport,F,1007 Colton Forks,Winthrop,WI,54896,"Administrator, education",1
+82.18954,42.118732,-89.48669,6667.6895,41.79908,-90.798416,58.0,2.0,27.0,1.0,6.0,"fraud_Roberts, Daniel and Macejkovic",kids_pets,F,24607 Charles Mountains,Norman,WI,68932,Water quality scientist,1
+97.32294,34.4328,-93.21365,279.6303,34.91331,-92.412346,49.0,23.0,11.0,10.0,6.0,fraud_Stamm-Rodriguez,shopping_pos,F,193 Catherine Ways,Clutier,AR,95688,Jewellery designer,1
+82.664764,36.4295,-98.782684,826.84845,36.618767,-98.43271,21.0,1.0,6.0,4.0,6.0,fraud_Cartwright-Harris,misc_pos,M,3638 Marsh Union,Murrayville,OK,82501,Theatre manager,1
+79.943634,35.098156,-78.706604,2520.792,35.09135,-78.81923,65.0,22.0,21.0,9.0,6.0,fraud_Kerluke PLC,personal_care,M,36659 Smith Club Apt. 080,Moriarty,NC,71832,"Conservation officer, historic buildings",1
+89.853584,38.523354,-104.589355,24782.852,38.05791,-105.75344,76.0,22.0,16.0,8.0,4.0,fraud_Sporer Inc,shopping_pos,F,89650 Patricia Turnpike,Syracuse,CO,72354,"Designer, exhibition/display",1
+95.028435,29.803356,-90.67178,193559.53,29.369427,-90.6283,61.0,23.0,3.0,5.0,3.0,"fraud_Christiansen, Goyette and Schamberger",kids_pets,M,8851 Reese Neck,De Queen,LA,90240,Interpreter,1
+97.57643,39.405872,-76.51226,7042.3184,39.508514,-76.21747,48.0,22.0,8.0,3.0,5.0,fraud_Haley Group,grocery_pos,M,5619 Mendoza Inlet,Early,DE,31092,"Designer, exhibition/display",1
+82.476036,40.224815,-82.49138,3467.9478,39.581738,-81.45811,67.0,0.0,22.0,10.0,4.0,"fraud_Dare, Fritsch and Zboncak",grocery_net,M,6888 Hicks Stream Suite 954,Cross Plains,OH,4616,"Physicist, medical",1
+80.79248,36.14189,-106.05962,20414.455,35.926487,-106.20358,31.0,3.0,29.0,11.0,5.0,fraud_O'Keefe-Hudson,misc_pos,F,6033 Young Track Suite 804,Moores Hill,CO,82901,"Psychologist, forensic",1
+79.79036,46.250473,-110.38599,967.74866,45.43485,-110.61216,42.0,22.0,7.0,10.0,2.0,fraud_Heaney-Marquardt,personal_care,F,492 West Crossing,Sheffield,ID,45307,Chartered public finance accountant,1
+107.49196,41.51296,-72.764565,320550.22,41.99777,-72.78772,40.0,2.0,19.0,3.0,3.0,"fraud_Jones, Sawayn and Romaguera",home,F,07177 William Dale Apt. 547,Dallas,CT,11796,Investment analyst,1
+80.52622,34.96895,-97.19264,42212.83,34.402653,-96.448555,47.0,0.0,27.0,3.0,5.0,fraud_Bahringer Group,grocery_net,F,594 Berry Lights Apt. 392,Pea Ridge,OK,62075,Amenity horticulturist,1
+79.06442,46.194996,-113.86749,84.5775,46.126656,-113.93789,59.0,22.0,8.0,11.0,5.0,"fraud_Bernier, Streich and Jewess",misc_net,F,0356 Sarah Light,Hatch,ID,22968,Chief Operating Officer,1
+106.20641,35.107067,-109.97866,260.78384,34.84345,-108.339035,64.0,3.0,13.0,6.0,1.0,fraud_Reichert-Weissnat,misc_net,F,268 Hayes Rue Suite 811,New Memphis,NV,61364,"Sales professional, IT",1
+97.466736,41.467136,-82.24595,479.85178,40.800377,-82.6123,36.0,15.0,22.0,4.0,1.0,fraud_Wilkinson LLC,health_fitness,F,2870 Bean Terrace Apt. 756,Halstad,RI,74131,"Teacher, English as a foreign language",1
+77.39328,36.12729,-79.49096,22850.625,36.203983,-79.454384,54.0,2.0,26.0,11.0,3.0,fraud_Huels-Nolan,misc_net,M,0925 Lang Extensions,Burns Flat,VA,55065,"Scientist, biomedical",1
+97.25797,27.92147,-83.911736,137701.05,27.823895,-84.02285,43.0,2.0,19.0,5.0,1.0,"fraud_Runte, Green and Emard",grocery_net,M,44089 Carrie Crossing Suite 954,Las Vegas,FL,56321,Broadcast presenter,1
+96.11046,39.39573,-85.19766,1691.624,39.516304,-85.274765,61.0,23.0,29.0,5.0,4.0,"fraud_Medhurst, Cartwright and Ebert",health_fitness,M,31472 Cody Place Suite 740,Wartburg,IN,55046,Water quality scientist,1
+81.58656,41.232147,-84.53429,191073.47,40.957195,-84.78549,41.0,23.0,4.0,2.0,6.0,fraud_O'Keefe-Hudson,health_fitness,M,181 Moreno Light Apt. 215,Clinton,MI,93552,Naval architect,1
+77.80217,37.42209,-83.534996,14284.365,37.238323,-83.026405,67.0,23.0,4.0,6.0,4.0,"fraud_Quitzon, Green and Bashirian",grocery_pos,M,77686 Donald Bridge Apt. 711,South Richmond Hill,KY,76366,"Therapist, sports",1
+105.69221,42.84073,-88.94469,1860.2874,41.442493,-89.46768,30.0,15.0,28.0,10.0,6.0,fraud_Kertzmann LLC,grocery_pos,M,6014 Thomas Throughway,Collettsville,WI,48214,"Administrator, charities/voluntary organisations",1
+81.516884,34.840553,-128.6505,6115551.5,35.035076,-129.6187,56.0,4.0,19.0,11.0,6.0,fraud_Rempel PLC,travel,F,13108 Jennifer Passage,New York City,HI,77027,Drilling engineer,1
+98.241104,41.81582,-76.132645,147334.55,41.68881,-76.32642,64.0,3.0,16.0,11.0,6.0,"fraud_Schoen, Nienow and Bauch",grocery_net,F,144 Evans Islands Apt. 683,Aurora,NJ,46346,"Scientist, biomedical",1
+78.76673,40.09864,-103.51668,4179.333,40.764595,-102.30271,69.0,23.0,1.0,5.0,4.0,"fraud_Durgan, Gislason and Spencer",personal_care,F,7177 Steven Forges,Diamond,CO,29860,"Programme researcher, broadcasting/film/video",1
+95.83584,39.849022,-98.80344,146539.02,39.835793,-98.96954,39.0,23.0,7.0,8.0,4.0,fraud_Nader-Maggio,travel,F,047 Kevin Haven,Falls Church,NE,38922,Cytogeneticist,1
+82.17101,41.869423,-95.46703,7668.4683,42.293385,-94.34293,59.0,22.0,21.0,4.0,1.0,fraud_Gulgowski LLC,misc_pos,F,4548 Werner Wells Apt. 441,Nobleboro,SD,53559,Telecommunications researcher,1
+90.122665,40.06577,-83.703835,1550.5736,39.728134,-83.89148,36.0,23.0,18.0,6.0,0.0,"fraud_Lang, Towne and Schuppe",shopping_net,F,3312 Rachel Parks Suite 474,Stoneham,OH,96727,Learning disability nurse,1
+97.33166,39.27205,-87.32964,2877.2925,39.26015,-87.856186,47.0,21.0,20.0,11.0,2.0,fraud_McGlynn-Jaskolski,personal_care,M,31472 Cody Place Suite 740,Phenix City,IN,32044,Water engineer,1
+89.069984,42.178856,-87.62755,5307.393,41.47527,-87.92167,68.0,22.0,28.0,2.0,2.0,"fraud_Rowe, Batz and Goodwin",food_dining,M,6343 Ramirez Skyway Apt. 518,Rocky Mount,WI,66070,Exhibition designer,1
+96.92046,41.897568,-92.97489,10624.401,41.804646,-92.43622,55.0,23.0,29.0,6.0,0.0,"fraud_Watsica, Haag and Considine",health_fitness,M,644 Deborah Courts,Howes Cave,IA,1844,Retail manager,1
+81.95436,34.89042,-92.06879,286.55746,37.53456,-104.93547,49.0,3.0,12.0,9.0,0.0,"fraud_Medhurst, Labadie and Gottlieb",entertainment,M,31701 Tucker Square Suite 893,Bagley,OK,25832,Agricultural consultant,1
+110.91974,44.52143,-100.75427,190.51009,44.32154,-100.81884,50.0,22.0,8.0,2.0,4.0,fraud_Boyer PLC,misc_net,M,9734 Beard Fields Suite 885,Atlantic,ND,49775,Magazine journalist,1
+79.51949,40.261753,-93.2958,394.4517,39.98471,-93.0642,49.0,22.0,9.0,3.0,4.0,"fraud_Goyette, Howell and Collier",gas_transport,F,594 Berry Lights Apt. 392,Marietta,MO,47869,Mining engineer,1
+89.49083,30.413889,-90.94418,993280.3,30.289011,-90.948875,19.0,15.0,28.0,9.0,0.0,fraud_Osinski Inc,food_dining,F,4900 Curtis Gardens Suite 952,Columbia,LA,91702,Lawyer,1
+107.89737,40.715424,-74.69521,234.392,40.26853,-74.20846,55.0,23.0,11.0,5.0,0.0,fraud_Prosacco LLC,home,F,433 John Heights Apt. 849,Fairhope,NY,61335,Insurance risk surveyor,1
+89.55998,34.853355,-85.36627,1226.7457,35.222794,-85.417984,43.0,23.0,6.0,8.0,0.0,fraud_Ruecker Group,food_dining,F,2161 Blankenship Freeway,Murrayville,TN,29180,"Engineer, communications",1
+78.481026,62.421,-158.96729,131.9055,64.066986,-159.02638,67.0,14.0,4.0,1.0,4.0,fraud_Hudson-Grady,gas_transport,M,609 Hunt Grove,Mountain Park,IN,31003,Careers information officer,1
+104.70953,30.476303,-107.14731,1543.4468,30.19986,-80.27948,91.0,15.0,2.0,11.0,0.0,"fraud_Wuckert, Wintheiser and Friesen",entertainment,M,1233 Sutton Road Suite 701,Freedom,DC,54981,"Radiographer, diagnostic",1
+80.71471,40.54399,-105.777,108087.734,41.109207,-94.80627,92.0,23.0,16.0,6.0,0.0,fraud_Harris Inc,travel,M,4440 George Mills Suite 591,Thornville,MT,90650,Wellsite geologist,1
+82.43346,39.870407,-78.14609,145.93716,39.64854,-78.00402,60.0,2.0,10.0,6.0,0.0,fraud_Klein Group,grocery_pos,F,4483 Sharp Ferry Apt. 468,Cascade Locks,DE,7980,Nature conservation officer,1
+108.09705,40.626457,-106.597824,639.6861,40.726658,-105.98306,50.0,3.0,27.0,8.0,0.0,fraud_Kassulke Inc,food_dining,M,583 Gray Creek,Cazenovia,CO,24927,"Designer, television/film set",1
+80.47605,37.82159,-80.77108,2188.6924,38.120407,-80.9378,54.0,2.0,6.0,4.0,6.0,fraud_Bode-Rempel,health_fitness,F,6911 Nicholas Keys Apt. 237,Lohrville,WV,29438,Orthoptist,1
+80.0732,40.745888,-75.04864,80861.9,40.771084,-74.353615,47.0,23.0,3.0,4.0,2.0,fraud_Langworth LLC,misc_pos,F,20788 Johnson Crest,Sherman,MA,4287,Horticultural consultant,1
+89.1883,40.43791,-86.01256,3079.1423,40.398403,-86.39369,54.0,2.0,11.0,4.0,3.0,"fraud_Heathcote, Yost and Kertzmann",food_dining,M,9870 Collins Flat,Esbon,IN,14425,Associate Professor,1
+79.52586,42.56468,-72.717476,1417.9918,42.71223,-73.45091,66.0,14.0,26.0,10.0,6.0,fraud_Schulist Ltd,personal_care,F,27954 Hall Mill Suite 575,Oakton,CT,74875,Counselling psychologist,1
+92.625374,39.17227,-82.60255,13550.347,39.848553,-81.478546,30.0,5.0,6.0,7.0,5.0,fraud_Heaney-Marquardt,shopping_net,F,181 Moreno Light Apt. 215,Valdosta,WV,45808,Environmental health practitioner,1
+79.6631,43.744835,-71.142975,8165.9097,43.896496,-70.60862,36.0,22.0,29.0,11.0,2.0,fraud_Heaney-Marquardt,personal_care,M,5930 Rebecca Bridge Apt. 444,Cherokee Village,NH,92585,Veterinary surgeon,1
+90.77431,34.18507,-83.58756,11666.283,33.87766,-82.754425,78.0,1.0,4.0,8.0,1.0,fraud_Kris-Kertzmann,shopping_net,F,53199 Laurie Mills Apt. 864,Honokaa,DC,29209,Immigration officer,1
+80.17233,39.506954,-79.844734,1366.7175,39.46364,-79.52566,61.0,23.0,28.0,6.0,6.0,fraud_Goyette Inc,kids_pets,F,010 Weaver Land,Rock Glen,WV,64076,Television floor manager,1
+108.274796,40.519646,-107.54922,9844.069,41.037,-106.29134,18.0,3.0,4.0,11.0,0.0,fraud_Skiles LLC,home,M,082 Hernandez Bypass Apt. 886,Kilgore,WA,38778,"Engineer, production",1
+97.42355,46.51681,-110.41566,118014.664,46.35705,-110.83379,35.0,18.0,26.0,6.0,2.0,fraud_Altenwerth-Kilback,personal_care,F,6033 Young Track Suite 804,Gaithersburg,MT,35022,Economist,1
+80.446335,44.49447,-72.60051,390.86493,45.028084,-72.607895,74.0,21.0,23.0,2.0,6.0,fraud_Kerluke PLC,gas_transport,F,92213 Lee Well,South Hero,NH,46946,Retail merchandiser,1
+84.873245,42.78455,-90.81416,4919.8657,42.495636,-90.68831,27.0,23.0,20.0,3.0,4.0,fraud_Morissette LLC,home,M,182 Sergio Summit Apt. 129,Fenelton,WI,27522,Operational investment banker,1
+78.281845,37.622837,-77.90386,13844.415,36.498367,-77.9738,55.0,23.0,28.0,12.0,5.0,fraud_Zulauf LLC,entertainment,M,07177 William Dale Apt. 547,Arvada,VA,34135,Phytotherapist,1
+86.401245,43.857033,-71.63121,20550.316,43.88017,-71.65393,69.0,22.0,17.0,11.0,2.0,fraud_Hackett Group,misc_net,F,7281 Joshua Mills Apt. 077,Nokomis,ME,19456,"Surveyor, hydrographic",1
+96.35995,40.778004,-108.00011,61710.277,40.75762,-108.0404,40.0,23.0,4.0,3.0,5.0,fraud_Lebsack and Sons,health_fitness,M,9016 Jordan Bypass Apt. 516,Great Mills,UT,40502,Radio broadcast assistant,1
+86.03713,43.53187,-73.07951,368.06863,43.43547,-72.74722,34.0,2.0,29.0,8.0,4.0,fraud_Schuppe-Schuppe,shopping_pos,F,250 Carrie Throughway,Monetta,NH,30426,Camera operator,1
+86.5244,37.912045,-84.57725,4352.6333,37.71487,-84.38573,43.0,22.0,5.0,6.0,4.0,fraud_Ziemann-Waters,entertainment,M,889 Sarah Station Suite 624,Wilton,DC,89084,"Lecturer, higher education",1
+95.96854,36.503345,-97.75558,1814.2721,37.172775,-96.324104,39.0,12.0,6.0,12.0,5.0,fraud_Zboncak LLC,gas_transport,M,393 Carroll Route Suite 197,Arlington,WA,48193,Museum education officer,1
+110.30239,46.31378,-99.80124,1310.4845,46.249546,-98.60185,39.0,3.0,29.0,8.0,4.0,fraud_Hills-Witting,misc_net,F,707 Butler Parkways Apt. 747,Saint James City,ND,98836,Advice worker,1
+109.48473,33.758217,-104.641174,13885.633,34.327953,-104.89461,55.0,23.0,2.0,11.0,6.0,fraud_McCullough Group,shopping_pos,F,062 Carl Dam,Paulding,AZ,4210,"Programmer, multimedia",1
+92.79097,39.176807,-88.64755,865.9587,39.26421,-88.82633,53.0,2.0,15.0,11.0,4.0,fraud_Hills-Boyer,shopping_pos,F,7644 Joseph Fields,Fordoche,IL,20687,"Producer, television/film/video",1
+108.84538,33.194103,-79.54935,855194.44,32.94466,-79.17115,65.0,22.0,29.0,11.0,4.0,fraud_Schroeder Group,food_dining,F,954 Reyes Ways,Des Moines,SC,5654,Transport planner,1
+97.56887,40.09077,-82.453804,2329.6887,39.873314,-82.905426,34.0,23.0,27.0,8.0,2.0,fraud_Ledner-Pfannerstill,personal_care,M,0912 Mark Fields Apt. 080,Gaines,RI,61272,Metallurgist,1
+92.56245,33.505596,-85.31999,2150118.0,33.388836,-85.63131,47.0,3.0,16.0,3.0,6.0,fraud_Nader-Maggio,entertainment,F,12087 Michael Light,New York City,TN,10039,"Lecturer, further education",1
+80.55846,37.082058,-98.99135,3614.6416,36.870842,-99.263565,62.0,22.0,15.0,1.0,1.0,fraud_Hickle Group,gas_transport,M,057 Martinez Radial,Philadelphia,KS,14532,Broadcast journalist,1
+96.91617,40.11376,-90.93953,3685.676,39.721127,-91.81492,55.0,23.0,24.0,11.0,1.0,fraud_Jaskolski-Dibbert,grocery_pos,F,4655 David Island,Cisco,IL,64080,Public house manager,1
+109.66907,40.23621,-106.79799,220.73746,40.12512,-106.3979,60.0,1.0,15.0,8.0,6.0,"fraud_Okuneva, Schneider and Rau",home,M,00821 Joanna Meadow,Grassflat,CO,54980,Hotel manager,1
+98.92231,35.680122,-93.03235,1255.4432,36.15178,-93.49772,72.0,1.0,10.0,8.0,1.0,fraud_Crooks and Sons,health_fitness,F,2056 Michael Wells Apt. 348,Henderson,AR,13752,Patent attorney,1
+97.451385,38.985622,-105.551735,67138.43,38.798054,-105.74574,49.0,23.0,21.0,8.0,4.0,"fraud_Zemlak, Tillman and Cremin",grocery_pos,F,010 Salazar Walk,Philadelphia,CO,20687,Air cabin crew,1
+109.60012,37.83678,-78.516556,954.37274,37.554314,-78.22,84.0,23.0,18.0,5.0,5.0,"fraud_Turcotte, McKenzie and Koss",home,M,20938 Barbara Viaduct,Plantersville,VA,68932,"Designer, television/film set",1
+97.11747,40.625164,-83.268364,117345.664,40.54662,-83.57957,39.0,0.0,12.0,10.0,5.0,fraud_Labadie LLC,health_fitness,F,304 Ryan Port Suite 335,Spring,RI,31771,Curator,1
+80.561874,39.132072,-80.856026,2990.632,39.537437,-79.76862,58.0,22.0,18.0,4.0,2.0,fraud_Cummerata-Hilpert,kids_pets,F,7952 Karen Pike,North Wilkesboro,WV,18246,Textile designer,1
+87.99152,38.900974,-108.70406,202.05397,34.680744,-89.742035,58.0,14.0,30.0,6.0,2.0,fraud_Leannon-Ward,home,F,950 Dunn Squares,Waynesfield,OK,39769,"Research officer, trade union",1
+110.18388,31.845469,-91.9394,48286.19,31.065624,-90.58187,37.0,2.0,4.0,3.0,1.0,fraud_Volkman-Predovic,entertainment,M,493 Todd Views,New Holstein,LA,12093,English as a foreign language teacher,1
+110.526474,39.522465,-104.94694,1326.5502,39.382744,-105.3426,42.0,22.0,27.0,8.0,3.0,fraud_Schmitt Ltd,misc_net,F,1984 Taylor Island Suite 836,Etlan,CO,53910,"Scientist, physiological",1
+79.736404,40.859528,-79.80048,925.5055,40.686375,-76.31507,87.0,22.0,29.0,10.0,0.0,fraud_Larkin Ltd,kids_pets,F,3325 Gregory Square,Duncan,DE,54896,"Research officer, political party",1
+82.92288,43.86705,-90.80484,1043.6852,43.744354,-91.12638,58.0,2.0,19.0,6.0,3.0,fraud_Wiza LLC,travel,M,870 Rocha Drive,Breesport,WI,88355,Quantity surveyor,1
+78.20182,38.082684,-99.793465,109887.62,38.360382,-99.252594,68.0,23.0,12.0,5.0,6.0,fraud_Bahringer-Streich,misc_net,M,582 Rodriguez Wells,Southfield,WA,15834,"Programme researcher, broadcasting/film/video",1
+98.70195,46.605694,-100.85337,62.119217,46.381325,-100.17052,74.0,22.0,24.0,2.0,1.0,fraud_Streich Ltd,shopping_net,F,478 George Course Apt. 056,Slayden,ND,85201,Higher education careers adviser,1
+78.771675,43.283344,-108.36426,10154.842,42.855618,-107.901695,40.0,18.0,7.0,4.0,1.0,fraud_Flatley-Durgan,misc_pos,M,870 Rocha Drive,Jefferson,AK,67020,Armed forces technical officer,1
+103.5008,38.156498,-96.864944,3920.4458,37.87227,-96.71249,86.0,23.0,6.0,2.0,3.0,fraud_Rau-Grant,shopping_net,M,5901 Foster Pine,Espanola,KS,61364,Maintenance engineer,1
+89.89466,35.314987,-97.57118,119738.89,35.33299,-98.518555,38.0,20.0,12.0,7.0,4.0,"fraud_Willms, Kris and Bergnaum",shopping_net,M,861 Karen Common,Santa Monica,OK,3601,Arts development officer,1
+107.83995,33.936848,-86.61793,69576.67,33.943657,-86.85827,86.0,16.0,27.0,6.0,4.0,fraud_Jaskolski-Vandervort,food_dining,M,7402 West Ranch,Glendale,TN,63388,"Programme researcher, broadcasting/film/video",1
+82.86943,37.910564,-92.46965,6219.3555,38.645878,-91.854355,53.0,4.0,18.0,2.0,6.0,"fraud_Baumbach, Strosin and Nicolas",travel,F,42933 Ryan Underpass,Marshall,MO,70056,"Designer, textile",1
+81.263374,35.49425,-86.23652,4837.457,35.16952,-86.331215,66.0,2.0,20.0,10.0,6.0,fraud_Stark-Batz,personal_care,F,250 Benjamin Hill Apt. 026,Greenbush,TN,14425,Water engineer,1
+78.39152,38.495514,-132.34612,21655.436,38.388977,-132.71236,56.0,23.0,3.0,6.0,3.0,"fraud_Yost, Schamberger and Windler",entertainment,M,919 Miller Isle,Cuyahoga Falls,HI,40502,"Teacher, primary school",1
+82.68803,38.963608,-109.915016,2762.4426,39.343872,-109.8464,51.0,3.0,20.0,2.0,6.0,"fraud_Mueller, Gerhold and Mueller",kids_pets,M,36659 Smith Club Apt. 080,Howells,UT,60091,Planning and development surveyor,1
+83.32292,33.78144,-87.93589,2830.189,34.0062,-88.17023,61.0,22.0,16.0,3.0,1.0,"fraud_Kunze, Larkin and Mayert",entertainment,F,7302 Samantha Mission,Espanola,AL,75661,Museum/gallery exhibitions officer,1
+100.50704,30.626375,-89.53659,34320.203,30.414957,-89.26482,97.0,22.0,3.0,5.0,3.0,"fraud_Turcotte, Batz and Buckridge",health_fitness,F,886 Nicole Key,Hopewell,LA,49613,Information systems manager,1
+80.6014,41.936222,-102.9306,8741.643,41.413284,-103.3542,76.0,6.0,19.0,11.0,3.0,"fraud_O'Connell, Botsford and Hand",grocery_net,M,376 Brown Courts,Isanti,SD,18357,"Research officer, trade union",1
+79.431114,31.639576,-83.11302,29442.988,31.686209,-83.05612,42.0,2.0,27.0,4.0,1.0,"fraud_Effertz, Welch and Schowalter",grocery_net,F,69252 Oconnor Alley Apt. 153,Tallmansville,GA,4364,"Engineer, control and instrumentation",1
+98.622925,31.36942,-90.28632,5974.0786,31.548498,-90.26476,68.0,21.0,9.0,5.0,5.0,fraud_Jast-McDermott,gas_transport,F,7911 Campbell Crossing Apt. 725,Springville,MS,37849,"Teacher, early years/pre",1
+98.65171,38.73665,-77.41185,199147.12,38.395943,-76.96414,54.0,14.0,15.0,6.0,0.0,"fraud_Johnson, Runolfsdottir and Mayer",travel,F,7188 Melissa Crest Apt. 151,Des Moines,DE,55040,Personnel officer,1
+106.85488,42.8121,-112.44556,797.50574,42.64027,-112.32255,23.0,23.0,5.0,11.0,6.0,fraud_Emmerich-Luettgen,food_dining,M,0374 Courtney Islands Apt. 400,Moores Hill,ID,46143,Building control surveyor,1
+77.46389,41.42561,-87.24196,454.88977,41.50198,-86.54684,59.0,1.0,14.0,12.0,0.0,fraud_Welch Inc,misc_net,F,2819 Luke Greens Suite 563,Sardis,MI,39572,"Social research officer, government",1
+80.59716,39.1989,-121.05463,6203.2173,39.50557,-120.88043,72.0,22.0,8.0,10.0,2.0,"fraud_O'Connell, Botsford and Hand",misc_pos,M,204 Ashley Neck Apt. 169,Churubusco,CA,87543,Heritage manager,1
+88.42626,47.474716,-112.13462,891.6697,47.351643,-112.39198,69.0,23.0,14.0,8.0,1.0,"fraud_Wiza, Schaden and Stark",food_dining,F,168 Michael Coves Suite 343,Stillwater,MT,14479,Exercise physiologist,1
+83.308975,42.115574,-74.5453,1354.8372,41.279232,-74.61044,60.0,23.0,10.0,9.0,1.0,fraud_Johnston-Casper,entertainment,M,1497 West Gateway,West Sayville,NY,23357,Chartered accountant,1
+82.133545,35.85427,-92.33006,616.0112,36.428646,-92.44941,32.0,1.0,3.0,10.0,4.0,"fraud_Crist, Jakubowski and Littel",misc_net,M,785 Kevin Walk Suite 237,Premier,AR,56138,"Geologist, wellsite",1
+78.63539,46.441216,-111.86923,4530.222,46.0694,-111.936584,73.0,23.0,6.0,4.0,6.0,"fraud_Armstrong, Walter and Gottlieb",health_fitness,M,28311 Dennis Trace,Tuscarora,ID,74074,Fine artist,1
+100.02773,39.579197,-78.15801,355.80524,39.45631,-77.491394,56.0,3.0,4.0,10.0,0.0,fraud_Lubowitz-Walter,gas_transport,F,7898 Wanda Springs,Rock Tavern,DE,56138,Television camera operator,1
+87.45074,31.863897,-108.19991,24207.627,31.863117,-108.7485,72.0,22.0,5.0,8.0,1.0,fraud_Bins-Rice,food_dining,F,543 Mindy Oval,Atglen,AZ,62896,Police officer,1
+92.77514,39.64079,-79.04189,176.33693,39.652138,-78.83416,33.0,22.0,13.0,10.0,6.0,"fraud_Kovacek, Dibbert and Ondricka",shopping_net,M,00315 Ashley Valleys,Boyd,VA,95827,Media planner,1
+82.48706,40.525227,-102.24827,16929.543,41.42239,-101.53393,37.0,3.0,13.0,3.0,3.0,fraud_Medhurst Inc,misc_net,M,118 Cabrera Springs Apt. 105,Clinton,CO,15834,Community education officer,1
+110.524506,41.531624,-72.439514,3960.9685,41.750847,-72.79078,26.0,21.0,28.0,11.0,4.0,fraud_Cole PLC,entertainment,M,583 Gray Creek,White Sulphur Springs,MA,84003,Industrial buyer,1
+88.01423,43.81907,-111.411736,245.40373,43.846123,-111.354836,63.0,22.0,6.0,7.0,4.0,fraud_Skiles LLC,grocery_pos,F,144 Martinez Curve,Duncan,WY,95629,Education administrator,1
+89.56404,34.569885,-81.53248,24936.746,34.412804,-81.64474,21.0,23.0,17.0,8.0,5.0,fraud_Beer-Jast,entertainment,F,3312 Rachel Parks Suite 474,North Wilkesboro,SC,62668,Exhibition designer,1
+88.90663,43.592274,-70.954956,9073.824,43.186134,-71.34584,52.0,23.0,20.0,10.0,5.0,fraud_Balistreri-Nader,food_dining,F,169 Edward Inlet,Gardiner,NH,46723,Biomedical engineer,1
+110.75357,41.55547,-73.656334,4037.9019,41.328865,-73.99084,54.0,23.0,27.0,6.0,4.0,fraud_Conroy-Emard,shopping_pos,F,2193 Osborne Run Apt. 789,Cuthbert,NY,63131,Information officer,1
+87.70758,35.270794,-80.86897,1267.7219,34.835682,-80.87619,73.0,1.0,24.0,8.0,5.0,fraud_Sawayn PLC,home,F,19838 Tonya Prairie Apt. 947,Leetsdale,SC,43070,Trade mark attorney,1
+98.95801,41.887547,-74.78748,275.51047,42.485725,-75.57909,55.0,22.0,2.0,12.0,6.0,fraud_Homenick LLC,misc_pos,M,46809 Toni Flat Suite 216,Mount Perry,NY,39897,Chartered accountant,1
+80.14594,32.30057,-82.991936,264792.3,32.50135,-82.886665,85.0,4.0,22.0,6.0,0.0,fraud_Padberg-Rogahn,kids_pets,F,44951 Williams Brooks,Medford,GA,58259,Retail banker,1
+81.61074,38.32501,-75.75465,46179.0,38.214767,-75.929146,69.0,22.0,10.0,4.0,2.0,fraud_Botsford PLC,home,M,463 Willie Estates,Metairie,MD,84003,Orthoptist,1
+78.4239,44.721474,-119.95911,52703.926,44.956543,-120.552826,51.0,23.0,19.0,10.0,5.0,"fraud_Koss, McLaughlin and Mayer",grocery_pos,M,77663 Colleen Freeway,Edmond,OR,41101,Diagnostic radiographer,1
+97.37593,34.285603,-79.64713,9594.534,34.16037,-79.237465,47.0,14.0,6.0,7.0,1.0,fraud_Heidenreich PLC,personal_care,M,2622 Reynolds Isle,Comfort,NC,62067,"Pharmacist, hospital",1
+78.94566,36.576492,-84.827835,110840.99,36.51665,-84.61242,89.0,23.0,20.0,4.0,0.0,fraud_Hills-Witting,kids_pets,F,20937 Reed Lakes Apt. 271,Washington Court House,TN,94971,Social researcher,1
+80.15627,39.5008,-108.54128,775.88104,39.453888,-108.80995,66.0,7.0,28.0,8.0,5.0,"fraud_Kerluke, Kertzmann and Wiza",grocery_net,F,872 Justin Views Suite 746,Ranier,CO,48043,Arboriculturist,1
+107.69852,43.973984,-73.331345,20909.957,43.629658,-73.194,57.0,2.0,9.0,8.0,5.0,fraud_Leannon-Nikolaus,home,F,295 Page Creek Suite 181,Kilgore,VT,73134,Ambulance person,1
+88.4481,39.627785,-85.5675,2022.127,39.352436,-85.942345,70.0,22.0,14.0,3.0,3.0,"fraud_Baumbach, Feeney and Morar",home,M,9331 Robert Passage Suite 327,Esbon,IN,87116,Science writer,1
+98.32163,43.01789,-88.28372,3007.1653,43.1933,-88.47474,77.0,1.0,29.0,4.0,1.0,"fraud_Olson, Becker and Koch",gas_transport,F,550 Cunningham Squares,Jefferson,MI,16839,"Engineer, mining",1
+78.87163,39.353825,-96.47625,100047.91,39.23808,-97.06363,56.0,23.0,19.0,7.0,5.0,fraud_Medhurst Inc,health_fitness,F,118 Justin Extension,Graniteville,NE,79906,Illustrator,1
+99.278534,37.953434,-77.63195,2012.2543,37.591187,-77.69466,71.0,3.0,3.0,8.0,6.0,fraud_Jakubowski Inc,travel,M,542 Finley Ports Apt. 396,Kilgore,VA,97375,Police officer,1
+78.517914,45.541866,-71.28614,1776.8661,45.735172,-70.739746,63.0,23.0,21.0,11.0,5.0,fraud_Zboncak LLC,entertainment,M,1299 Joshua Plains,Grandview,ME,41101,Archivist,1
+98.58046,32.324642,-96.224266,975.16693,32.616188,-95.93918,44.0,21.0,10.0,10.0,3.0,"fraud_Swaniawski, Bahringer and Ledner",travel,M,0912 Mark Fields Apt. 080,West Henrietta,TX,32044,Senior tax professional/tax inspector,1
+97.92333,40.002556,-92.57129,741.9187,39.720013,-92.7605,30.0,15.0,12.0,4.0,6.0,fraud_Ebert-Daugherty,gas_transport,M,454 Sawyer Forks Apt. 231,Sheffield,MO,97132,Theatre director,1
+106.9287,41.135548,-74.65751,73048.016,41.0044,-74.50362,46.0,15.0,14.0,8.0,4.0,fraud_McCullough LLC,food_dining,M,330 Montoya Ramp,Manchester,NJ,52563,Catering manager,1
+98.00076,35.579807,-91.18569,21950.121,35.168053,-91.05333,38.0,19.0,23.0,9.0,1.0,"fraud_Lockman, West and Runte",gas_transport,M,8925 Nicholas Points,Metairie,AR,13367,Catering manager,1
+94.88083,39.02114,-96.96083,43346.562,38.51899,-96.70159,30.0,23.0,30.0,11.0,5.0,fraud_White and Sons,health_fitness,F,94431 Matthew Mall Suite 296,Vero Beach,KS,58769,"Scientist, research (maths)",1
+97.71892,36.60221,-101.839325,1429.3877,36.54207,-101.511734,43.0,23.0,26.0,2.0,0.0,fraud_Reilly LLC,personal_care,M,838 Franklin Prairie Apt. 902,Harrington Park,WA,4286,Educational psychologist,1
+98.44523,43.414448,-69.80182,23291.78,43.39462,-69.11816,52.0,22.0,20.0,11.0,4.0,fraud_Heathcote LLC,travel,M,77944 Daniels Valley Suite 921,West Henrietta,ME,10039,Chief Financial Officer,1
+101.59633,43.191074,-102.6458,33760.336,42.531586,-102.536476,38.0,3.0,5.0,6.0,2.0,fraud_Bahringer Group,home,F,250 Benjamin Hill Apt. 026,Bonfield,SD,24340,Magazine journalist,1
+106.65742,32.45109,-105.313736,75630.586,32.139877,-106.16995,37.0,22.0,22.0,6.0,5.0,"fraud_Ferry, Reichel and DuBuque",shopping_net,M,324 Donna Ridge Suite 651,Laredo,NM,87035,Early years teacher,1
+97.60262,42.777756,-73.2206,18383.96,42.930927,-73.50493,39.0,22.0,28.0,8.0,3.0,fraud_Erdman-Durgan,home,F,870 Rocha Drive,Falls Church,MA,99921,Clinical research associate,1
+86.22309,40.795162,-105.328995,30784.844,40.5742,-105.89877,31.0,22.0,17.0,6.0,2.0,"fraud_Casper, Hand and Zulauf",misc_net,M,82448 Tucker Cliff,Muskegon,CO,54441,Special educational needs teacher,1
+82.38589,35.402096,-85.13626,12383.997,36.155594,-85.07741,75.0,3.0,26.0,10.0,5.0,fraud_Beer-Jast,grocery_pos,F,8614 Reed Glen,Clay Center,TN,90014,Planning and development surveyor,1
+96.19899,35.483967,-93.22413,795.9541,35.532955,-92.85022,76.0,18.0,19.0,3.0,3.0,fraud_Johns Inc,health_fitness,F,1299 Joshua Plains,Lexington,AR,44804,Chartered loss adjuster,1
+78.724144,39.633198,-82.67903,12970.247,39.324966,-82.55857,31.0,22.0,31.0,1.0,4.0,"fraud_Haley, Jewess and Bechtelar",personal_care,M,9853 Flynn Hollow Apt. 602,Hawley,RI,66616,Civil Service fast streamer,1
+81.12866,30.667276,-86.817184,10359.484,30.83554,-86.99919,44.0,23.0,21.0,9.0,1.0,fraud_Champlin-Casper,misc_pos,M,169 Shelia Knoll Suite 753,Wauchula,MS,5155,"Engineer, building services",1
+89.20542,44.936646,-70.95423,228.14418,44.60533,-69.88831,53.0,22.0,5.0,5.0,4.0,fraud_Ledner-Pfannerstill,shopping_pos,M,025 White Fork Apt. 633,North Washington,ME,72135,Garment/textile technologist,1
+98.18481,33.838005,-84.595245,8455.892,34.00676,-83.39239,63.0,22.0,20.0,11.0,3.0,"fraud_Schoen, Nienow and Bauch",travel,F,93121 Zavala Extensions,Grifton,AL,77007,Veterinary surgeon,1
+80.86884,37.504814,-91.88454,42119.695,38.018147,-92.125244,52.0,23.0,22.0,5.0,4.0,fraud_Metz-Boehm,misc_pos,F,728 Randolph Causeway Suite 894,Phoenix,AR,25049,Administrator,1
+97.06396,40.805027,-82.12598,7327.762,40.86726,-81.722786,44.0,18.0,23.0,3.0,5.0,"fraud_Schuppe, Nolan and Hoeger",shopping_pos,F,1976 Tyler Underpass,Hahira,OH,5084,"Radiographer, therapeutic",1
+109.48126,37.760307,-113.109,35224.727,37.558983,-114.189964,69.0,23.0,20.0,5.0,3.0,fraud_Lubowitz-Walter,misc_net,M,74890 Rodriguez Springs Apt. 540,Greendale,NV,33710,Clinical psychologist,1
+79.55997,41.037506,-77.95561,6877.172,40.986862,-78.578156,76.0,23.0,25.0,8.0,6.0,fraud_Fritsch LLC,kids_pets,F,7055 Fernandez Estates Apt. 676,Port Costa,RI,22046,"Engineer, automotive",1
+86.02281,39.91935,-87.0993,9874.668,39.89004,-86.92352,54.0,22.0,26.0,2.0,0.0,fraud_Kiehn-Emmerich,entertainment,M,08236 Kim Hill,Preston,IN,39769,"Programmer, applications",1
+82.10501,42.79205,-75.78329,7317.453,42.802097,-75.61398,55.0,23.0,23.0,9.0,2.0,"fraud_Swaniawski, Lowe and Robel",travel,M,343 Joshua Views,Crownpoint,NY,24878,Barista,1
+81.471535,38.424545,-77.14952,12771.193,38.732082,-77.63738,44.0,1.0,2.0,8.0,0.0,fraud_Dicki Ltd,kids_pets,F,0665 Lisa Alley,Smiths Grove,DE,75980,Sales executive,1
+82.33473,44.847748,-94.65397,835.31537,44.476875,-94.57365,59.0,6.0,10.0,9.0,2.0,fraud_Boyer PLC,misc_net,M,26572 Hodge Villages Suite 512,New Franken,WI,18917,Commercial/residential surveyor,1
+82.4746,41.355446,-98.27471,1532.3993,41.70533,-98.8279,59.0,2.0,21.0,3.0,4.0,"fraud_Reinger, Weissnat and Strosin",misc_net,F,312 Eric Expressway Apt. 014,Remer,NE,29324,Health service manager,1
+95.99356,31.939072,-107.71928,1517.3405,31.907951,-108.02219,44.0,2.0,29.0,8.0,4.0,fraud_Bode-Schuster,health_fitness,F,63542 Luna Brook Apt. 012,Surrency,NV,42701,Manufacturing engineer,1
+82.35098,39.639362,-77.44967,2292.4773,39.728466,-77.40788,52.0,23.0,5.0,10.0,6.0,"fraud_Parisian, Schiller and Altenwerth",misc_pos,M,4503 Patricia Route,Loami,MD,40062,Art therapist,1
+97.265656,44.171436,-72.43493,3329.6406,44.382442,-72.54726,82.0,22.0,21.0,4.0,6.0,fraud_Jerde-Hermann,kids_pets,F,0984 Amanda Corners Apt. 297,South Hero,NH,62935,Armed forces training and education officer,1
+82.785614,42.34756,-105.122116,309.1421,42.27629,-105.248344,44.0,22.0,13.0,6.0,6.0,fraud_Spencer PLC,grocery_pos,F,39227 Mcpherson Shoals,Cascade Locks,WY,53910,Immunologist,1
+80.25726,41.80132,-111.752266,2561.703,41.587227,-112.07655,45.0,21.0,19.0,11.0,4.0,fraud_Weimann-Lockman,gas_transport,M,537 Walker Freeway,West Monroe,UT,56668,Chief Operating Officer,1
+101.3668,38.986023,-80.874886,3979.029,38.871338,-80.127815,92.0,22.0,14.0,3.0,3.0,"fraud_Swaniawski, Bahringer and Ledner",grocery_pos,F,4503 Patricia Route,Haines City,WV,15449,"Engineer, civil (consulting)",1
+89.30716,40.50516,-103.65044,421.31827,40.598717,-102.548965,34.0,1.0,29.0,3.0,5.0,fraud_Gutmann Ltd,shopping_net,F,154 Hernandez Keys,Collettsville,SD,34120,Broadcast presenter,1
+110.074776,38.074142,-133.96596,3563.3557,37.670033,-135.87482,67.0,8.0,19.0,6.0,1.0,"fraud_Kovacek, Dibbert and Ondricka",shopping_pos,M,329 Emily Cape,Kings Bay,HI,28412,Television camera operator,1
+87.78634,43.086613,-106.22216,4919.026,43.28827,-106.67762,78.0,22.0,22.0,9.0,1.0,fraud_Klocko LLC,food_dining,M,64965 Morris Hollow Suite 323,Coleman,WY,3858,Operations geologist,1
+86.40658,37.90093,-80.413216,30390.043,37.717384,-80.74133,52.0,4.0,16.0,10.0,3.0,fraud_Abbott-Rogahn,entertainment,F,8149 Harris Divide,Eldridge,DC,95688,"Scientist, marine",1
+80.49765,44.40163,-85.433655,325.75894,44.63221,-85.02046,69.0,23.0,19.0,6.0,3.0,fraud_Reilly LLC,personal_care,M,27718 Mason Bypass,Boyd,MI,61477,"Psychologist, counselling",1
+82.399445,39.67614,-106.45316,9546.175,39.890587,-105.80052,57.0,3.0,13.0,6.0,6.0,"fraud_Larkin, Stracke and Greenfelder",misc_net,M,742 Oneill Shore,Broomfield,CO,13425,Horticultural therapist,1
+106.893616,42.333157,-73.62485,20643.664,41.946182,-73.38464,65.0,4.0,5.0,7.0,5.0,fraud_Gutmann-Upton,food_dining,F,759 Erin Mount Suite 956,Veedersburg,MA,82711,Personnel officer,1
+89.020996,44.205112,-75.23625,94.79944,44.06128,-75.36585,82.0,3.0,20.0,2.0,3.0,fraud_Bartoletti and Sons,food_dining,F,6003 Brady Shoal Apt. 449,Uledi,VT,93529,Biomedical scientist,1
+107.58009,42.060383,-74.7386,8220.832,41.72348,-73.91801,40.0,1.0,7.0,6.0,0.0,fraud_Padberg-Welch,food_dining,M,82448 Tucker Cliff,Kilgore,NY,31771,"Conservation officer, historic buildings",1
+92.38389,38.242058,-98.80122,3000.5256,38.64459,-99.33705,44.0,13.0,27.0,2.0,1.0,"fraud_Casper, Hand and Zulauf",shopping_net,M,916 Charles Road,Metairie,KS,57036,Operations geologist,1
+82.40573,43.96519,-103.054985,1573.5951,44.238495,-102.70909,51.0,3.0,19.0,6.0,5.0,"fraud_Hermiston, Pacocha and Smith",travel,F,083 Karen Island Apt. 656,Hedley,SD,40914,"Editor, commissioning",1
+85.44777,34.11922,-81.06226,1056.6929,34.309284,-80.04194,26.0,22.0,7.0,9.0,5.0,fraud_Pagac LLC,home,F,79472 Stevens Trace Apt. 120,Queenstown,SC,55046,Chartered accountant,1
+110.8338,42.04572,-98.50485,139.88899,41.872475,-98.770134,49.0,23.0,19.0,3.0,3.0,fraud_Kessler Inc,home,M,3270 Scott Islands,Lanark Village,NE,13755,Podiatrist,1
+86.36429,39.016373,-127.97958,25491.635,39.05134,-128.01422,57.0,23.0,4.0,5.0,6.0,"fraud_Greenholt, O'Hara and Balistreri",shopping_pos,M,6366 French Field,Fullerton,HI,67216,Environmental health practitioner,1
+98.24475,42.970707,-73.0691,63650.383,42.890697,-72.94068,68.0,3.0,29.0,8.0,2.0,fraud_O'Keefe-Wisoky,gas_transport,M,169 Edward Inlet,Kingsport,CT,19149,Educational psychologist,1
+92.67637,40.713192,-93.54321,28161.877,40.086525,-94.72102,58.0,23.0,28.0,9.0,0.0,fraud_Bartoletti and Sons,shopping_net,M,43235 Mckenzie Views Apt. 837,Manchester,IA,77417,Medical sales representative,1
+86.640205,32.003555,-97.825455,4080.4324,31.524582,-98.56234,75.0,23.0,29.0,4.0,1.0,fraud_Friesen Ltd,entertainment,M,622 Robin Run Suite 764,Mc Veytown,TX,31046,Television camera operator,1
+97.23094,34.290466,-90.28798,2178.6055,33.435795,-89.99774,39.0,21.0,28.0,2.0,4.0,fraud_Ledner-Pfannerstill,travel,F,05597 Michael Spurs,Thompson,AR,4953,Building control surveyor,1
+81.53896,43.008305,-120.12469,147.33704,42.576824,-119.391014,40.0,2.0,3.0,10.0,5.0,fraud_Stamm-Rodriguez,grocery_net,M,2677 Byrd Village Suite 035,Sontag,OR,40336,Barista,1
+82.613075,47.081917,-111.022736,3596.6665,47.297634,-109.859955,28.0,2.0,9.0,3.0,2.0,fraud_Schoen Ltd,travel,F,7421 Serrano Lane Apt. 580,Belmond,MT,28654,Veterinary surgeon,1
+92.267166,36.3684,-87.30218,3328.472,36.50422,-87.02403,34.0,3.0,4.0,9.0,6.0,fraud_Donnelly PLC,shopping_net,F,03512 Jackson Ports,Jordanville,TN,61830,Community education officer,1
+78.7108,34.805,-87.51813,3586.8022,34.738476,-87.19444,82.0,23.0,18.0,3.0,1.0,fraud_Dicki Ltd,kids_pets,F,024 Williams Parkway,Parker Dam,TN,33760,"Teacher, English as a foreign language",1
+78.50487,45.728115,-109.689156,4229.8926,46.7033,-109.35581,71.0,3.0,8.0,8.0,0.0,fraud_Waelchi-Wolf,misc_net,M,000 Jennifer Mills,Lolita,MT,15834,Chief of Staff,1
+82.24366,39.03942,-82.555046,573.4566,39.371857,-82.4808,41.0,1.0,9.0,5.0,6.0,fraud_McDermott-Weimann,entertainment,F,37426 Olson Villages,Crouse,DC,68463,"Designer, interior/spatial",1
+82.59801,36.366882,-97.07143,17850.344,36.174828,-97.41016,42.0,1.0,16.0,2.0,2.0,"fraud_Monahan, Bogisich and Ledner",misc_net,M,4970 Michelle Burgs,Kenner,OK,33872,"Development worker, community",1
+81.80952,47.513638,-112.00846,7819.504,47.148434,-112.81255,78.0,23.0,26.0,7.0,4.0,"fraud_Bahringer, Osinski and Block",home,M,384 Jonathan Hills,Mc Clellandtown,ID,84532,Waste management officer,1
+98.75883,40.168484,-78.29959,5474.333,40.219097,-78.02967,62.0,1.0,26.0,2.0,1.0,fraud_Kilback Group,gas_transport,M,923 Jordan Road,Falconer,PA,66020,Pensions consultant,1
+81.78346,46.03348,-110.26411,66.41335,45.21546,-110.69183,41.0,22.0,19.0,3.0,6.0,fraud_Kris-Kertzmann,travel,M,2677 Byrd Village Suite 035,Irwinton,MT,15484,Environmental education officer,1
+110.78272,34.941223,-86.258095,1467.0641,35.08407,-85.999886,38.0,22.0,19.0,7.0,6.0,fraud_Terry-Huel,entertainment,F,230 Ryan Tunnel Apt. 025,North Tonawanda,AL,29436,Health and safety adviser,1
+105.84336,46.08176,-73.55144,25.70299,45.651894,-73.54335,54.0,3.0,17.0,1.0,4.0,fraud_Spencer-Runolfsson,grocery_pos,M,4130 Tiffany Glen Apt. 562,Bryant,ME,61454,Management consultant,1
+95.904755,37.697117,-121.405,1440.7776,37.887474,-122.1502,63.0,23.0,29.0,2.0,1.0,fraud_Shields-Wunsch,kids_pets,F,3270 Scott Islands,Heart Butte,CA,99113,Associate Professor,1
+86.93751,32.899933,-110.98653,4583.7134,33.4175,-111.00128,50.0,15.0,17.0,8.0,4.0,fraud_Kutch-Hegmann,entertainment,M,979 Stewart Lake,Cressona,AZ,4287,"Administrator, local government",1
+101.862366,44.770874,-72.878525,492.11798,44.2795,-70.76764,68.0,3.0,25.0,11.0,2.0,fraud_Emard Inc,travel,F,4005 Dana Glens,Stayton,ME,67038,Information systems manager,1
+95.638084,42.394344,-114.74195,1061.3866,42.767235,-115.26949,43.0,22.0,2.0,12.0,2.0,fraud_O'Keefe-Hudson,personal_care,M,7915 Dawn Roads Apt. 544,Varnell,UT,87035,"Investment banker, corporate",1
+99.70217,38.94297,-81.48713,16952.584,38.849392,-80.87702,71.0,6.0,25.0,5.0,0.0,"fraud_Brown, Homenick and Lesch",grocery_net,M,1535 Ryan Burgs Suite 919,Granbury,WV,72059,Water quality scientist,1
+77.615036,44.02411,-71.07177,1214.7872,43.3855,-71.04284,88.0,22.0,12.0,7.0,6.0,"fraud_Langosh, Wintheiser and Hyatt",grocery_pos,M,44951 Williams Brooks,Paris,NH,36507,Town planner,1
+77.34205,35.85844,-79.58022,2389.5479,35.82423,-80.2048,48.0,0.0,13.0,5.0,4.0,"fraud_Turner, Ziemann and Lehner",home,F,502 Rice Plaza Apt. 979,Bowdoin,NC,53061,Advertising account planner,1
+100.96022,39.53217,-78.22,587.955,39.947613,-78.09364,55.0,3.0,3.0,6.0,0.0,"fraud_Jenkins, Hauck and Friesen",misc_pos,F,40178 Lisa Mission,Breesport,PA,76048,Heritage manager,1
+80.54574,35.35846,-83.662544,8543.56,35.263157,-84.219086,56.0,0.0,3.0,9.0,6.0,fraud_Streich Ltd,grocery_net,F,2970 Flores Brooks,Enola,SC,63565,Copy,1
+105.29587,39.298195,-76.71869,21605.307,39.20144,-76.785484,41.0,17.0,13.0,1.0,6.0,"fraud_Goldner, Kovacek and Abbott",home,M,9554 Flores Drive,Llano,DE,72354,Production manager,1
+89.510124,42.26426,-80.20485,23369.232,42.38776,-80.46701,54.0,2.0,27.0,9.0,1.0,"fraud_Lind, Huel and McClure",shopping_net,M,507 John Overpass Suite 424,Clearwater,RI,28117,"Engineer, production",1
+86.77433,41.876995,-76.19604,1189.8661,42.222275,-75.44617,40.0,22.0,4.0,8.0,5.0,fraud_O'Keefe-Wisoky,shopping_pos,M,93914 Gregory Via,Shelter Island,NY,32044,Careers adviser,1
+97.83657,38.427353,-126.95363,37760.5,38.814808,-128.01347,47.0,16.0,15.0,4.0,1.0,"fraud_Nienow, Ankunding and Collier",gas_transport,M,46095 Tara Fords,Washington Court House,HI,62262,"Geologist, wellsite",1
+79.04091,37.86324,-131.10132,303642.47,37.983215,-131.40317,41.0,0.0,7.0,2.0,3.0,fraud_Kertzmann LLC,personal_care,F,594 White Dale Suite 530,Graniteville,HI,35747,Animator,1
+96.71034,41.480404,-79.84454,1700.4598,41.40278,-80.05463,70.0,19.0,14.0,3.0,5.0,fraud_Deckow-Dare,grocery_net,F,401 Escobar Port,Walnut Ridge,RI,77971,Financial trader,1
+81.294716,45.41221,-93.8862,164.11288,45.26413,-93.59167,46.0,22.0,29.0,8.0,3.0,fraud_Kunde-Sanford,travel,F,4720 Anna Ways,Sontag,MN,67584,Probation officer,1
+107.64431,46.071793,-96.68688,2363.656,45.813755,-96.97581,30.0,1.0,21.0,2.0,4.0,fraud_Sawayn PLC,food_dining,F,01892 Patricia Vista Apt. 828,Brashear,ND,77026,Visual merchandiser,1
+89.9626,39.252876,-90.58221,7185.73,39.30175,-90.06692,56.0,1.0,22.0,2.0,6.0,fraud_Auer LLC,shopping_net,M,48437 English Ways Suite 579,Beasley,IL,56138,"Administrator, education",1
+80.20621,35.8321,-97.46976,13763.645,35.943718,-96.45882,61.0,23.0,18.0,4.0,5.0,fraud_Smith-Stokes,personal_care,F,2970 Flores Brooks,North Judson,OK,58579,Electronics engineer,1
+82.178825,31.786266,-88.26893,1546.5599,32.120556,-87.76251,58.0,3.0,4.0,11.0,5.0,fraud_Auer-West,misc_net,M,152 James Centers Apt. 768,Lake Jackson,MS,72341,Armed forces training and education officer,1
+79.26985,27.259598,-81.044014,136640.66,26.94869,-81.824844,72.0,22.0,17.0,11.0,6.0,"fraud_Dare, Fritsch and Zboncak",grocery_net,F,9047 Rodriguez Turnpike,West Sayville,FL,51521,Professor Emeritus,1
+105.622734,35.106895,-89.89232,164.15666,34.780514,-89.68844,46.0,23.0,16.0,3.0,2.0,fraud_Quitzon-Goyette,food_dining,M,13956 Hughes Causeway Suite 124,Conway,AL,29939,"Designer, textile",1
+81.11104,36.39396,-99.35955,29531.236,36.331963,-100.2559,56.0,1.0,7.0,5.0,3.0,fraud_Fahey Inc,kids_pets,M,671 Cynthia Key Suite 155,Comfrey,WA,53120,Dispensing optician,1
+79.96788,37.485508,-93.00942,3283.863,37.531116,-92.87909,43.0,22.0,27.0,7.0,6.0,fraud_Dibbert and Sons,kids_pets,M,785 Kevin Walk Suite 237,Mc Intosh,MO,75703,Naval architect,1
+89.01971,37.90685,-118.518295,7060.5312,37.925148,-119.07051,53.0,22.0,28.0,6.0,5.0,"fraud_Swaniawski, Lowe and Robel",entertainment,M,269 Sanchez Rapids,Early,NV,45622,Magazine features editor,1
+81.275375,44.575928,-74.14024,1692.7786,44.87444,-74.86773,63.0,22.0,3.0,10.0,3.0,"fraud_Heathcote, Yost and Kertzmann",home,M,5097 Martin Ridges,Coleman,VT,12460,Biomedical scientist,1
+98.71593,37.705494,-100.64623,36844.234,38.00349,-101.15918,25.0,23.0,27.0,10.0,6.0,"fraud_Schultz, Simonis and Little",personal_care,F,3645 Atkins Island Apt. 238,Louisville,WA,21619,"Pilot, airline",1
+80.479385,46.29072,-114.180336,204.78929,46.71618,-113.03972,49.0,0.0,26.0,2.0,1.0,fraud_Cartwright-Harris,personal_care,F,22084 Smith Roads Suite 776,Payson,ID,54559,"Designer, multimedia",1
+90.176125,38.217487,-127.45838,12688.852,37.911327,-127.35371,72.0,2.0,27.0,10.0,5.0,fraud_Zboncak Ltd,food_dining,F,0701 John Ranch,Newton,HI,46254,Video editor,1
+97.6037,30.640707,-98.376396,8086.9673,31.19516,-98.4039,36.0,22.0,15.0,9.0,5.0,"fraud_Graham, Hegmann and Hammes",gas_transport,M,50614 Kevin Point,Meadville,TX,21619,Fine artist,1
+86.63436,36.974926,-92.6904,1416.7974,37.35687,-93.52752,33.0,22.0,13.0,8.0,2.0,fraud_Zemlak Group,misc_net,F,92811 Jared Spur Apt. 345,Barnard,AR,94619,Exhibition designer,1
+95.49916,41.966755,-72.69322,3739.6138,41.775826,-72.17946,56.0,22.0,28.0,6.0,3.0,"fraud_Cormier, Stracke and Thiel",personal_care,M,979 Stewart Lake,Bolivar,CT,29129,Herbalist,1
+81.51244,34.74955,-92.77846,482.10498,34.57721,-92.80886,79.0,22.0,10.0,11.0,0.0,"fraud_Rippin, Kub and Mann",travel,F,374 Christopher Ramp Suite 855,Marathon,AR,70065,Museum education officer,1
+78.38028,46.35679,-112.70575,1992.1788,46.19901,-112.12224,59.0,22.0,20.0,3.0,4.0,fraud_Smitham-Schiller,personal_care,F,611 Michael Rue,Queenstown,AK,43985,Structural engineer,1
+82.070656,44.815617,-71.98883,259.97397,44.967785,-72.39619,20.0,0.0,9.0,2.0,6.0,fraud_Kassulke PLC,gas_transport,F,350 Stacy Glens,Parker Dam,VT,37932,"Accountant, chartered",1
+79.0387,38.536407,-101.161995,1080.1125,38.747726,-100.30286,47.0,22.0,4.0,5.0,0.0,fraud_Jaskolski-Dibbert,gas_transport,M,0925 Lang Extensions,Fields Landing,WA,12534,Warehouse manager,1
+84.35498,33.9984,-91.07975,37.449554,34.72384,-90.91326,48.0,0.0,8.0,3.0,0.0,"fraud_Moore, Dibbert and Koepp",travel,M,1984 Taylor Island Suite 836,Corsica,MS,29939,"Physicist, medical",1
+86.259705,30.813358,-89.19175,15274.486,30.564283,-89.30039,48.0,22.0,17.0,12.0,1.0,fraud_Bahringer Group,food_dining,M,5916 Susan Bridge Apt. 939,Oakdale,MS,29032,Electrical engineer,1
+97.16094,37.906116,-121.8567,4281.2183,38.12604,-121.78347,62.0,23.0,11.0,2.0,5.0,"fraud_Swaniawski, Nitzsche and Welch",kids_pets,M,594 White Dale Suite 530,Delhi,CA,45698,Physiological scientist,1
+102.58364,44.80184,-70.41288,29957.02,44.565502,-71.31641,61.0,3.0,20.0,6.0,3.0,"fraud_Turner, Ziemann and Lehner",misc_net,M,022 Moore Island,Alton,ME,51632,"Nurse, mental health",1
+89.73392,42.03649,-81.44726,1585.3328,42.083355,-81.6463,40.0,2.0,6.0,12.0,2.0,"fraud_Tillman, Dickinson and Labadie",shopping_net,M,40624 Rebecca Spurs,Mc Nabb,RI,45801,Control and instrumentation engineer,1
+78.4148,41.96615,-109.5201,1200.3369,41.186172,-109.90911,100.0,23.0,7.0,5.0,6.0,fraud_Kling Inc,kids_pets,M,5901 Foster Pine,Ash Flat,WY,97375,Warehouse manager,1
+96.040054,37.86433,-81.68359,89803.02,38.020245,-81.64508,41.0,2.0,7.0,8.0,4.0,fraud_Bednar Inc,gas_transport,M,144 Evans Islands Apt. 683,Ruckersville,DC,90250,Sub,1
+92.55214,40.123722,-86.86836,5316.458,39.785175,-86.151695,32.0,23.0,4.0,6.0,1.0,fraud_Kemmer-Buckridge,shopping_net,F,42933 Ryan Underpass,Brandon,IN,75490,Commercial horticulturist,1
+80.32886,30.299038,-90.97184,90221.59,30.18505,-91.58457,53.0,22.0,23.0,12.0,2.0,fraud_Kihn-Fritsch,grocery_net,F,73869 Connie Prairie,Birmingham,LA,26237,Multimedia programmer,1
+102.6076,33.932713,-79.73124,16321.989,33.389324,-79.39131,60.0,23.0,4.0,9.0,3.0,fraud_Weber and Sons,shopping_net,F,686 Linda Rest,Bellmore,NC,57732,Health physicist,1
+78.31437,37.762077,-121.80202,3231.046,37.926563,-121.855034,51.0,21.0,12.0,12.0,3.0,fraud_Eichmann-Kilback,personal_care,M,062 Carl Dam,Corsica,CA,45331,Tourism officer,1
+82.21426,45.38105,-111.470375,15900.225,45.952038,-111.19876,31.0,0.0,22.0,10.0,4.0,fraud_Murray Ltd,gas_transport,M,05597 Michael Spurs,Annapolis,MT,35022,"Copywriter, advertising",1
+98.37929,39.15063,-75.396164,5377.789,38.437202,-74.7188,55.0,1.0,9.0,10.0,3.0,fraud_Kuvalis Ltd,gas_transport,M,182 Sergio Summit Apt. 129,Scotts Mills,MD,73754,Arboriculturist,1
+96.96394,33.342022,-89.42874,136475.12,33.27354,-88.25336,40.0,22.0,7.0,9.0,3.0,fraud_Quitzon-Goyette,misc_pos,M,4970 Michelle Burgs,Corriganville,MS,77327,"Loss adjuster, chartered",1
+102.14478,34.22905,-92.70326,9124.733,34.46604,-92.96889,48.0,2.0,26.0,11.0,1.0,fraud_Conroy-Cruickshank,grocery_pos,M,121 Solis Summit Apt. 934,Oakford,MS,68638,Control and instrumentation engineer,1
+98.60554,40.61855,-97.804825,791.603,41.11271,-97.14325,54.0,18.0,17.0,4.0,2.0,fraud_Satterfield-Lowe,travel,M,4005 Dana Glens,June Lake,NE,58769,English as a foreign language teacher,1
+97.77231,32.522762,-98.535904,3547.3035,32.179264,-98.90418,90.0,1.0,5.0,8.0,3.0,fraud_Shields-Wunsch,personal_care,M,58761 Brewer Rapids,Gregory,TX,36617,Forensic psychologist,1
+97.44641,34.077152,-109.60241,135.7863,34.40843,-110.54485,76.0,22.0,19.0,8.0,0.0,"fraud_Schoen, Kuphal and Nitzsche",health_fitness,F,43075 Cohen Shoals,Summerfield,AZ,45896,Mechanical engineer,1
+89.89319,32.03389,-90.97405,23739.14,32.436012,-91.09117,60.0,2.0,12.0,3.0,3.0,fraud_Howe PLC,shopping_pos,F,619 Jeremy Garden Apt. 681,Haines City,LA,43767,Private music teacher,1
+100.12393,36.80909,-82.55273,4544.4224,35.65548,-80.99768,82.0,1.0,19.0,2.0,4.0,fraud_Turcotte-Halvorson,travel,F,954 Green Wall,Bagley,KY,3774,Advice worker,1
+97.82568,44.81809,-110.481026,13096.142,44.412876,-110.75916,27.0,1.0,4.0,12.0,5.0,"fraud_McLaughlin, Armstrong and Koepp",personal_care,F,0107 Clements Point,Hancock,MT,48436,Environmental consultant,1
+106.76939,39.334373,-82.83523,7214.202,39.42408,-80.407776,79.0,22.0,24.0,2.0,4.0,fraud_Larkin Ltd,shopping_net,F,0547 Russell Ford Suite 574,Greenbush,OH,3905,Television production assistant,1
+100.39858,36.65771,-77.40605,5000.7627,35.660923,-77.325,32.0,0.0,10.0,9.0,2.0,"fraud_Baumbach, Feeney and Morar",travel,M,87665 Karen Mill Apt. 586,Fulton,NC,91702,"Teacher, adult education",1
+80.71864,40.51183,-75.775406,754.18604,40.068302,-74.73716,60.0,23.0,12.0,10.0,5.0,fraud_Streich Ltd,kids_pets,F,13128 Hall Station Suite 588,Sun City,NJ,32565,Public relations officer,1
+81.84289,44.66842,-111.566284,100.695206,44.447803,-111.19917,58.0,5.0,20.0,12.0,5.0,fraud_Abbott-Steuber,kids_pets,F,7952 Karen Pike,Boyd,WY,76566,Ambulance person,1
+96.96137,47.366707,-111.52124,183.90778,47.639683,-111.25376,58.0,15.0,29.0,12.0,6.0,"fraud_Rodriguez, Yost and Jenkins",kids_pets,F,721 Jacqueline Brooks,Quanah,ID,72341,Patent attorney,1
+99.9774,45.39656,-95.49439,508.58725,44.67924,-96.05296,37.0,8.0,6.0,8.0,4.0,fraud_Schmidt-Larkin,travel,F,583 Gray Creek,Fulton,MN,5654,Camera operator,1
+100.84992,47.56021,-69.596634,0.44156942,52.189507,-107.774925,18.0,23.0,1.0,12.0,0.0,fraud_VonRueden Group,misc_pos,F,519 Jerry Views,Wetmore,SD,31046,"Civil engineer, contracting",1
+80.87181,40.394825,-86.66023,1221.434,40.642963,-86.67112,53.0,22.0,12.0,7.0,5.0,fraud_Goyette-Gerhold,travel,M,79414 Clark Lakes Suite 966,Jefferson,IN,46765,Fine artist,1
+101.59168,39.580593,-111.803604,16801.395,39.46962,-112.19322,56.0,23.0,10.0,6.0,0.0,fraud_Homenick LLC,grocery_pos,F,121 Solis Summit Apt. 934,Jaffrey,UT,45307,Exhibition designer,1
+95.68321,31.503344,-90.82121,23033.938,31.775982,-90.65908,80.0,3.0,29.0,8.0,3.0,fraud_Smith-Stokes,gas_transport,F,6574 William Hill Apt. 375,Marienville,LA,16048,Pension scheme manager,1
+82.54345,41.58487,-112.9793,112.642166,42.19537,-113.487595,35.0,23.0,18.0,6.0,2.0,fraud_Wolf Inc,travel,M,02110 Lucas Freeway Suite 517,Wartburg,UT,28033,Chief Financial Officer,1
+92.384514,43.890343,-90.23191,1667.4177,43.331436,-90.75631,58.0,22.0,29.0,5.0,4.0,fraud_Kris-Padberg,shopping_net,F,48635 Paul Hills,Streator,WI,66020,"Teacher, special educational needs",1
+80.39489,31.805056,-96.072655,1199.1357,31.312456,-96.85293,49.0,14.0,16.0,10.0,4.0,"fraud_Okuneva, Schneider and Rau",gas_transport,F,0371 Aimee Neck Suite 856,Altair,TX,95567,Orthoptist,1
+83.54533,43.986996,-104.08072,3430.2808,44.20268,-104.20343,59.0,4.0,17.0,10.0,3.0,fraud_Bechtelar-Rippin,travel,M,0157 Samuel Mission Suite 379,Remer,SD,13795,Research scientist (medical),1
+79.25163,33.37105,-85.89763,13438.864,33.45659,-86.2522,57.0,21.0,27.0,6.0,4.0,fraud_Shanahan-Lehner,gas_transport,F,54822 Hill Forks,Apison,AL,15557,"Research officer, trade union",1
+81.13438,38.155067,-97.37239,592.44916,38.20006,-96.70244,37.0,13.0,6.0,12.0,5.0,fraud_Parisian and Sons,travel,F,91542 Marissa Shores Apt. 053,Grassflat,KS,39211,Company secretary,1
+95.50616,37.53248,-117.73122,48147.965,37.169506,-119.15236,42.0,13.0,5.0,2.0,2.0,"fraud_Becker, Harris and Harvey",kids_pets,F,5155 Mary Common Apt. 927,Edinburg,CA,15557,Local government officer,1
+80.508415,27.465992,-80.47714,40948.83,27.92249,-79.85779,43.0,0.0,6.0,9.0,0.0,fraud_Block-Hauck,grocery_net,F,06539 Gregory Mountains Suite 029,Ironton,FL,41810,Research scientist (medical),1
+90.020134,34.462708,-82.27356,3280.544,34.35066,-81.70814,38.0,22.0,12.0,7.0,6.0,fraud_Brown Inc,home,M,254 Webster Harbor,Beaver Falls,SC,12222,Health and safety adviser,1
+96.816025,40.864174,-97.5485,152.7396,41.29698,-96.89505,56.0,22.0,8.0,6.0,0.0,"fraud_Yost, Schamberger and Windler",kids_pets,M,916 Charles Road,Harmony,NE,96038,Dealer,1
+101.124,42.07508,-89.999886,3158.4436,42.12603,-90.780754,25.0,1.0,24.0,8.0,6.0,fraud_Heaney-Marquardt,grocery_net,M,5155 Mary Common Apt. 927,Shields,WI,48706,Marketing executive,1
+78.68124,46.330067,-101.297485,282.9138,46.474346,-101.86947,21.0,22.0,4.0,2.0,4.0,fraud_Kub-Heaney,kids_pets,F,320 Nicholson Orchard,Wauchula,ND,76951,Tour manager,1
+80.64277,34.71327,-91.88726,797.2529,34.617786,-91.207344,71.0,22.0,24.0,4.0,2.0,fraud_Collier LLC,gas_transport,M,2481 Mills Lock,Cecilton,AR,2630,Community arts worker,1
+88.69,40.22246,-75.04159,630.68506,40.17041,-74.398506,46.0,2.0,3.0,8.0,0.0,"fraud_Stehr, Jewess and Schimmel",grocery_pos,F,4879 Cristina Station,Cardwell,NJ,64659,Event organiser,1
+97.179016,30.153543,-89.47961,9872.512,30.170763,-89.1652,67.0,2.0,1.0,3.0,6.0,"fraud_Willms, Kris and Bergnaum",health_fitness,F,5554 Mack Meadows,Orangeburg,MS,18917,"Scientist, physiological",1
+90.788666,41.976463,-71.75297,496.42438,41.54306,-72.65623,56.0,9.0,22.0,3.0,0.0,fraud_Lynch-Mohr,grocery_pos,M,06730 Joshua Isle Suite 555,Fiddletown,CT,13316,Media planner,1
+97.30662,34.709175,-87.226776,9494.807,34.237564,-88.27628,85.0,1.0,30.0,8.0,4.0,fraud_Reilly LLC,health_fitness,M,1007 Colton Forks,Milwaukee,AL,2630,"Scientist, physiological",1
+80.52614,42.75963,-92.52266,994.12396,42.954243,-92.499214,46.0,7.0,18.0,3.0,1.0,fraud_Lemke and Sons,health_fitness,M,899 Michele View Suite 960,Clarinda,WI,62075,Race relations officer,1
+90.24093,34.68034,-86.181694,11455.675,34.527622,-86.26692,36.0,7.0,14.0,4.0,2.0,"fraud_Larson, Quitzon and Spencer",home,M,250 Benjamin Hill Apt. 026,Clifton,AL,79772,Cytogeneticist,1
+80.50177,40.74657,-88.81676,47968.484,40.285988,-89.32493,68.0,15.0,2.0,4.0,4.0,fraud_Rempel PLC,grocery_net,F,000 Jennifer Mills,Fenelton,IL,82072,Intelligence analyst,1
+102.25979,35.84428,-82.058685,6058.5317,35.495174,-82.67631,44.0,22.0,23.0,11.0,5.0,"fraud_Medhurst, Cartwright and Ebert",grocery_pos,F,2970 Flores Brooks,North Brookfield,SC,61830,Toxicologist,1
+109.61652,40.986267,-113.2759,8226.275,40.847794,-113.175026,50.0,3.0,11.0,7.0,5.0,fraud_Hamill-Daugherty,food_dining,F,37732 Joe Courts Apt. 752,Humboldt,UT,76248,Education administrator,1
+82.28551,44.6029,-85.0586,4935.598,44.43477,-84.89206,51.0,23.0,12.0,8.0,0.0,fraud_Kutch and Sons,shopping_pos,M,3872 Matthew Skyway,Gainesville,MI,30426,"Teacher, English as a foreign language",1
+106.38953,35.730175,-86.82191,8960.388,35.874332,-87.13396,78.0,23.0,14.0,7.0,1.0,"fraud_Parisian, Schiller and Altenwerth",food_dining,M,417 Parks Route,Iselin,TN,28405,Retail buyer,1
+80.98924,44.618843,-120.61393,524.56854,44.6239,-120.516014,54.0,13.0,9.0,2.0,6.0,fraud_Williamson LLC,misc_pos,M,43576 Kristina Islands,Kirk,OR,92648,"Therapist, horticultural",1
+96.45168,41.170765,-73.74874,19179.666,41.18247,-73.46719,73.0,22.0,5.0,5.0,2.0,"fraud_Hyatt, Russel and Gleichner",gas_transport,F,04139 Johnson Prairie Suite 401,Whittemore,NJ,65680,Barrister,1
+77.5933,45.554916,-116.20423,15221.609,45.744938,-116.43398,57.0,23.0,8.0,11.0,6.0,fraud_Graham and Sons,personal_care,M,168 Michael Coves Suite 343,Parks,OR,99746,"Production assistant, radio",1
+79.044,43.194733,-84.760994,33688.68,43.341953,-84.93767,40.0,21.0,27.0,8.0,0.0,fraud_Schulist Ltd,entertainment,M,7178 Willis Drive,Arvada,MI,35211,"Physicist, medical",1
+98.35176,42.327293,-81.96866,1133.5813,42.176327,-81.93462,55.0,5.0,14.0,11.0,3.0,fraud_Morar Inc,health_fitness,F,019 Kimberly Light Apt. 039,Kingsville,RI,16878,Land/geomatics surveyor,1
+86.6275,34.668453,-80.20937,336.39255,34.730907,-79.33312,67.0,2.0,14.0,1.0,0.0,fraud_Kub PLC,shopping_pos,M,6114 Moran Way,Randolph,NC,55040,Clinical cytogeneticist,1
+92.744736,41.428486,-105.649506,26272.453,41.76542,-106.8029,32.0,20.0,25.0,7.0,5.0,fraud_Brown Inc,entertainment,F,77663 Colleen Freeway,Parkers Lake,WY,3601,Licensed conveyancer,1
+98.26245,43.67744,-106.88564,203.49739,43.49193,-107.35677,26.0,8.0,4.0,7.0,3.0,fraud_Hamill-D'Amore,personal_care,F,29606 Martinez Views Suite 653,Westerville,WY,74633,Museum/gallery exhibitions officer,1
+99.30895,43.608166,-111.37203,263.27585,43.79743,-111.26581,58.0,23.0,6.0,3.0,1.0,fraud_Crooks and Sons,personal_care,F,68276 Matthew Springs,Ringwood,WA,68932,"Horticulturist, commercial",1
+97.257645,39.976334,-86.61699,449.71216,39.40936,-87.595795,58.0,16.0,25.0,8.0,5.0,"fraud_O'Connell, Botsford and Hand",home,F,126 Underwood Drive,Lanark Village,IN,33510,Licensed conveyancer,1
+88.45518,36.8657,-80.415565,35183.434,36.61861,-79.6697,55.0,23.0,8.0,11.0,4.0,fraud_Rau-Grant,food_dining,M,838 Amy Street Suite 107,Guthrie,DC,29061,Nutritional therapist,1
+96.26311,45.97117,-72.08964,39751.777,45.674957,-71.75895,68.0,22.0,12.0,5.0,6.0,"fraud_Eichmann, Hayes and Treutel",health_fitness,F,76332 Maria Squares,Lawrence,ME,35903,Contractor,1
+107.836685,38.218643,-78.15978,1797.7054,37.833782,-77.25412,49.0,6.0,24.0,5.0,6.0,fraud_Bartoletti and Sons,home,F,9853 Flynn Hollow Apt. 602,Altonah,VA,82190,Interior and spatial designer,1
+106.37119,41.689144,-99.075775,3942.0576,41.232563,-99.05724,79.0,23.0,3.0,11.0,2.0,"fraud_Koss, McLaughlin and Mayer",entertainment,M,2076 Thomas Roads Suite 970,Monmouth Beach,NE,20012,Landscape architect,1
+95.8381,38.71324,-95.24073,331.29056,38.519398,-95.85816,48.0,22.0,10.0,3.0,5.0,fraud_Kunze Inc,personal_care,M,03921 Cole Mission Suite 882,Monmouth Beach,KS,36009,"Pharmacist, community",1
+89.82837,37.726967,-98.14527,2698.8818,37.864994,-98.4101,66.0,20.0,11.0,8.0,6.0,"fraud_Lakin, Ferry and Beatty",shopping_pos,F,1943 Dennis Inlet Suite 145,Port Saint Lucie,KS,39840,Animator,1
+80.27156,42.152702,-72.62206,2804.2117,42.632565,-72.52069,48.0,23.0,13.0,8.0,1.0,"fraud_Ferry, Lynch and Kautzer",kids_pets,M,033 Tara Brook Suite 523,Hopewell,CT,57439,Solicitor,1
+89.20937,39.327682,-93.5308,799.6862,39.784985,-92.35779,100.0,22.0,21.0,10.0,0.0,fraud_Gerhold LLC,misc_net,F,6114 Moran Way,Oak Hill,MO,4074,"Therapist, art",1
+88.58563,31.979967,-96.91711,152102.69,32.056515,-97.52031,39.0,12.0,12.0,12.0,5.0,fraud_Kozey-Boehm,food_dining,M,210 Dean Causeway Suite 130,Topeka,TX,35811,"Sales professional, IT",1
+104.97202,37.64302,-113.522446,3975705.5,37.301632,-114.856964,77.0,23.0,16.0,3.0,5.0,fraud_Mohr Inc,food_dining,M,03090 Fisher Forges Apt. 200,Warren,NV,27807,Legal secretary,1
+88.7508,39.304775,-77.91551,7904.365,39.313023,-77.48333,40.0,2.0,14.0,6.0,0.0,"fraud_Stokes, Christiansen and Sipes",food_dining,F,7952 Karen Pike,Coleman,DE,3601,"Designer, television/film set",1
+78.49433,41.37232,-101.61907,2429.952,41.08034,-102.58256,50.0,23.0,29.0,3.0,5.0,fraud_Zemlak Group,kids_pets,M,05597 Michael Spurs,Cleveland,SD,71832,Chartered loss adjuster,1
+98.43228,36.38067,-85.591545,695.52484,36.344868,-84.012115,60.0,2.0,9.0,11.0,5.0,fraud_Kuphal-Bartoletti,grocery_net,F,401 Escobar Port,Colton,TN,64686,Soil scientist,1
+96.639084,40.292976,-77.9689,31772.361,40.39539,-77.23542,71.0,22.0,20.0,5.0,0.0,"fraud_Feil, Hilpert and Koss",health_fitness,F,641 Steven Mall Apt. 299,San Jose,DE,18446,Paediatric nurse,1
+96.89899,41.16959,-129.6752,13844.612,41.564915,-129.2943,42.0,13.0,15.0,8.0,3.0,"fraud_Eichmann, Bogan and Rodriguez",travel,F,464 Newman Crossroad,Lima,HI,80824,"Radiographer, diagnostic",1
+110.57839,42.27641,-76.37061,102.49685,41.82892,-76.1991,66.0,22.0,3.0,2.0,2.0,fraud_Wolf Inc,grocery_pos,F,7483 Navarro Flats,Duncan,NY,25106,"Engineer, materials",1
+95.941864,38.97281,-130.50471,1545.567,39.190273,-131.04993,58.0,22.0,27.0,8.0,0.0,fraud_Graham and Sons,kids_pets,M,670 Le Meadows Suite 250,Etlan,HI,5654,Financial adviser,1
+89.07381,38.771442,-111.635544,237.3993,38.326202,-110.98846,44.0,16.0,13.0,9.0,6.0,fraud_Predovic Inc,food_dining,F,053 Kim Valley Suite 928,Hubbell,UT,79539,Equities trader,1
+89.943565,39.804768,-97.92249,76444.2,39.86213,-97.95551,42.0,1.0,20.0,10.0,6.0,fraud_Bauch-Blanda,shopping_net,M,901 Todd Gardens Apt. 466,Louisville,NE,55046,"Surveyor, rural practice",1
+106.60122,44.00272,-70.40623,27526.385,44.02345,-69.95685,37.0,22.0,18.0,1.0,5.0,fraud_Dach-Borer,shopping_net,F,1166 Castillo Mountains,Bailey,ME,37040,Volunteer coordinator,1
+82.78605,40.23526,-102.27234,363.93518,39.962498,-103.75092,59.0,2.0,4.0,3.0,1.0,fraud_Reilly LLC,travel,M,6602 Ortiz Pine Apt. 179,Dongola,AK,29105,Technical brewer,1
+83.62934,35.81048,-96.739525,16687.594,35.47129,-95.882965,18.0,22.0,18.0,12.0,3.0,"fraud_Tromp, Kerluke and Glover",misc_net,F,428 Morgan River,Howes Cave,OK,65066,Hospital doctor,1
+82.16792,43.672676,-71.37915,1466.5322,43.7089,-71.7401,57.0,1.0,5.0,2.0,2.0,"fraud_Turcotte, McKenzie and Koss",shopping_pos,F,05597 Michael Spurs,Elizabethtown,ME,71832,Pharmacologist,1
+78.228035,44.44003,-71.38041,49463.5,44.26593,-72.28677,83.0,23.0,25.0,6.0,2.0,fraud_Fahey Inc,entertainment,F,977 Rita Grove Apt. 000,Detroit,ME,20882,Medical physicist,1
+101.34664,42.8526,-72.36166,250.80177,42.38885,-71.36105,69.0,7.0,17.0,10.0,3.0,"fraud_Eichmann, Bogan and Rodriguez",kids_pets,F,329 Emily Cape,Hudson,VT,62856,Warden/ranger,1
+98.159225,39.577507,-71.265686,18602.078,40.06818,-70.7215,44.0,23.0,10.0,6.0,2.0,"fraud_Witting, Beer and Ernser",misc_pos,M,0881 Lori Pines,Dubre,CT,38315,Sales executive,1
+79.152275,34.94523,-92.18618,17060.266,34.255783,-90.97984,54.0,14.0,11.0,11.0,4.0,fraud_Kerluke PLC,kids_pets,M,078 Alex Fields,Humboldt,AR,28412,"Designer, exhibition/display",1
+96.45735,41.74906,-81.34637,3908.426,41.724087,-81.42844,50.0,23.0,12.0,8.0,2.0,fraud_Hermann and Sons,health_fitness,F,48437 English Ways Suite 579,Doe Hill,RI,67529,Commercial horticulturist,1
+89.70762,34.57807,-80.654305,417.51257,34.81327,-80.78707,45.0,3.0,15.0,11.0,4.0,"fraud_Reichert, Rowe and Mraz",food_dining,M,77872 Andrea Glen Apt. 543,Deadwood,SC,53924,"Teacher, adult education",1
+81.156746,46.888573,-98.539894,15084.906,46.795876,-99.48319,57.0,22.0,23.0,6.0,6.0,"fraud_Rowe, Batz and Goodwin",travel,M,502 Rice Plaza Apt. 979,Webster City,ND,19310,Immunologist,1
+78.32257,41.931725,-105.387695,6366.0474,42.11737,-105.06299,48.0,9.0,19.0,5.0,1.0,fraud_Waelchi-Wolf,entertainment,M,5270 Megan Burg Suite 756,Clarks Mills,CO,12455,Psychiatrist,1
+79.96764,34.31909,-79.08565,63064.098,34.250755,-78.296715,33.0,22.0,8.0,11.0,6.0,fraud_Gislason Group,travel,M,1499 Michael Rue,Birmingham,NC,3601,"Designer, interior/spatial",1
+82.150314,40.238533,-109.902824,56.514317,40.04994,-109.731834,49.0,1.0,10.0,6.0,4.0,fraud_Harber Inc,gas_transport,M,6993 Carr Lodge Apt. 311,Scotland,UT,70056,Soil scientist,1
+86.34512,42.74003,-89.75672,2411.025,42.536594,-89.190636,73.0,22.0,26.0,12.0,2.0,"fraud_Schoen, Nienow and Bauch",misc_net,M,950 Dunn Squares,Mount Clemens,WI,12986,"Designer, industrial/product",1
+89.61808,37.66342,-94.59007,2306.9124,37.738422,-94.52013,25.0,2.0,3.0,8.0,5.0,fraud_Kihn Inc,misc_net,F,759 Erin Mount Suite 956,Reynolds,AR,72529,"Research officer, trade union",1
+97.724236,40.7954,-85.79081,434.54376,40.58324,-85.7477,38.0,23.0,10.0,7.0,2.0,fraud_Thiel Ltd,health_fitness,M,145 Jeffrey Key Suite 668,University,KY,99921,Television camera operator,1
+89.62526,35.63138,-83.246,1561307.8,35.150272,-83.658356,24.0,15.0,13.0,3.0,4.0,"fraud_Cole, Hills and Jewess",misc_net,F,445 Jerry Lights Apt. 081,Paauilo,OH,67232,Building control surveyor,1
+82.09114,40.38522,-81.4305,2769.1445,40.33903,-81.42,52.0,2.0,3.0,10.0,4.0,fraud_Hoppe-Parisian,gas_transport,M,2807 Parker Station Suite 080,West Chazy,OH,14445,"Designer, jewellery",1
+83.35027,39.270245,-78.19587,1771.5831,39.229897,-78.270386,53.0,3.0,14.0,6.0,0.0,fraud_Friesen Inc,kids_pets,F,433 John Heights Apt. 849,Newton,DE,96776,Colour technologist,1
+91.820435,42.548176,-119.15144,3348.45,42.798904,-120.58252,73.0,23.0,23.0,11.0,0.0,fraud_VonRueden Group,shopping_net,M,7529 Carter Well Suite 262,Parker,OR,33510,"Research officer, political party",1
+78.73703,44.879074,-117.32503,10675.901,44.743225,-118.16736,62.0,23.0,18.0,10.0,5.0,fraud_Pfeffer LLC,personal_care,M,234 Bridges Wells Apt. 389,Claypool,OR,11763,IT consultant,1
+89.442345,40.396996,-105.23814,1215.5869,40.43114,-104.18702,80.0,4.0,14.0,6.0,6.0,fraud_Gislason Group,shopping_pos,M,7812 Shane Shoals Apt. 607,Waukau,CO,97210,"Accountant, chartered",1
+101.08033,44.24713,-110.821945,126.18371,44.37617,-109.56658,39.0,23.0,9.0,7.0,0.0,fraud_Kris-Padberg,entertainment,F,686 Linda Rest,Red Cliff,AK,54499,Private music teacher,1
+98.38568,35.52984,-86.64591,1355.7225,35.928886,-86.26964,61.0,16.0,3.0,10.0,6.0,fraud_Bins-Rice,gas_transport,M,4470 Jillian Courts,Atlantic,AL,8324,Building services engineer,1
+81.35372,35.05023,-90.53783,31111.014,35.008472,-91.10949,18.0,14.0,3.0,10.0,6.0,fraud_McCullough LLC,misc_pos,M,0362 Anderson Wall,Norman,AR,95148,Minerals surveyor,1
+90.04826,37.99559,-79.15415,194880.17,37.29405,-80.654465,74.0,22.0,20.0,2.0,4.0,"fraud_Heathcote, Yost and Kertzmann",shopping_pos,F,44259 Beth Station Suite 215,Texarkana,DC,54726,Multimedia programmer,1
+86.61334,44.40174,-70.20806,1667.7463,44.311035,-70.43173,47.0,15.0,14.0,8.0,4.0,"fraud_Romaguera, Wehner and Tromp",food_dining,M,741 Adams Knolls,Monmouth Beach,ME,12992,Environmental manager,1
+82.408394,41.063023,-99.512276,80.977554,40.823856,-99.35572,49.0,8.0,17.0,6.0,2.0,fraud_Harris Inc,home,M,609 Hunt Grove,Juliette,NE,35581,"Designer, ceramics/pottery",1
+88.14782,44.989147,-107.44921,1622.2424,44.647343,-108.4034,64.0,23.0,1.0,2.0,5.0,fraud_Bins-Rice,food_dining,F,516 Brown Parks,Parsonsfield,WY,57036,Technical brewer,1
+81.25745,38.536144,-107.20431,5040.891,38.292255,-107.54411,48.0,7.0,8.0,6.0,1.0,fraud_Langworth LLC,grocery_net,M,7320 Jennifer Forges,Newberg,CO,77412,"Psychologist, forensic",1
+98.462204,44.11082,-72.55344,16132.082,43.970684,-72.351395,67.0,10.0,26.0,8.0,1.0,fraud_Waelchi-Wolf,personal_care,M,543 Mindy Oval,Morrowville,NH,65072,Commissioning editor,1
+86.63423,41.58881,-89.747856,6635.517,41.679592,-91.04683,78.0,13.0,11.0,10.0,6.0,"fraud_Streich, Hansen and Veum",misc_net,F,44864 Melton Vista Suite 310,Wales,IL,63010,"Administrator, arts",1
+82.02599,36.67205,-135.73657,2608.7473,36.351566,-136.1189,59.0,5.0,19.0,3.0,2.0,fraud_Stiedemann Inc,entertainment,F,7952 Karen Pike,May,HI,87558,"Merchandiser, retail",1
+88.577515,47.603558,-98.28094,255.22263,47.891804,-97.289055,55.0,23.0,13.0,2.0,6.0,fraud_Hirthe-Beier,entertainment,M,4130 Tiffany Glen Apt. 562,Orange Park,ND,68463,Chief Strategy Officer,1
+80.10432,41.81886,-75.72894,4032.582,42.263935,-75.15273,76.0,13.0,8.0,3.0,6.0,"fraud_Willms, Kris and Bergnaum",gas_transport,M,78652 Scott Ports,Parker,NY,48206,"Administrator, education",1
+82.450325,41.62265,-71.566605,11062.515,41.53042,-71.10629,36.0,8.0,21.0,11.0,4.0,fraud_Thompson-Gleason,shopping_pos,M,4900 Curtis Gardens Suite 952,Loxahatchee,CT,29455,Illustrator,1
+78.72825,31.65063,-96.90494,7517.022,31.77491,-97.20995,37.0,23.0,9.0,8.0,6.0,"fraud_Boehm, Block and Jakubowski",kids_pets,F,4725 Hurst Curve Apt. 634,Breesport,TX,82501,Multimedia programmer,1
+80.65352,38.75656,-92.984535,107.5083,39.218906,-91.78391,72.0,21.0,8.0,5.0,5.0,fraud_Klein Group,grocery_net,F,3304 Hernandez Run,Arcadia,AR,16421,"Conservation officer, historic buildings",1
+81.02913,45.922745,-111.186295,2987.313,45.55036,-111.39698,53.0,3.0,10.0,8.0,6.0,"fraud_Tillman, Fritsch and Schmitt",grocery_net,F,956 Sanchez Highway,Drakes Branch,MT,56668,"Geneticist, molecular",1
+81.05851,39.70076,-131.30058,10551.068,39.748913,-131.05379,39.0,3.0,14.0,7.0,6.0,fraud_Schroeder Group,grocery_net,M,952 Joseph Throughway,Barneveld,HI,3774,Amenity horticulturist,1
+80.82411,35.938904,-82.67257,2620.9363,36.208435,-82.53957,59.0,2.0,8.0,8.0,6.0,fraud_Hirthe-Beier,personal_care,F,767 Adam Mill Apt. 115,Elk Rapids,SC,50595,Education administrator,1
+92.34413,34.860767,-92.47542,68339.6,34.839096,-91.87995,39.0,23.0,20.0,10.0,6.0,"fraud_Baumbach, Strosin and Nicolas",entertainment,M,2674 Bentley Radial,Roosevelt,AR,55065,Health promotion specialist,1
+101.88625,38.179886,-77.89033,239.80037,38.369465,-77.7735,63.0,2.0,21.0,8.0,0.0,fraud_Graham and Sons,travel,F,609 Hunt Grove,Chester Heights,MD,53228,Radio producer,1
+83.2266,46.79292,-95.34627,22508.19,46.659992,-96.57922,46.0,23.0,5.0,8.0,5.0,"fraud_Osinski, Ledner and Leuschke",entertainment,M,3304 Hernandez Run,Humboldt,MN,31771,"Psychologist, sport and exercise",1
+88.63759,37.654152,-111.97414,2842.7976,37.965355,-112.10428,62.0,1.0,8.0,12.0,1.0,"fraud_Jones, Sawayn and Romaguera",shopping_net,M,825 Martinez Springs Apt. 625,Bridgeport,NV,29860,Charity fundraiser,1
+97.427826,41.75838,-85.16678,48616.254,41.797848,-85.166275,56.0,22.0,14.0,10.0,0.0,fraud_DuBuque LLC,shopping_pos,F,7898 Wanda Springs,Clinton,MI,40336,Historic buildings inspector/conservation officer,1
+96.36682,43.11623,-83.79103,566.7575,43.356808,-83.8897,36.0,18.0,3.0,6.0,3.0,fraud_Collier Inc,health_fitness,M,7838 Jason Squares,Acworth,MI,91702,Arboriculturist,1
+96.01877,45.247227,-111.415054,17396.818,45.938255,-110.53692,42.0,9.0,19.0,9.0,3.0,"fraud_Hagenes, Hermann and Stroman",health_fitness,F,01892 Patricia Vista Apt. 828,Dallas,AK,52535,Lawyer,1
+89.61545,44.50958,-97.27108,2394.2522,44.502953,-96.86539,46.0,5.0,27.0,5.0,2.0,fraud_Christiansen-Gusikowski,home,F,7177 Steven Forges,Munith,MN,16034,"Restaurant manager, fast food",1
+86.94552,37.07486,-98.1724,53644.453,36.92904,-98.655266,63.0,23.0,26.0,3.0,0.0,fraud_Fahey Inc,food_dining,M,9345 Spencer Junctions Suite 183,Belgrade,WA,97034,Dancer,1
+78.87197,32.573895,-110.25559,441.0886,32.32789,-110.8377,69.0,2.0,23.0,4.0,4.0,"fraud_Towne, Greenholt and Koepp",entertainment,M,5916 Susan Bridge Apt. 939,Deadwood,AZ,31003,Phytotherapist,1
+96.415764,34.165543,-120.25711,50192.164,33.40619,-122.60425,72.0,22.0,24.0,11.0,4.0,"fraud_Swaniawski, Bahringer and Ledner",grocery_net,M,05561 Farrell Crescent,Miamisburg,CA,73559,Hydrographic surveyor,1
+81.296524,36.250183,-79.35303,81.13986,36.291218,-78.60276,66.0,22.0,18.0,3.0,1.0,fraud_Hamill-Daugherty,gas_transport,M,493 Fitzgerald Fields Suite 454,Harrodsburg,NC,96136,"Research officer, political party",1
+80.57704,37.315086,-118.168976,3155.3748,37.60043,-118.817444,50.0,1.0,7.0,7.0,4.0,"fraud_Lesch, D'Amore and Brown",health_fitness,F,062 Poole Hollow Apt. 815,Purmela,CA,13755,Archivist,1
+82.29806,40.891884,-87.42764,100388.445,40.785446,-86.94058,79.0,15.0,27.0,11.0,3.0,fraud_Brekke and Sons,misc_net,F,13128 Hall Station Suite 588,Seattle,IN,78248,"Designer, ceramics/pottery",1
+79.70526,32.72059,-90.56199,41.54683,32.84925,-90.143036,33.0,23.0,10.0,4.0,4.0,"fraud_Champlin, Rolfson and Connelly",kids_pets,F,3433 Jones Branch,Notrees,LA,98233,"Scientist, clinical (histocompatibility and immunogenetics)",1
+91.12907,35.092308,-81.51224,1488.1896,35.28161,-81.7325,38.0,8.0,24.0,5.0,4.0,fraud_Halvorson Group,grocery_pos,M,6447 Johnson Estates Apt. 986,Hurley,NC,60193,Airline pilot,1
