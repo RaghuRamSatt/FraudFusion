@@ -1,6 +1,6 @@
 # FraudFusion
 
-FraudFusion is a Data Science Capstone project focused on improving fraud detection by generating high-quality synthetic fraud samples. The project uses a diffusion-based generative model—based on the FraudDiffuse paper—to augment highly imbalanced fraud datasets. By leveraging techniques such as an adaptive non-fraud prior, probability-based loss, triplet (contrastive) loss, and engineered feature range loss, FraudFusion aims to produce synthetic fraud data that closely resembles real fraud cases while being diverse enough to enhance training of fraud detection models.
+FraudFusion is a Data Science Capstone project focused on improving fraud detection by generating high-quality synthetic fraud samples. The project uses a diffusion-based generative model—based on the FraudDiffuse paper—to augment highly imbalanced fraud datasets. By leveraging techniques such as an adaptive non-fraud prior, probability-based loss, triplet (contrastive) loss, engineered feature range loss, and amount distribution loss, FraudFusion aims to produce synthetic fraud data that closely resembles real fraud cases while being diverse enough to enhance training of fraud detection models.
 
 
 ## Project Overview
@@ -14,26 +14,99 @@ FraudFusion is a Data Science Capstone project focused on improving fraud detect
   - **Probability-Based Loss:** Encouraging outputs that adhere to the non-fraud distribution.
   - **Triplet Loss:** Enforcing contrast between fraudulent and non-fraudulent samples.
   - **Engineered Range Loss:** Clipping engineered (e.g., time-derived) feature outputs within observed realistic ranges.
+  - **Amount Distribution Loss:** Matching the bimodal distribution of transaction amounts with emphasis on higher-value fraud.
 
 - **Dataset:**  
   The current implementation uses the Sparkov dataset. Data preprocessing includes log transformations for monetary and skewed features, datetime feature extraction, and standard scaling of numeric data. ([Sparkov Dataset](https://www.kaggle.com/datasets/kartik2112/fraud-detection))
 
 
-## File Structure
+## Project Structure
 
-- **Data_Preprocessing.ipynb**  
-  Performs data cleaning, merging, missing value handling, feature engineering (e.g., converting date-of-birth into age, datetime decompositions), log transformations, and scaling.  
-- **Fraud_Diffusion_Model_Development_v4.ipynb**  
-  A paper-faithful implementation that trains the diffusion model using fraud samples only and employs an adaptive non-fraud prior.
-- **Fraud_Diffusion_Model_Development_Baseline.ipynb**  
-  Builds a complete pipeline with additional loss components including probability-based, triplet, and engineered range losses.
-- **Fraud_Diffusion_Model_Development_Baseline_improved.ipynb**  
-  An enhanced version with GPU support, detailed training logs, comprehensive statistical evaluations, and refined data generation.
-- **FraudDiffuse_Model.ipynb**  
-  (Optional) Contains an alternative implementation incorporating time and label embeddings with a slightly different architectural approach.
-- **README.md**  
-  This file, which provides an overview and instructions for the project.
+FraudFusion is organized into the following directories:
 
+- **Diffusion Models/**  
+  Contains all diffusion model development notebooks showing the evolution from baseline to Version 7, along with trained model weights (.pth files):
+  - `Baseline_improved_v7.ipynb`: Final enhanced model with distribution matching and targeted amount weighting
+  - `Baseline_improved_v5.ipynb`, `Baseline_improved_v4.ipynb`, etc.: Intermediate versions showing progressive improvements
+  - `Generating_data.ipynb`: Notebook for generating synthetic fraud samples
+  - Various model weight files (e.g., `baseline_improved_v7.pth`) capturing different stages of development
+
+- **fraudEDA/**  
+  Contains data exploration and preprocessing notebooks:
+  - `Data_Preprocessing.ipynb`: Performs data cleaning, feature engineering, and transformations
+  - `sparkovEDA.ipynb`: Exploratory analysis of the Sparkov dataset
+  - `Data_Understanding_Sparkov.ipynb`: Detailed analysis of fraud patterns and distributions
+  - `Sparkov_Analysis.ipynb`: Additional analysis of fraud characteristics
+
+- **XGBOOST Model Training/**  
+  Contains classifier implementation and evaluation notebooks:
+  - `XGBoost_synthetic_controlled_&validation.ipynb`: Implementation of our controlled validation approach
+  - `Baseline_XGBoost.py`: Baseline XGBoost model training
+  - Various Python scripts implementing different XGBoost configurations
+  - Visualization files showing classifier performance metrics
+
+- **Results/**  
+  Contains metrics, visualizations, and prediction files:
+  - ROC and PR curve data (CSV files)
+  - Model metrics in JSON format
+  - Feature importance information
+  - Prediction outputs and comparative visualizations
+
+- **Documentation/**  
+  Contains reference papers and research materials:
+  - `FraudDiffuse_paper.pdf`: Original paper that inspired this project
+  - `Related Work_RaghuRamSattanapalle.pdf`: Literature review on synthetic fraud generation approaches
+
+## Model Evolution
+
+Our enhanced FraudDiffuse model evolved through several versions, each addressing specific performance limitations:
+
+- **Version 2:** Introduced range constraints for engineered features by computing observed min/max values in standardized space and adding penalty loss for values outside this range
+- **Version 3:** Added feature-specific initialization for amount, implemented cyclical encoding for time features (hour, day, month, day of week), applied targeted loss weighting, and increased model capacity
+- **Version 4:** Focused on stability with controlled distribution matching for amount feature, stability-preserving architecture changes, balanced loss weighting, and NaN prevention mechanisms
+- **Version 5:** Enhanced distribution modeling to better capture the bimodal nature of the amount feature, improved age distribution modeling, and added feature-specific adjustments to the generation process
+- **Version 7 (Final):** Implemented post-processing steps to enforce amount distribution matching, enhanced initialization specifically for the amount feature, applied more aggressive weighting for higher fraud amounts, and added distribution transformation matching
+
+## Enhanced Loss Functions
+
+Our model incorporates several specialized loss components beyond the original FraudDiffuse paper:
+
+- **Feature-Weighted L_norm:** MSE on predicted vs. true noise with increased weights for challenging features (e.g., transaction amount weighted at 1.8)
+- **Probability-Based Loss:** Enforces predicted noise to follow a non-fraud prior using z-scores
+- **Triplet Loss:** Ensures estimated clean samples are closer to true fraud samples and further from non-fraud instances
+- **Engineered Range Loss:** Penalizes predictions for temporal features that fall outside observed bounds
+- **Amount Distribution Loss:** Matches the bimodal transaction amount distribution by focusing on key percentiles and skewness
+
+The final composite loss function combines these components with carefully tuned weights to balance different aspects of synthetic data quality.
+
+## Key Results
+
+Our experimental evaluation demonstrated significant improvements in fraud detection capability:
+
+- **Synthetic Data Quality:** Version 7 successfully captured the bimodal distribution of fraud transaction amounts and preserved critical statistical properties across features
+
+- **Fraud Detection Performance:** 
+  - The baseline XGBoost model achieved high precision (0.917) but missed approximately 17% of fraud cases
+  - Models augmented with synthetic samples improved fraud capture by 5-6 percentage points (recall increased from 0.827 to 0.885)
+  - Increasing synthetic data volume from 5,000 to 8,000 samples improved precision while maintaining enhanced recall
+
+- **Operational Implications:** Our synthetic data approach effectively shifts the operating point toward higher sensitivity without significantly compromising the model's overall discrimination ability
+
+## Evaluation Framework
+
+We evaluated our enhanced FraudDiffuse model using a comprehensive dual assessment approach:
+
+### Synthetic Data Quality Metrics
+- **Distribution Metrics:** KS Statistic, Wasserstein Distance, Energy Distance
+- **Tail Ratios:** Comparison of 95th & 99th percentiles between real and synthetic data
+- **Visual Analysis:** QQ-plots and distribution histograms comparing synthetic to real data
+
+### Controlled Validation Methodology
+Our fraud detection evaluation employed a controlled validation approach:
+- Maintained separate pure validation sets containing only real data
+- Created synthetic validation sets combining real data with synthetic fraud samples
+- Monitored both validation streams to ensure generalization to real fraud patterns
+- Evaluated final performance on completely held-out test sets
 
 ## Requirements
 
@@ -66,20 +139,18 @@ pip install pandas numpy matplotlib seaborn scikit-learn joblib torch tqdm
 2. **Prepare the Data:**
 
    - Place the Sparkov dataset CSV files (e.g., `fraudTrain.csv` and `fraudTest.csv`) in the `Data/Sparkov` folder.
-   - Run the `Data_Preprocessing.ipynb` notebook to preprocess and generate required artifacts such as the standardized scaler, categorical vocabulary, and mapping.
+   - Run the `Data_Preprocessing.ipynb` notebook in the `fraudEDA` folder to preprocess and generate required artifacts such as the standardized scaler, categorical vocabulary, and mapping.
 
 3. **Model Training and Evaluation:**
 
-   - Start with `Model_Development_v4.ipynb` to validate the basic diffusion model approach.
-   - Explore `Model_Development_Baseline.ipynb` for a full baseline implementation with multiple loss terms.
-   - For further refinements and evaluation, use `Model_Development_Baseline_improved.ipynb`.
-   - (Optionally) Check out `FraudDiffuse_Model.ipynb` for an alternate implementation with additional feature embeddings.
+   - For diffusion model training, explore the notebooks in the `Diffusion Models` folder. Start with earlier versions to understand the progression.
+   - For generating synthetic samples, use the `Generating_data.ipynb` notebook with the latest model weights.
+   - For XGBoost training and evaluation, use notebooks in the `XGBOOST Model Training` folder.
 
-4. **Generating Synthetic Fraud Samples:**
+4. **Results Analysis:**
 
-   After training the model (preferably using the Baseline Improved implementation), use the synthesis section to generate synthetic fraud samples. The notebook will generate outputs (both numeric and categorical parts) and provide inverse-transformed results for evaluation.
-
-
+   - Analysis outputs, metrics and visualizations are stored in the `Results` folder.
+   - View classifier metrics and performance comparisons to evaluate the effectiveness of synthetic data augmentation.
 
 ## Mathematical Formulation
 
@@ -96,12 +167,10 @@ The core of the synthetic fraud generation process is based on diffusion models.
   - \(x_t\) is the noisy input at timestep \(t\).
   - \(\hat{\alpha}_t\) is the cumulative product of \(\alpha\) up to timestep \(t\).
 
-- **Reverse Diffusion Process and Loss Function:**
-
-  The model is trained to predict the noise added, and the overall loss is defined as:
+- **Enhanced Loss Function:**
 
   \[
-  L_{\text{total}} = L_{\text{norm}} + w_1 \, L_{\text{prior}} + w_2 \, L_{\text{triplet}} + \lambda_{\text{eng}} \, L_{\text{eng}}
+  L_{\text{total}} = L_{\text{norm}} + w_1 \, L_{\text{prior}} + w_2 \, L_{\text{triplet}} + \lambda_{\text{eng}} \, L_{\text{eng}} + \lambda_{\text{amt}} \, L_{\text{amt}}
   \]
 
   where:
@@ -109,39 +178,38 @@ The core of the synthetic fraud generation process is based on diffusion models.
   - \(L_{\text{prior}}\) is a probability-based loss ensuring adherence to the non-fraud distribution.
   - \(L_{\text{triplet}}\) is a contrastive loss enforcing separation between fraudulent and non-fraudulent samples.
   - \(L_{\text{eng}}\) penalizes values of engineered features falling outside the observed range.
-  - \(w_1\), \(w_2\), and \(\lambda_{\text{eng}}\) are weighting parameters.
+  - \(L_{\text{amt}}\) is a specialized loss component targeting the bimodal amount distribution.
+  - \(w_1\), \(w_2\), \(\lambda_{\text{eng}}\), and \(\lambda_{\text{amt}}\) are weighting parameters.
 
 ## Model Architecture Overview
 
 The network architecture for the noise predictor consists of the following components:
 
 - **Input Handling:**  
-  - **Numeric Features:** Directly used after standard scaling.
-  - **Categorical Features:** Passed through embedding layers.
-  - **Time Embedding:** A normalized timestep is concatenated to the feature vector.
+  - **Numeric Features:** Directly used after standard scaling (11 dimensions).
+  - **Categorical Features:** Passed through embedding layers (8 categories with varying cardinality).
+  - **Time Embedding:** Specialized cyclic encodings for temporal features (8 dimensions).
+  - **Diffusion Timestep:** A normalized timestep is concatenated to the feature vector.
 
 - **MLP Structure:**  
-  - The MLP comprises several fully connected layers with LeakyReLU activations, which predict the noise vector.
-
+  - Four-layer feed-forward structure with hidden dimension 256
+  - Gentle residual connections with scaling factor 0.1 between hidden layers
+  - Layer normalization and ReLU activation functions
+  - Dropout with rate 0.1 for regularization
 
 ## Training Details
 
 - **Hyperparameters:**  
   - Number of diffusion timesteps: 800  
   - Learning rate: 0.001  
-  - Batch size: 40  
-  - Number of epochs: 200  
+  - Batch size: 32
+  - Number of epochs: 550 with early stopping
 
-- **Training Monitoring:**  
-  Loss values are reported every 10 epochs to track convergence.
-
-## Evaluation
-
-The quality of synthetic fraud samples is evaluated by:
-- Comparing statistical distributions (mean, standard deviation, percentiles) of real and synthetic fraud data.
-- Visualizations such as histograms and density plots for numeric features.
-- Using statistical tests (e.g., KS test and Anderson–Darling test) to ensure distributional similarity.
-- Finally, augmenting fraud detection training data to observe improvements in classification metrics.
+- **Training Stability Techniques:**  
+  - Gradient clipping (max_norm=0.5)
+  - Adaptive learning rate scheduling (ReduceLROnPlateau)
+  - NaN detection and recovery
+  - Weight decay (1e-5) for regularization
 
 ## Citation
 
