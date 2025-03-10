@@ -1,0 +1,65 @@
+{
+    "optimal_threshold": 0.30999999999999994,
+    "training": {
+        "roc_auc": 0.9657371379927691,
+        "pr_auc": 0.7623407071112828,
+        "f1_score": 0.7227432590855803,
+        "sensitivity": 0.5965166908563135,
+        "specificity": 0.9995324691805354,
+        "precision": 0.916728624535316,
+        "confusion_matrix": {
+            "tn": 1197222,
+            "fp": 560,
+            "fn": 4170,
+            "tp": 6165
+        }
+    },
+    "validation_pure": {
+        "roc_auc": 0.9664053923369095,
+        "pr_auc": 0.7340307647259682,
+        "f1_score": 0.7370533922119631,
+        "sensitivity": 0.6339779005524862,
+        "specificity": 0.9995477765075322,
+        "precision": 0.8801534036433365,
+        "confusion_matrix": {
+            "tn": 276287,
+            "fp": 125,
+            "fn": 530,
+            "tp": 918
+        }
+    },
+    "validation_synthetic": {
+        "roc_auc": 0.9650325579990238,
+        "pr_auc": 0.753211177841437,
+        "f1_score": 0.71691364333163,
+        "sensitivity": 0.588013411567477,
+        "specificity": 0.9995477765075322,
+        "precision": 0.9181937172774869,
+        "confusion_matrix": {
+            "tn": 276287,
+            "fp": 125,
+            "fn": 983,
+            "tp": 1403
+        }
+    },
+    "test": {
+        "roc_auc": 0.9703556674440278,
+        "pr_auc": 0.7540929304995054,
+        "f1_score": 0.7564983567373768,
+        "sensitivity": 0.655958549222798,
+        "specificity": 0.9995902851452588,
+        "precision": 0.8934368383909669,
+        "confusion_matrix": {
+            "tn": 368398,
+            "fp": 151,
+            "fn": 664,
+            "tp": 1266
+        }
+    },
+    "training_params": {
+        "synthetic_ratio": 1.0,
+        "synthetic_weight": 0.5,
+        "learning_rate": 0.05,
+        "max_depth": 5
+    }
+}

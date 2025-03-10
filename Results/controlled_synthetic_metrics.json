@@ -1,0 +1,20 @@
+{
+    "roc_auc": 0.998728447846524,
+    "pr_auc": 0.919659735000139,
+    "f1_score": 0.8606290672451193,
+    "sensitivity_recall": 0.822279792746114,
+    "specificity": 0.9995360182770812,
+    "precision": 0.9027303754266212,
+    "optimal_threshold": 0.9620639681816101,
+    "confusion_matrix": {
+        "true_negatives": 368378,
+        "false_positives": 171,
+        "false_negatives": 343,
+        "true_positives": 1587
+    },
+    "synthetic_configuration": {
+        "synthetic_ratio": 0.2,
+        "synthetic_weight": 0.5,
+        "synthetic_samples_used": 1254
+    }
+}
