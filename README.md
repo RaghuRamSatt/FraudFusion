@@ -56,6 +56,7 @@ FraudFusion is organized into the following directories:
   Contains reference papers and research materials:
   - `FraudDiffuse_paper.pdf`: Original paper that inspired this project
   - `Related Work_RaghuRamSattanapalle.pdf`: Literature review on synthetic fraud generation approaches
+  - `Iteration - 03 Project Methodology.pdf`: Project report which outlines clear and well structured overview of the methodologies employed.
 
 ## Model Evolution
 
