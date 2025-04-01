@@ -1,3 +1,4 @@
+
 # FraudFusion
 
 FraudFusion is a Data Science Capstone project focused on improving fraud detection by generating high-quality synthetic fraud samples. The project uses a diffusion-based generative model—based on the FraudDiffuse paper—to augment highly imbalanced fraud datasets. By leveraging techniques such as an adaptive non-fraud prior, probability-based loss, triplet (contrastive) loss, engineered feature range loss, and amount distribution loss, FraudFusion aims to produce synthetic fraud data that closely resembles real fraud cases while being diverse enough to enhance training of fraud detection models.
@@ -56,7 +57,7 @@ FraudFusion is organized into the following directories:
   Contains reference papers and research materials:
   - `FraudDiffuse_paper.pdf`: Original paper that inspired this project
   - `Related Work_RaghuRamSattanapalle.pdf`: Literature review on synthetic fraud generation approaches
-  - `Iteration - 03 Project Methodology.pdf`: Project report which outlines clear and well structured overview of the methodologies employed
+  - `FraudFusion_Report.pdf`: Project report which outlines clear and well structured overview of the methodologies employed
 
 ## Model Evolution
 
@@ -66,7 +67,7 @@ Our enhanced FraudDiffuse model evolved through several versions, each addressin
 - **Version 3:** Added feature-specific initialization for amount, implemented cyclical encoding for time features (hour, day, month, day of week), applied targeted loss weighting, and increased model capacity
 - **Version 4:** Focused on stability with controlled distribution matching for amount feature, stability-preserving architecture changes, balanced loss weighting, and NaN prevention mechanisms
 - **Version 5:** Enhanced distribution modeling to better capture the bimodal nature of the amount feature, improved age distribution modeling, and added feature-specific adjustments to the generation process
-- **Version 7 (Final):** Implemented post-processing steps to enforce amount distribution matching, enhanced initialization specifically for the amount feature, applied more aggressive weighting for higher fraud amounts, and added distribution transformation matching
+- **Version 7 (Final):** Implemented post-processing steps to enforce amount distribution matching, enhanced initialization specifically for the amount feature, applied more aggressive weighting for higher fraud amounts, and added distribution transformation matching using quantile-based CDF transformation. Introduced bimodal initialization strategy with a 90/10 split favoring high-value fraud samples and KDE-based peak detection.
 
 ## Enhanced Loss Functions
 
@@ -76,7 +77,7 @@ Our model incorporates several specialized loss components beyond the original F
 - **Probability-Based Loss:** Enforces predicted noise to follow a non-fraud prior using z-scores
 - **Triplet Loss:** Ensures estimated clean samples are closer to true fraud samples and further from non-fraud instances
 - **Engineered Range Loss:** Penalizes predictions for temporal features that fall outside observed bounds
-- **Amount Distribution Loss:** Matches the bimodal transaction amount distribution by focusing on key percentiles and skewness
+- **Amount Distribution Loss:** Matches the bimodal transaction amount distribution by focusing on key percentiles (50th, 75th, 90th, 95th) with progressively higher weights (1.0, 3.0, 5.0, 8.0) for upper quantiles and a 4.0× weight for skewness matching
 
 The final composite loss function combines these components with carefully tuned weights to balance different aspects of synthetic data quality.
 
@@ -84,7 +85,10 @@ The final composite loss function combines these components with carefully tuned
 
 Our experimental evaluation demonstrated significant improvements in fraud detection capability:
 
-- **Synthetic Data Quality:** Version 7 successfully captured the bimodal distribution of fraud transaction amounts and preserved critical statistical properties across features
+- **Synthetic Data Quality:** 
+  - Version 7 successfully captured the bimodal distribution of fraud transaction amounts and preserved critical statistical properties across features
+  - Achieved approximately 20-25% improvement in KS statistic for amount distribution compared to v4
+  - Improved tail ratio accuracy (95th and 99th percentiles) bringing synthetic/real ratios closer to the ideal value of 1.0
 
 - **Fraud Detection Performance:** 
   - The baseline XGBoost model achieved high precision (0.917) but missed approximately 17% of fraud cases
@@ -159,28 +163,34 @@ The core of the synthetic fraud generation process is based on diffusion models.
 
 - **Forward Diffusion Process:**
 
-  \[
-  x_t = \sqrt{\hat{\alpha}_t} \, x_0 + \sqrt{1 - \hat{\alpha}_t} \, \epsilon,\quad \epsilon \sim \mathcal{N}(0, I)
-  \]
+  $$x_t = \sqrt{\hat{\alpha}_t} \, x_0 + \sqrt{1 - \hat{\alpha}_t} \, \epsilon,\quad \epsilon \sim \mathcal{N}(0, I)$$
 
   where:
-  - \(x_0\) is the original (clean) input.
-  - \(x_t\) is the noisy input at timestep \(t\).
-  - \(\hat{\alpha}_t\) is the cumulative product of \(\alpha\) up to timestep \(t\).
+  - $$x_0$$ is the original (clean) input.
+  - $$x_t$$ is the noisy input at timestep $$t$$.
+  - $$\hat{\alpha}_t$$ is the cumulative product of $$\alpha$$ up to timestep $$t$$.
 
 - **Enhanced Loss Function:**
 
-  \[
-  L_{\text{total}} = L_{\text{norm}} + w_1 \, L_{\text{prior}} + w_2 \, L_{\text{triplet}} + \lambda_{\text{eng}} \, L_{\text{eng}} + \lambda_{\text{amt}} \, L_{\text{amt}}
-  \]
+  $$L_{\text{total}} = L_{\text{norm}} + w_1 \, L_{\text{prior}} + w_2 \, L_{\text{triplet}} + \lambda_{\text{eng}} \, L_{\text{eng}} + \lambda_{\text{amt}} \, L_{\text{amt}}$$
 
   where:
-  - \(L_{\text{norm}}\) is the MSE loss between the predicted and true noise.
-  - \(L_{\text{prior}}\) is a probability-based loss ensuring adherence to the non-fraud distribution.
-  - \(L_{\text{triplet}}\) is a contrastive loss enforcing separation between fraudulent and non-fraudulent samples.
-  - \(L_{\text{eng}}\) penalizes values of engineered features falling outside the observed range.
-  - \(L_{\text{amt}}\) is a specialized loss component targeting the bimodal amount distribution.
-  - \(w_1\), \(w_2\), \(\lambda_{\text{eng}}\), and \(\lambda_{\text{amt}}\) are weighting parameters.
+  - $$L_{\text{norm}}$$ is the MSE loss between the predicted and true noise.
+  - $$L_{\text{prior}}$$ is a probability-based loss ensuring adherence to the non-fraud distribution.
+  - $$L_{\text{triplet}}$$ is a contrastive loss enforcing separation between fraudulent and non-fraudulent samples.
+  - $$L_{\text{eng}}$$ penalizes values of engineered features falling outside the observed range.
+  - $$L_{\text{amt}}$$ is a specialized loss component targeting the bimodal amount distribution.
+  - $$w_1$$, $$w_2$$, $$\lambda_{\text{eng}}$$, and $$\lambda_{\text{amt}}$$ are weighting parameters.
+
+- **Distribution Transformation Function (v7):**
+
+  $$y = F^{-1}_{\text{target}}(F_{\text{source}}(x))$$
+
+  where:
+  - $$F_{\text{source}}$$ is the CDF of the generated distribution
+  - $$F^{-1}_{\text{target}}$$ is the inverse CDF (quantile function) of the target distribution
+  - $$x$$ is the generated value
+  - $$y$$ is the transformed value matching the target distribution
 
 ## Model Architecture Overview
 
@@ -195,14 +205,16 @@ The network architecture for the noise predictor consists of the following compo
 - **MLP Structure:**  
   - Four-layer feed-forward structure with hidden dimension 256
   - Gentle residual connections with scaling factor 0.1 between hidden layers
-  - Layer normalization and ReLU activation functions
+  - Layer normalization after each hidden layer for stability
+  - ReLU activation functions
   - Dropout with rate 0.1 for regularization
+  - Xavier initialization for weight stability
 
 ## Training Details
 
 - **Hyperparameters:**  
   - Number of diffusion timesteps: 800  
-  - Learning rate: 0.001  
+  - Learning rate: 0.0003 with decay  
   - Batch size: 32
   - Number of epochs: 550 with early stopping
 
@@ -211,6 +223,12 @@ The network architecture for the noise predictor consists of the following compo
   - Adaptive learning rate scheduling (ReduceLROnPlateau)
   - NaN detection and recovery
   - Weight decay (1e-5) for regularization
+
+- **Generation Process:**
+  - Bimodal initialization with 90/10 split favoring high fraud amounts
+  - Adaptive noise reduction during generation (noise scale decreases as t approaches 0)
+  - Post-processing with quantile-based distribution matching
+  - Feature-specific constraints for engineered features
 
 ## Citation
 
